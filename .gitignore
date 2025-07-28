@@ -8,3 +8,5 @@ minecraft/usercache.json
 minecraft/usernamecache.json
 
 minecraft/mods/.fuse_hidden*
+
+minecraft/config/embeddium-fingerprint.json
