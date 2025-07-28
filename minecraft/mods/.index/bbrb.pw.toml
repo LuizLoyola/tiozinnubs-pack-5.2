@@ -1,0 +1,16 @@
+filename = 'betterbiomeblend-1.4.2.jar'
+name = 'Better Biome Reblend'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f3ed0ae1d5c6940f04ba77087f128919c7ec0bb1d98965a967e8ce8a733f90efed4e620f428522579ea8a4fb1b07fe8b750cb6776c6399c0f71a686406cf204e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Xh8hkQmD/versions/FBM8BqFa/betterbiomeblend-1.4.2.jar'
+
+[update.modrinth]
+mod-id = 'Xh8hkQmD'
+version = 'FBM8BqFa'
