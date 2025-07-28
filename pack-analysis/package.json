@@ -1,0 +1,17 @@
+{
+  "name": "pack-analysis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.30.1",
+    "node-stream-zip": "^1.15.0",
+    "picocolors": "^1.1.1",
+    "prompt-sync": "^4.2.0",
+    "toml": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "report": "node index.js --report"
+  }
+}
