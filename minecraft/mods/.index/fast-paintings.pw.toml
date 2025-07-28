@@ -1,0 +1,16 @@
+filename = 'fastpaintings-1.20-1.2.7.jar'
+name = 'Fast Paintings'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '917595dfe0834d765751ee7272ef212df3d5077a651483b285d4e252819f56db5628e174c22a419b9038c25aa36f85bf22964e862920d2835f77bbd9baa87168'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/z3TzcquW/versions/Bvjyyy1T/fastpaintings-1.20-1.2.7.jar'
+
+[update.modrinth]
+mod-id = 'z3TzcquW'
+version = 'Bvjyyy1T'

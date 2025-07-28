@@ -1,0 +1,16 @@
+filename = 'shut_up_gl_error-forge-2.0.0+1.20.1.jar'
+name = 'Shut Up GL Error'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7fefda11117ef18cdae86da4624e35c93388283e43f85ad6a621bb7b06fe9331ad610d255c69e1c2ef9728d847b00568738bfe0b1c364dd038d6de4b1b03a836'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/houIxdGF/versions/xtn6mpLr/shut_up_gl_error-forge-2.0.0%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'houIxdGF'
+version = 'xtn6mpLr'
