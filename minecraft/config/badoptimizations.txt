@@ -67,7 +67,7 @@ ignore_mod_incompatibilities: false
 
 # Whether to log the entire config into console when booting up.
 # If you plan on reporting an issue, please keep this on.
-log_config: true
+log_config: false
 
 # Do not change this
 config_version: 4
