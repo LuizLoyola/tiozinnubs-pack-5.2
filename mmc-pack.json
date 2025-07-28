@@ -20,6 +20,18 @@
             "important": true,
             "uid": "net.minecraft",
             "version": "1.20.1"
+        },
+        {
+            "cachedName": "Forge",
+            "cachedRequires": [
+                {
+                    "equals": "1.20.1",
+                    "uid": "net.minecraft"
+                }
+            ],
+            "cachedVersion": "47.4.4",
+            "uid": "net.minecraftforge",
+            "version": "47.4.4"
         }
     ],
     "formatVersion": 1
