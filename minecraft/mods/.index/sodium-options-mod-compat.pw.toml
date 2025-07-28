@@ -1,0 +1,16 @@
+filename = 'sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar'
+name = 'Sodium Options Mod Compat'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e4c6daa11fe54f0f624044f6d514c5af399fdab41bad582aaf9581821ef72be4a459593731cda526bcd2a86ae73b2c951f901987e18691cb38989d7592d8116b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Yg1VT27P/versions/VSq6XYM3/sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'Yg1VT27P'
+version = 'VSq6XYM3'
