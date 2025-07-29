@@ -126,6 +126,14 @@ key_autothirdperson.toggle:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
+key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
+key_key.clienttweaks.disableLogStripping:key.keyboard.unknown
+key_key.toggleVisualItemContents:key.keyboard.unknown
+key_key.toggleSelectedItemTooltips:key.keyboard.unknown
+key_key.toggleCarriedItemTooltips:key.keyboard.unknown
+key_key.cycleLeft:key.keyboard.g
+key_key.cycleRight:key.keyboard.h
 key_key.shouldersurfing.adjust_camera_left:key.keyboard.left
 key_key.shouldersurfing.adjust_camera_right:key.keyboard.right
 key_key.shouldersurfing.adjust_camera_in:key.keyboard.up
