@@ -26,3 +26,7 @@ minecraft/screenshots/
 minecraft/config/chunky/tasks/
 
 minecraft/config-old/
+
+instance.cfg
+
+minecraft/config/fabric/indigo-renderer.properties
