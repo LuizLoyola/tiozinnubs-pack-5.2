@@ -1,0 +1,16 @@
+filename = 'DMMTTBA-forge-1.20.1-1.0.2.jar'
+name = "Don't Make Me Turn This Boat Around"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '48cd150e19fd6569a08e64b7ea860741e3b95eb9b52f989d5919cdc9865a8e4d79dbe476d25b13d898e70c7881688cb1549f83f449028bc7cab51b7326828d92'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mFUUb0Au/versions/QItUi8RH/DMMTTBA-forge-1.20.1-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'mFUUb0Au'
+version = 'QItUi8RH'

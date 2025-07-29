@@ -1,0 +1,16 @@
+filename = 'ididntmeanit-1.20.0-1.0.0.jar'
+name = "I didn't mean it that way"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c5db2290b8f9a9eea3ce19e74d3de80e58b12003e323a0ecb10835d0228de6239d20f8debd64ca787fae86b78b1bde60eb908b928af0ee4e3d0f5344f6ed3fff'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Dn826rh9/versions/ObyGz4n3/ididntmeanit-1.20.0-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'Dn826rh9'
+version = 'ObyGz4n3'

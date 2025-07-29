@@ -1,0 +1,16 @@
+filename = 'extendedbonemeal-1.20.1-3.6.jar'
+name = 'Extended Bone Meal'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a93d76799bb065ee0c70b16145cd30c984d4eb4e1821e3ad7c98679e480510f4a8385f99ab47c19faecf454137b6071a0a786923d9b6933a775ff4ed869a2231'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bHkCoxMs/versions/WqSEWCzI/extendedbonemeal-1.20.1-3.6.jar'
+
+[update.modrinth]
+mod-id = 'bHkCoxMs'
+version = 'WqSEWCzI'

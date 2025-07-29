@@ -1,0 +1,16 @@
+filename = 'easyelytratakeoff-1.20.1-4.5.jar'
+name = 'Easy Elytra Takeoff'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '21490ad2524bfd094fa21ebc14c12e943a77bb90fa384ded24a83ecd40c0c579d85635b1e45a27bb38ab450279268cdb09f77d6325203f38e580775e5e5bbe28'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3hqwGCUB/versions/JBhBlmby/easyelytratakeoff-1.20.1-4.5.jar'
+
+[update.modrinth]
+mod-id = '3hqwGCUB'
+version = 'JBhBlmby'

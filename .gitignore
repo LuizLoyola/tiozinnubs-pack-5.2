@@ -36,3 +36,14 @@ minecraft/hs_err_pid*.log
 minecraft/servers.dat*
 
 minecraft/config/sound_physics_remastered/allowed_sounds.properties
+
+minecraft/config/inventoryprofilesnext/
+!minecraft/config/inventoryprofilesnext/inventoryprofiles.json
+
+minecraft/config/NoChatReports/NCR-ServerPreferences.json
+
+minecraft/config/NoChatReports/NCR-Encryption.json
+
+minecraft/config/NoChatReports/README.md
+
+minecraft/config/oculus.properties

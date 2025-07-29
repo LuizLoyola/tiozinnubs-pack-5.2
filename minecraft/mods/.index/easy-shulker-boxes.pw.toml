@@ -1,0 +1,16 @@
+filename = 'EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar'
+name = 'Easy Shulker Boxes'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '02275d842a6d2b63f248e63b889a919b7cac628923dec6c939261c004d98c03e37112ed8c476177c6021eb0c90bf1b32945d2c3f641935d06279f548adfde905'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gA5euN8S/versions/BG9Ajkjd/EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar'
+
+[update.modrinth]
+mod-id = 'gA5euN8S'
+version = 'BG9Ajkjd'

@@ -1,0 +1,5 @@
+
+[Common]
+	#Set to true if only empty hands should be ignored. If set to false, only tools and weapons can damage villagers.
+	onlyEmptyHands = true
+
