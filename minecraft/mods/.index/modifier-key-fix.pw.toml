@@ -1,0 +1,16 @@
+filename = 'ModifierKeyFix-1.1.0-1.20.1.jar'
+name = 'Modifier Key Fix'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f36b01ad44f1f1e5be11d0d49a8bd9c39e3a8b27ca08e34cba98825678c47ac96ed674adea020f7349151b82069c15316fb0b360f124ae12ba8194a7b477f7db'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kkiQNV12/versions/XaMsgnJJ/ModifierKeyFix-1.1.0-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'kkiQNV12'
+version = 'XaMsgnJJ'

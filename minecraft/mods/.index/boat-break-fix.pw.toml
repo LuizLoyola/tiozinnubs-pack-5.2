@@ -1,0 +1,41 @@
+filename = 'BoatBreakFix-Universal-1.0.2.jar'
+name = 'Boat Break Fix'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.17',
+    '1.17.1',
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21 Pre-Release 1',
+    '1.21 Pre-Release 2',
+    '1.21 Pre-Release 3',
+    '1.21 Pre-Release 4',
+    '1.21 rc1',
+    '1.21.1'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7dedce72e959a05db469ff7e6175d7bc7189ed012ecb4bbbf299f0ee2b1876c67753731e05928ba8743b294cf5b208da01056d65ca51c27ad14b2313addcea92'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OVb8ZE5p/versions/Uf9jCC3m/BoatBreakFix-Universal-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'OVb8ZE5p'
+version = 'Uf9jCC3m'

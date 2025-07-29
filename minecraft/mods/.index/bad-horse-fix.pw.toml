@@ -1,0 +1,37 @@
+filename = 'badhorsefix-forge-3.0.0.jar'
+name = 'Bad Horse Fix'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [
+    '1.16.5',
+    '1.17',
+    '1.17.1',
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7689148f9d081221c630c35b0a7b0728c470ab0ce1cc13f27d814c5bad59a983a3ffcfe302e5070af46fffb459a0ad9cae97bb493870a63460ed5bda9f55c5e1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/A4pJeHgM/versions/fHLxx6Rr/badhorsefix-forge-3.0.0.jar'
+
+[update.modrinth]
+mod-id = 'A4pJeHgM'
+version = 'fHLxx6Rr'

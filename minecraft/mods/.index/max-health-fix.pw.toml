@@ -1,0 +1,16 @@
+filename = 'MaxHealthFix-Forge-1.20.1-12.0.3.jar'
+name = 'Max Health Fix'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '154320cdf3bb9cdf7485e1824eb9a97c593c1c0c202bcb8d7de0183ea042a7a8190ed8b54e679d9baece0c3b219dea8592aa0dcc4b56238b4f3415036a9e2e98'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/mH8wdmqr/versions/dnOhiNlT/MaxHealthFix-Forge-1.20.1-12.0.3.jar'
+
+[update.modrinth]
+mod-id = 'mH8wdmqr'
+version = 'dnOhiNlT'
