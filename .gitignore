@@ -34,3 +34,5 @@ minecraft/config/fabric/indigo-renderer.properties
 minecraft/hs_err_pid*.log
 
 minecraft/servers.dat*
+
+minecraft/config/sound_physics_remastered/allowed_sounds.properties
