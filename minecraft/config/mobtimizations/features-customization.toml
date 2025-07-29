@@ -6,7 +6,7 @@
 	zombieVillageRaidPercentChance = 33
 	#Percent chance to run for task: zombie seeking turtle eggs to destroy
 	#Range: > -2147483648
-	zombieSearchAndDestroyTurtleEggPercentChance = 0
+	zombieSearchAndDestroyTurtleEggPercentChance = 10
 	#In addition to the timed delay, an additional percent chance to run for task: mob wander pathfinding
 	#Range: > -2147483648
 	mobWanderingPercentChance = 100
