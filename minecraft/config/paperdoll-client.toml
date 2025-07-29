@@ -2,7 +2,7 @@
 first_person_only = true
 #Set axis the player head can move on.
 #Allowed Values: YAW, PITCH, BOTH
-head_movement = "YAW"
+head_movement = "BOTH"
 #Define a screen corner to align the paper doll display to.
 #Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
 position = "TOP_LEFT"

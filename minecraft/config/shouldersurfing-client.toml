@@ -225,7 +225,7 @@
 	#Whether or not the third person front perspective is enabled.
 	third_person_front_enabled = true
 	#Whether or not the third person back perspective is enabled.
-	third_person_back_enabled = true
+	third_person_back_enabled = false
 
 [player]
 	#Whether or not to adjust the player model transparency when view is obstructed. Changing this value may require a game restart to take full effect.

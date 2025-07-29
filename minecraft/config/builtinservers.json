@@ -2,9 +2,9 @@
   "badgeVisible": true,
   "builtinServers": [
     {
-      "name": "Default Server",
-      "address": "127.0.0.1",
-      "forced": false
+      "name": "TiozinNub's Server",
+      "address": "pack52.tioz.in",
+      "forced": true
     }
   ]
 }

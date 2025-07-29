@@ -27,7 +27,7 @@
 	#Allowed Values: ALL_WHITELISTED, ALL_BLACKLISTED
 	defaultBehavior = "ALL_WHITELISTED"
 	tabsBlacklist = []
-	itemsBlacklist = []
+	itemsBlacklist = ["minecraft:air"]
 	tabsWhitelist = []
 	itemsWhitelist = []
 
