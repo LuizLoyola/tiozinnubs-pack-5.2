@@ -19,7 +19,7 @@
 	/**
 	 * Where EMI should pull stacks from to populate the index.
 	 */
-	index-source: creative;
+	index-source: creative-plus-registered;
 
 	/**
 	 * Which sidebar should be searched using the search bar.
@@ -34,7 +34,7 @@
 	/**
 	 * Whether normal search queries should include the mod name.
 	 */
-	search-mod-name-by-default: false;
+	search-mod-name-by-default: true;
 
 	/**
 	 * Whether normal search queries should include the stack's tags.
@@ -51,7 +51,7 @@
 	/**
 	 * Where to display status effects in the inventory.
 	 */
-	effect-location: top;
+	effect-location: right;
 
 	/**
 	 * Whether to display a gray overlay when hovering over a stack.
@@ -88,7 +88,7 @@
 	 * Whether to have the search bar in the center of the screen, instead of to the
 	 * side.
 	 */
-	center-search-bar: true;
+	center-search-bar: false;
 
 	/**
 	 * Which sidebar type to switch to when searching.
@@ -177,7 +177,7 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 12, 100;
+	left-sidebar-size: 16, 100;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
@@ -207,12 +207,12 @@
 	/**
 	 * The subpanels in the right sidebar
 	 */
-	right-sidebar-subpanels: none;
+	right-sidebar-subpanels: lookup-history 2;
 
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
 	 */
-	right-sidebar-size: 12, 100;
+	right-sidebar-size: 16, 100;
 
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
@@ -360,11 +360,12 @@
 	 * Return to the previous page in EMI.
 	 */
 	back: "key.keyboard.backspace";
+	back: "key.mouse.4";
 
 	/**
 	 * Return to the next page in EMI after going back.
 	 */
-	forward: "key.keyboard.unknown";
+	forward: "key.mouse.5";
 
 	/**
 	 * When on a stack with an associated recipe:

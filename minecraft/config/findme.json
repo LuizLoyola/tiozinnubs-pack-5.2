@@ -1,7 +1,7 @@
 {
   "COMMON": {
-    "RADIUS_RANGE": 8,
-    "IGNORE_ITEM_DAMAGE": false
+    "RADIUS_RANGE": 16,
+    "IGNORE_ITEM_DAMAGE": true
   },
   "CLIENT": {
     "CONTAINER_TRACK_TIME": 600,
