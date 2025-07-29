@@ -1,0 +1,16 @@
+filename = 'builtin-servers-2.1+1.20-forge.jar'
+name = 'Builtin Servers'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '32895549653560824a70891ffcc5bbe44179ea4546c3231aa6ae9f669862c9b9daeac5a8a6edbd115d3fa8dbf59a3c9edb2755b4f97fe362c29a7277a8e6b07b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IupkwRPf/versions/bHFzotWC/builtin-servers-2.1%2B1.20-forge.jar'
+
+[update.modrinth]
+mod-id = 'IupkwRPf'
+version = 'bHFzotWC'

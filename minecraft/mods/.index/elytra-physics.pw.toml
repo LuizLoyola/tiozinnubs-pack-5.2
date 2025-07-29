@@ -1,0 +1,16 @@
+filename = 'elytra_physics-forge-2.3_mc1.19.3-1.20.4.jar'
+name = 'Elytra Physics'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0d559169961a4b634b59b976950a612b2a33553dfca230465ab2f8a6a3110c91c2b754f072d726334150bec23d357abfef98892859d203a76e4eed1dc9906ac0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jfvCMH0K/versions/f7h654DL/elytra_physics-forge-2.3_mc1.19.3-1.20.4.jar'
+
+[update.modrinth]
+mod-id = 'jfvCMH0K'
+version = 'f7h654DL'

@@ -1,0 +1,16 @@
+filename = 'modernnetworking-forge-1.2.0+1.19.2.jar'
+name = 'Modern Networking'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7a3019dd2491cb464ba2d9bcd4ea703bfaba0fb31d059a2d7a62b3a0eaf98375118087a1aae9d4f747d4a3bcfe6e3d28c21d9ef83b88828bfd4834053488b4f3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yMou0v20/versions/fM2vAR7D/modernnetworking-forge-1.2.0%2B1.19.2.jar'
+
+[update.modrinth]
+mod-id = 'yMou0v20'
+version = 'fM2vAR7D'

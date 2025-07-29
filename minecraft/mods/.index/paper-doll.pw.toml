@@ -1,0 +1,16 @@
+filename = 'PaperDoll-v8.0.0-1.20.1-Forge.jar'
+name = 'Paper Doll'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd0e723ef68f8dfd3d670bf0690f565060ee32761b32b4fa0bdb47159932f07aa9b2f2af3754ae12e5edd3efdb84e43f7bd95b79d7c8b05e9c9ba7ebe78e61d5f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hD0W2Wde/versions/FNImhMZh/PaperDoll-v8.0.0-1.20.1-Forge.jar'
+
+[update.modrinth]
+mod-id = 'hD0W2Wde'
+version = 'FNImhMZh'

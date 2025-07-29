@@ -1,0 +1,16 @@
+filename = 'BetterControls-Forge-1.20+v1.3.0.jar'
+name = 'Better Controls'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '07403096a416c60cfee6799c2abe22a956b010a7a435275d6e8b2140d65e5ad60e8bfb91a5e086235404a1e7d1f0f78cfc9a5eed5600ce83bebadffed043586d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ANpj0aBF/versions/H9eghR9n/BetterControls-Forge-1.20%2Bv1.3.0.jar'
+
+[update.modrinth]
+mod-id = 'ANpj0aBF'
+version = 'H9eghR9n'

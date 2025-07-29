@@ -1,0 +1,16 @@
+filename = 'gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar'
+name = 'Game Menu Remove GFARB'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b129b3b97ef231a8ff62c5276ebe67a1f16cb625bd0b8acc83ec5699a1f80434fa82469dcea4051126fc72a50d369758fe59222a2ff786efbd244a31368ae66b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bKQclmIt/versions/XLS4Ub17/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar'
+
+[update.modrinth]
+mod-id = 'bKQclmIt'
+version = 'XLS4Ub17'

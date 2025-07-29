@@ -1,0 +1,16 @@
+filename = 'servercountryflags-1.10.0-1.20.1-FORGE.jar'
+name = 'Server Country Flags'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1b684011b9d49a80f02ea0c3618bd8343509e1ba948f05743cf29762d2fa04682138283745b05d6d32906431c6944f38968013e77b87ccfe2488cbfa17a88067'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/L6HW4EbG/versions/vLCCMAuQ/servercountryflags-1.10.0-1.20.1-FORGE.jar'
+
+[update.modrinth]
+mod-id = 'L6HW4EbG'
+version = 'vLCCMAuQ'
