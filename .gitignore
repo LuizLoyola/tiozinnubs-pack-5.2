@@ -16,3 +16,9 @@ minecraft/crash-reports/
 minecraft/data/fabricDefaultResourcePacks.dat
 
 minecraft/mods/.connector/
+
+minecraft/config/spark/tmp/
+
+minecraft/config/spark/activity.json
+
+minecraft/screenshots/
