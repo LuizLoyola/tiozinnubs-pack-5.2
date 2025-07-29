@@ -1,5 +1,5 @@
 
 [logbegone]
-	phrases = ["Disconnecting VANILLA connection attempt", "Channels "]
-	regex = ["Disconnecting VANILLA connection attempt", "Channels "]
+	regex = [".*: Redirecting .*", ".*Ignoring chunk since it's not in the view range:.*", ".*Unknown recipe category: .*", ".*Detected JEI plugin from \\[.*", ".*  \\- \\(0\\.00\\) JEI Plugin .*", ".*\\[AutoHiding\\] Hiding \\d+/\\d+ items for tag '.*", ".*Creating Creative Mode Tab.*", ".*Detected setBlock in a far chunk.*", ".*M&A -> Ritual Effects Registered.*", ".*Mana and Artifice >> Registered Construct Tasks.*", ".*M&A -> Block Items Registered.*", ".*Could not apply .* layer to .*, has custom renderer that is not LivingEntityRenderer.*", ".*Failed to add .* layer to entity.*", ".*Registering config factory for mod .* Found .* config.*", ".*Unknown sound in allowed sound config.*", ".*Skipping loading recipe .* as it's serializer returned null.*", ".*Non-existent flag .* being used.*", ".*Loaded Seamless outline rule.*", ".*Incorrect key .* was corrected from null to its default,.*", ".*LootTable .* has no items.*", ".*Encode (function|entry|condition) .* was not registered", ".*\\[JEMI\\] Collecting data for.*", ".*Loading JEI data for.*"]
+	phrases = []
 

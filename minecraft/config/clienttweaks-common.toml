@@ -19,13 +19,13 @@
 	#This prevents the last torch in the offhand from being placed.
 	doNotUseLastTorch = false
 	#This prevents the last durability from being used up.
-	doNotUseLastMending = false
+	doNotUseLastMending = true
 	#This option will hide your offhand item. It can be toggled via an optional key binding.
 	hideOffhandItem = false
 	#This option will hide your own potion particle effects for your client (other players will still see them).
-	hideOwnParticleEffects = false
+	hideOwnParticleEffects = true
 	#This option will hide your shield unless you are holding a weapon.
-	hideShieldUnlessHoldingWeapon = true
+	hideShieldUnlessHoldingWeapon = false
 	#This prevents torches from being placed from your offhand at all.
 	noOffhandTorchAtAll = false
 	#This prevents torches from being placed from your offhand if you have a block in your main hand.
@@ -35,7 +35,7 @@
 	#This prevents torches from being placed from your offhand if you have an empty main hand.
 	noOffhandTorchWithEmptyHand = false
 	#This prevents items from being used from your offhand if you have food in your main hand.
-	noOffhandUseWithFood = false
+	noOffhandUseWithFood = true
 	#This restricts torches to be placed from the offhand only when you're holding a tool in your main hand.
 	offhandTorchWithToolOnly = false
 	#This prevents fireworks from being launched from your offhand if you are wearing an Elytra, unless you're flying.
