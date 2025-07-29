@@ -1,0 +1,33 @@
+filename = 'SimpleRPC-4.0.4.jar'
+name = 'Simple Discord RPC'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.18.2',
+    '1.19.2',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.4',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4',
+    '1.21.5',
+    '1.21.6',
+    '1.21.7',
+    '1.21.8'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '69362a4ceb69030f8a784e329db3ee960f1e61755b3eb7058019722611ce6c700954aaf6c2302dbf3a3cc23ad21cef6c7c366421639c90b586f6da72fad5f600'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ObXSoyrn/versions/nkRAWFxK/SimpleRPC-4.0.4.jar'
+
+[update.modrinth]
+mod-id = 'ObXSoyrn'
+version = 'nkRAWFxK'

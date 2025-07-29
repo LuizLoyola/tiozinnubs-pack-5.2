@@ -1,0 +1,16 @@
+filename = 'enchantingcommands-1.20.1-3.5.jar'
+name = 'Enchanting Commands'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '259873e7b756c6c11d2e78d3c0b30c767700d89b649fa10e2d87cd13d6ba3f7efa277397a0e3f4a0b3890f2b17556efc779d05169183bae942dfba8c0c847369'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/w8ljvewX/versions/amBVja9x/enchantingcommands-1.20.1-3.5.jar'
+
+[update.modrinth]
+mod-id = 'w8ljvewX'
+version = 'amBVja9x'

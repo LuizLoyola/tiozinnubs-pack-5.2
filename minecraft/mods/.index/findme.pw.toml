@@ -1,0 +1,16 @@
+filename = 'findme-3.2.1-forge.jar'
+name = 'FindMe'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c485f9f4541a0da5fd73d6d6a11a214fa876f76f1544f20dc53a3801cbd6c03e8b42b926670b52e3372bf9555700a578385b4d8e24a484c2e5c4471c93d6148e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rEuzehyH/versions/BYWcTIfc/findme-3.2.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'rEuzehyH'
+version = 'BYWcTIfc'

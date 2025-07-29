@@ -1,0 +1,16 @@
+filename = 'CraterLib-Forge-1.20-2.1.5.jar'
+name = 'CraterLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f667456e3a301a149ddea2a2074830c333828413ffbe7e41b01847eca9f8ce8ad3499ec972abbee8e8583c29e6da42a68864413198cc8f34a3adb37a0c086ba7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Nn8Wasaq/versions/ONJR7uAd/CraterLib-Forge-1.20-2.1.5.jar'
+
+[update.modrinth]
+mod-id = 'Nn8Wasaq'
+version = 'ONJR7uAd'
