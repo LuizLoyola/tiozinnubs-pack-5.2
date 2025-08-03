@@ -1,0 +1,16 @@
+filename = 'Tropicraft-9.6.3.jar'
+name = 'Tropicraft'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6dbe6147e40f188203f44cb1c915f0476593f09ead3b87e51a93546fce4e7fbb3003e6d3a881e9b2d5938173caa5b10c713f29d592d8b01be1bdc4a955b7c7ac'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/20zpzIT1/versions/bHiclvUc/Tropicraft-9.6.3.jar'
+
+[update.modrinth]
+mod-id = '20zpzIT1'
+version = 'bHiclvUc'
