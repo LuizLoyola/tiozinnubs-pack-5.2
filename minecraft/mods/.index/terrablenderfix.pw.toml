@@ -1,0 +1,16 @@
+filename = 'terrablenderfix-forge-1.20.1-0.0.1.jar'
+name = 'TerraBlenderFix'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c37dafeb81d022d9aa0cafc3f1d55a657763937415bd4f9579547a328c59e0ffd776399f1ef1785edba77a4bbcf2a611a682a87ce2e5ddcdc967a737b2865a4d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/t2pgJYye/versions/dVHEmnF2/terrablenderfix-forge-1.20.1-0.0.1.jar'
+
+[update.modrinth]
+mod-id = 't2pgJYye'
+version = 'dVHEmnF2'
