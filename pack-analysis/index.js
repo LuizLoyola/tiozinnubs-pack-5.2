@@ -756,11 +756,13 @@ const commands = {
             if (mod.parent) continue;
 
             let side = mod.side;
+            let uncertain = false;
             if (side.endsWith('?')) {
                 side = side.slice(0, -1);
+                uncertain = true;
             }
 
-            if (!['server', 'both'].includes(side)) continue;
+            if (!['server', 'both'].includes(side) && !uncertain) continue;
 
             const modFile = path.join(modsFolder, mod.file);
             const destFile = path.join(serverFolder, 'mods', mod.file);
