@@ -3,5 +3,5 @@
 
 	[tweaks.foul_berries]
 		#If Foul Berry Bushes require pips to place, to prevent accidental placement
-		"Foul Berries require pips" = false
+		"Foul Berries require pips" = true
 

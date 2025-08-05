@@ -35,7 +35,7 @@
 
 [misc]
 	#Show insomnia missing time when laying on a bed
-	show_insomnia_timer = false
+	show_insomnia_timer = true
 	#Show insomnia cooldown as a small bed icon above crossair when aiming at a bed or in one
 	crossair_insomnia_cooldown = true
 	#Displays current time when sleeping

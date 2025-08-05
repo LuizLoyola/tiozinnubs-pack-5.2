@@ -1,7 +1,7 @@
 
 [misc]
 	#Makes players respawn by laying on their bed
-	respawn_laying = false
+	respawn_laying = true
 	#Fixes multiplayer players being positioned 2 pixels above a bed
 	fix_bed_position = true
 	#Allows laying on a bed when you are on sleeping cooldown
