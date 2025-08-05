@@ -3,7 +3,7 @@
 	#Whether the items show helpful tooltip
 	toggle_helpful_tooltip = true
 	#Whether the blocks added by the mod cause destruction
-	toggle_destructive_blocks = false
+	toggle_destructive_blocks = true
 
 [multiplayer-boss-scaling]
 	#Whether the boss scales with number of players.
@@ -37,5 +37,4 @@
 
 [pvp-settings]
 	#Whether some features work for Pvp purpose
-	toggle_pvp = false
-
+	toggle_pvp = true

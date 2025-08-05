@@ -11,7 +11,7 @@
 		#Used as the color for your claims. Set to 0 to use the default automatic color.
 		color = 0
 		#When enabled, the mod tries to protect your claimed chunks from other players. Workarounds are possible, especially with mods.
-		protectClaimedChunks = true
+		protectClaimedChunks = false
 		#The number of additional chunk claims that you can make on top of the normal limit.
 		bonusChunkClaims = 0
 		#The number of additional chunk claim forceloads that you can make on top of the normal limit.
@@ -450,7 +450,7 @@
 			enabled = true
 			#When enabled, the chunks you have marked for forceloading stay loaded even when you are offline (can significantly affect server performance!).
 			#If your forceload limit is affected by your FTB Ranks rank/permissions, then you need to login at least once after a server (re)launch for it to take effect while you are offline.
-			offlineForceload = false
+			offlineForceload = true
 
 	[playerConfig.parties]
 		#When not empty, used in some places as the name for the parties that you create.
@@ -458,9 +458,8 @@
 		#When enabled, your position in the game is shared with players from the same party as you, which can be used by other mods, e.g. to display party members on a map.
 		shareLocationWithParty = true
 		#When enabled, your position in the game is shared with the mutual ally parties of the party that you are in, which can be used by other mods, e.g. to display party members on a map.
-		shareLocationWithMutualAllyParties = false
+		shareLocationWithMutualAllyParties = true
 		#When enabled, the sharable positions of players from the same party as you are shared with your game client, which can be used by other mods, e.g. to display party members on a map.
 		receiveLocationsFromParty = true
 		#When enabled, the sharable positions of players from the mutual ally parties of the party that you are in are shared with your game client, which can be used by other mods, e.g. to display allies on a map.
-		receiveLocationsFromMutualAllyParties = false
-
+		receiveLocationsFromMutualAllyParties = true
