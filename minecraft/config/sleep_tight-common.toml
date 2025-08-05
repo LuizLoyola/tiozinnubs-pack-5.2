@@ -22,7 +22,7 @@
 	[misc.heartstone_mod_integration]
 		#Gives some benefit when sleeping next to somebody else. By default only works in conjunction with heartstone mod
 		#Allowed Values: HEARTSTONE_PLAYER_OR_VILLAGER, HEARTSTONE_PLAYER, ANY_PLAYER_OR_VILLAGER, ANY_PLAYER, OFF
-		enabled = "HEARTSTONE_PLAYER_OR_VILLAGER"
+		enabled = "HEARTSTONE_PLAYER"
 
 		#Effect to give to players when they wake up
 		#This is a list. Add more entries with syntax [[...]]
@@ -109,7 +109,7 @@
 [home_bed]
 	#Amount of nights needed to make a home bed start increasing levels
 	#Range: 1 ~ 50
-	home_bed_benefit_required_nights = 6
+	home_bed_benefit_required_nights = 7
 	#Percentage of xp added per tier of the effect. Setting to 1 doubles the effect
 	#Range: 0.0 ~ 1.0
 	invigorated_effect_xp = 0.1
