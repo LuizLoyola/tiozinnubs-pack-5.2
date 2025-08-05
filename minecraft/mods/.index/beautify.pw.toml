@@ -1,0 +1,16 @@
+filename = 'beautify-2.0.2.jar'
+name = 'Beautify!'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e1484165b14dd71473c6934647a71e62db3a281cbaaa66ef7eaf4f5325e9807820954156354fc92626c65f1dc17b7e9be4649c1ef6191b83b27bf749af0f302f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9BPuv4vL/versions/v9NnLuyB/beautify-2.0.2.jar'
+
+[update.modrinth]
+mod-id = '9BPuv4vL'
+version = 'v9NnLuyB'
