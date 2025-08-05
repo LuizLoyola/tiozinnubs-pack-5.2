@@ -6,7 +6,7 @@
     // The terrain scale setting will vertically stretch/compress terrain. Higher values = more extreme terrain heights.
     "horizontal_mountain_scale": 0.25,
     "increased_height": true,
-    "terrain_scale": 1.0
+    "terrain_scale": 1.25
   },
   "features": {
     // Enabling deeper oceans will lower vanilla ocean monuments to compensate for lower depth.

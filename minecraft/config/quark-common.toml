@@ -119,7 +119,7 @@
 	"Hollow Logs" = true
 	"Industrial Palette" = true
 	"Japanese Palette" = true
-	"Leaf Carpet" = false
+	"Leaf Carpet" = true
 	Midori = true
 	"More Brick Types" = true
 	"More Mud Blocks" = true
@@ -133,12 +133,12 @@
 	"Soul Sandstone" = true
 	Stools = true
 	"Sturdy Stone" = true
-	Thatch = false
+	Thatch = true
 	"Variant Bookshelves" = true
 	"Variant Chests" = true
 	"Variant Furnaces" = true
 	"Variant Ladders" = true
-	"Vertical Planks" = false
+	"Vertical Planks" = true
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
 	"More Stone Variants" = true

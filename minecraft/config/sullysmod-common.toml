@@ -22,7 +22,7 @@
 	#Enables all artifact features
 	artifacts = true
 	#Enables copper buttons
-	copper_buttons = true
+	copper_buttons = false
 	#Enables gem lanterns
 	gem_lanterns = false
 	#Enables grindstone polishing
@@ -31,7 +31,7 @@
 	#Mod Potions
 	[feature_selection.potions]
 		#Enables the bad luck potion
-		unluck_potion = true
+		unluck_potion = false
 		#Enables the resistance potion
 		resistance_potion = true
 
@@ -45,12 +45,12 @@
 #Other Settings
 [other_settings]
 	#If the velocity of projectiles bounced off of a Jade block should be based on its previous velocity instead of a static value. [Warning: Experimental] (default = false)
-	"Dynamic ricochet velocity" = false
+	"Dynamic ricochet velocity" = true
 
 	#Vanilla Spawn Modifications
 	[other_settings.vanilla_spawn_modifications]
 		#Disables zombie spawning in deepslate levels. This is done to prevent too many zombies spawning in this area, since the Bouldering Zombie spawns there exclusively
-		"Disable deepslate zombie spawning" = true
+		"Disable deepslate zombie spawning" = false
 		#Disables spider spawning in jungle biomes. This is done to prevent too many spiders spawning in this area, since the Jungle Spider spawns there exclusively
 		"Disable spider spawning in jungles" = false
 
