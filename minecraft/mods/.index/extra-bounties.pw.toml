@@ -1,0 +1,16 @@
+filename = 'ExtraBounties-universal.jar'
+name = 'Extra Bounties'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19.4', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '12b4b927db91d9898f936fe06c673149278acd30a252f69133fc6a7505708b3d4b85cbca031f06a4c6db9296dfde7e00c48f26ca4ad39731b91cd100bb7a70c3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5XH5uKvv/versions/N1flIxoc/ExtraBounties-universal.jar'
+
+[update.modrinth]
+mod-id = '5XH5uKvv'
+version = 'N1flIxoc'

@@ -1,0 +1,16 @@
+filename = 'Aquamirae Mod Boss Music Tweaks 1.20.1 v1.1.0.jar'
+name = 'Aquamirae - Boss Music Tweaks'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a028a33bf6cee2aeb1608afaecc91b0a38506fa99451caf980105e6ce4fe35e644cc2bced39655b6e0c7d66a5ccd6973710a2eaf2e315a6c17ed1b2f5b4b8381'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lwSm57fu/versions/9vuzh7ZN/Aquamirae Mod Boss Music Tweaks 1.20.1 v1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'lwSm57fu'
+version = '9vuzh7ZN'
