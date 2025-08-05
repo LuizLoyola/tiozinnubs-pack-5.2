@@ -1,0 +1,16 @@
+filename = 'integrated_villages-1.1.4+1.20.1-forge.jar'
+name = 'Integrated Villages'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5c3f7051d8550afd963fabb403f5cb55ed05f37ef027305c494d3c999dd7caa3567e8a2e846dde5461462646b48000a843d3b07bc950e0ff94647d3fad238b69'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/o1qh5qIF/versions/Kf4abzJW/integrated_villages-1.1.4%2B1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'o1qh5qIF'
+version = 'Kf4abzJW'

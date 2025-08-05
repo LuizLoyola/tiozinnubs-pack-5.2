@@ -1,0 +1,16 @@
+filename = 'repurposed_structures-7.1.19+1.20.1-forge.jar'
+name = 'Repurposed Structures - Neoforge/Forge'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e006e2739f1c129a57e815c3e1b155c2fdc9c734693b482dd17ed8350f98a5d38635e7a1d3c9d659384f469c1220f29b22d277865ca54aa744238c326620e379'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QDNS5oAT/versions/VS1Ba49d/repurposed_structures-7.1.19%2B1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'QDNS5oAT'
+version = 'VS1Ba49d'
