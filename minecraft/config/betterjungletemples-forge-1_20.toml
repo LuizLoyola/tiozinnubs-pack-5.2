@@ -2,5 +2,5 @@
 ["YUNG's Better Jungle Temples"]
 
 	["YUNG's Better Jungle Temples".General]
-		"Disable Vanilla Jungle Temples" = true
+		"Disable Vanilla Jungle Temples" = false
 

@@ -138,7 +138,7 @@
 	#Disable incompatible mods warning screen
 	no_incompatible_mods_screen = false
 	#Enable Quark style config button on main menu. Needs Configured installed to work
-	config_button = true
+	config_button = false
 	#Config button Y offset
 	#Range: -10000 ~ 10000
 	config_button_y_offset = 0
@@ -217,7 +217,7 @@
 		extra_dimension_textures = ["minecraft:the_nether", "minecraft:the_end"]
 		#Increasing this to be more than 1 will result in delth meter display image to be shown in float amounts instead of pixel perfect ones
 		#Range: 1 ~ 10
-		texture_precision_multiplier = 1
+		texture_precision_multiplier = 8
 
 	[items.cannonball]
 		#Render cannonballs as 3D models

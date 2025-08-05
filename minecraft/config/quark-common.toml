@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
@@ -24,11 +24,11 @@
 	#This will have various knock-on effects but might make the Weald more common, or appear closer to modded biomes. Who knows?
 	"Terrablender Modify Vanilla Anyway" = false
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
-	"Enable Onboarding" = true
+	"Enable Onboarding" = false
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
 	#Set this to false to not generate the Quark Programmer Art resource pack
-	"Generate Programmer Art" = true
+	"Generate Programmer Art" = false
 
 	[general.chest_button_offsets]
 		"Player X" = 0
@@ -86,10 +86,10 @@
 		#Allowed values: [1,)
 		Cooldown = 30
 		#The maximum amount of animals allowed around the trough's range for an animal to enter love mode
-		"Max Animals" = 32
+		"Max Animals" = 64
 		#The chance (between 0 and 1) for an animal to enter love mode when eating from the trough
 		#Allowed values: (0,1]
-		"Love Chance" = 0.333333333
+		"Love Chance" = 1.0
 		Range = 10.0
 		#Chance that an animal decides to look for a through. Closer it is to 1 the more performance it will take. Decreasing will make animals take longer to find one
 		"Look Chance" = 0.015
@@ -119,7 +119,7 @@
 	"Hollow Logs" = true
 	"Industrial Palette" = true
 	"Japanese Palette" = true
-	"Leaf Carpet" = true
+	"Leaf Carpet" = false
 	Midori = true
 	"More Brick Types" = true
 	"More Mud Blocks" = true
@@ -133,12 +133,12 @@
 	"Soul Sandstone" = true
 	Stools = true
 	"Sturdy Stone" = true
-	Thatch = true
+	Thatch = false
 	"Variant Bookshelves" = true
 	"Variant Chests" = true
 	"Variant Furnaces" = true
 	"Variant Ladders" = true
-	"Vertical Planks" = true
+	"Vertical Planks" = false
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
 	"More Stone Variants" = true
@@ -282,11 +282,11 @@
 		"Enable Pillar" = true
 
 [management]
-	"Automatic Tool Restock" = true
-	"Easy Transfering" = true
+	"Automatic Tool Restock" = false
+	"Easy Transfering" = false
 	"Expanded Item Interactions" = true
-	"Hotbar Changer" = true
-	"Inventory Sorting" = true
+	"Hotbar Changer" = false
+	"Inventory Sorting" = false
 	"Item Sharing" = true
 	"Quick Armor Swapping" = true
 
@@ -309,7 +309,7 @@
 		"Ignore Anti Overlap" = false
 
 	[management.easy_transfering]
-		"Enable Shift Lock" = true
+		"Enable Shift Lock" = false
 
 	[management.expanded_item_interactions]
 		"Enable Armor Interaction" = true
@@ -519,15 +519,15 @@
 	"Coral On Cactus" = true
 	"Diamond Repair" = true
 	"Double Door Opening" = true
-	"Dragon Scales" = true
+	"Dragon Scales" = false
 	"Dyeable Item Frames" = true
 	Emotes = true
 	"Enhanced Ladders" = true
 	"Glass Shard" = true
 	"Gold Tools Have Fortune" = true
 	"Grab Chickens" = true
-	"Hoe Harvesting" = true
-	"Horses Swim" = true
+	"Hoe Harvesting" = false
+	"Horses Swim" = false
 	"Improved Sponges" = true
 	"Lock Rotation" = true
 	"Magma Keeps Concrete Powder" = true
@@ -545,13 +545,13 @@
 	"Replace Scaffolding" = true
 	"Safer Creatures" = true
 	"Shulker Packing" = true
-	"Simple Harvest" = true
+	"Simple Harvest" = false
 	"Slabs To Blocks" = true
 	"Slimes To Magma Cubes" = true
 	"Snow Golem Player Heads" = true
 	"Utility Recipes" = true
 	"Vexes Die With Their Masters" = true
-	"Villagers Follow Emeralds" = true
+	"Villagers Follow Emeralds" = false
 	"Zombie Villagers On Normal" = true
 
 	[tweaks.automatic_recipe_unlock]
@@ -757,7 +757,7 @@
 		#Can bones be smelted down to bone meal?
 		"Bone Meal Utility" = true
 		#Can Charcoal be crafted into Black Dye?
-		"Charcoal To Black Dye" = true
+		"Charcoal To Black Dye" = false
 		#Can two Logs be used instead of a Chest to make a Hopper?
 		"Easy Hopper" = true
 		#Can two Logs be used to craft 16 sticks?
@@ -772,7 +772,7 @@
 	"Blossom Trees" = true
 	"Chorus Vegetation" = true
 	Corundum = true
-	"Fairy Rings" = true
+	"Fairy Rings" = false
 	"Fallen Logs" = true
 	"Glimmering Weald" = true
 	"Monster Box" = true
@@ -969,7 +969,7 @@
 		"Drop Leaf Particles" = true
 
 		[world.blossom_trees.blue]
-			Rarity = 200
+			Rarity = 1000
 
 			[world.blossom_trees.blue.dimensions]
 				"Is Blacklist" = false
@@ -988,7 +988,7 @@
 					"Is Blacklist" = true
 
 		[world.blossom_trees.lavender]
-			Rarity = 100
+			Rarity = 500
 
 			[world.blossom_trees.lavender.dimensions]
 				"Is Blacklist" = false
@@ -1007,7 +1007,7 @@
 					"Is Blacklist" = true
 
 		[world.blossom_trees.orange]
-			Rarity = 100
+			Rarity = 500
 
 			[world.blossom_trees.orange.dimensions]
 				"Is Blacklist" = false
@@ -1026,7 +1026,7 @@
 					"Is Blacklist" = true
 
 		[world.blossom_trees.yellow]
-			Rarity = 200
+			Rarity = 1000
 
 			[world.blossom_trees.yellow.dimensions]
 				"Is Blacklist" = false
@@ -1045,7 +1045,7 @@
 					"Is Blacklist" = true
 
 		[world.blossom_trees.red]
-			Rarity = 30
+			Rarity = 150
 
 			[world.blossom_trees.red.dimensions]
 				"Is Blacklist" = false
@@ -1129,7 +1129,7 @@
 
 	[world.fallen_logs]
 		#Percentage of fallen logs spawning as hollow. Requires Hollow Logs Module to be enabled
-		"Hollow Chance" = 0.7
+		"Hollow Chance" = 0.2
 		Rarity = 5
 		#Chance for logs to spawn on water
 		"On Water Chance" = 0.1
@@ -1144,7 +1144,7 @@
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk. 0 is 0%, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk.
-		"Chance Per Chunk" = 0.2
+		"Chance Per Chunk" = 0.05
 		"Min Y" = -50
 		"Max Y" = 0
 		"Min Mob Count" = 5
@@ -1160,7 +1160,7 @@
 
 	[world.nether_obsidian_spikes]
 		#The chance for a chunk to contain spikes (1 is 100%, 0 is 0%)
-		"Chance Per Chunk" = 0.1
+		"Chance Per Chunk" = 0.05
 		#The chance for a spike to be big (1 is 100%, 0 is 0%)
 		"Big Spike Chance" = 0.03
 		#Should a chunk have spikes, how many would the generator try to place
@@ -1439,7 +1439,7 @@
 
 		[mobs.shiba.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 40
+			"Spawn Weight" = 10
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
@@ -1552,20 +1552,20 @@
 					"Is Blacklist" = false
 
 [client]
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 	"Back Button Keybind" = true
 	"Buckets Show Inhabitants" = true
 	Camera = true
-	"Chest Searching" = true
+	"Chest Searching" = false
 	"Elytra Indicator" = true
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Improved Tooltips" = true
 	"Long Range Pick Block" = true
-	"Microcrafting Helper" = true
+	"Microcrafting Helper" = false
 	"Soul Candles" = true
 	"Usage Ticker" = true
 	"Uses For Curses" = true
-	"Variant Animal Textures" = true
+	"Variant Animal Textures" = false
 	"Wool Shuts Up Minecarts" = true
 
 	[client.auto_walk_keybind]
@@ -1593,7 +1593,7 @@
 	[client.greener_grass]
 		"Affect Leaves" = true
 		"Affect Water" = false
-		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass", "grassslabs:grass_carpet", "grassslabs:grass_slab", "grassslabs:grass_stairs", "valhelsia_structures:grass_block"]
+		"Block List" = ["minecraft:large_fern", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:fern", "minecraft:grass", "minecraft:potted_fern", "minecraft:sugar_cane", "environmental:giant_tall_grass", "valhelsia_structures:grass_block"]
 		"Leaves List" = ["minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:oak_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:dark_oak_leaves", "atmospheric:rosewood_leaves", "atmospheric:morado_leaves", "atmospheric:yucca_leaves", "autumnity:maple_leaves", "environmental:willow_leaves", "environmental:hanging_willow_leaves", "minecraft:vine"]
 
 		[client.greener_grass.color_matrix]
@@ -1608,9 +1608,9 @@
 
 	[client.improved_tooltips]
 		"Attribute Tooltips" = true
-		"Food Tooltips" = true
-		"Shulker Tooltips" = true
-		"Map Tooltips" = true
+		"Food Tooltips" = false
+		"Shulker Tooltips" = false
+		"Map Tooltips" = false
 		"Enchanting Tooltips" = true
 		"Fuel Time Tooltips" = true
 		"Shulker Box Use Colors" = true
@@ -1619,7 +1619,7 @@
 		#The value of each shank of food.
 		#Tweak this when using mods like Hardcore Hunger which change that value.
 		"Food Divisor" = 2
-		"Show Saturation" = true
+		"Show Saturation" = false
 		"Food Compression Threshold" = 4
 		"Fuel Time Divisor" = 200
 		#Should item attributes be colored relative to your current equipped item?
@@ -1824,10 +1824,10 @@
 	Backpack = true
 	Crate = true
 	Magnets = true
-	"Matrix Enchanting" = true
+	"Matrix Enchanting" = false
 	Pipes = true
 	"Tiny Potato" = true
-	"Totem Of Holding" = true
+	"Totem Of Holding" = false
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
@@ -1890,7 +1890,7 @@
 		#Set this to true to allow treasure enchantments to be rolled as pieces
 		"Allow Treasures" = false
 		#Set this to true to allow undiscoverable enchantments to be rolled as pieces
-		"Allow Undiscoverable Enchantments" = false
+		"Allow Undiscoverable Enchantments" = true
 		#Any treasure enchantment IDs here will be able to appear in books in matrix enchanting
 		"Treasure Whitelist" = []
 		#Any undiscoverable enchantment IDs here will be able to appear in matrix enchanting
