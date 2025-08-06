@@ -43,7 +43,7 @@
 	# Makes throwing Enderpearls at Bee Nests or Hives only 
 	# work in the Overworld. What this means setting this to true makes it 
 	# only possible to enter The Bumblezone dimension from the Overworld
-	onlyOverworldHivesTeleports = false
+	onlyOverworldHivesTeleports = true
 	# 
 	#-----------------------------------------------------
 	#

@@ -67,7 +67,7 @@ cloudBlockPrecipitationDistance = 32
 	flipIdList = false
 	#If true, the uncrafting table will also be allowed to uncraft shapeless recipes.
 	#The table was originally intended to only take shaped recipes, but this option remains for people who wish to keep the functionality.
-	enableShapelessCrafting = false
+	enableShapelessCrafting = true
 	#Disables the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior (or you're just lazy, I dont judge).
 	#Do note that special uncrafting recipes are not disabled as the mod relies on them for other things.
 	disableUncrafting = false
@@ -103,7 +103,7 @@ cloudBlockPrecipitationDistance = 32
 #We recommend downloading the Shield Parry mod for parrying, but these controls remain for without.
 ["Shield Parrying"]
 	#Set to true to parry non-Twilight projectiles.
-	parryNonTwilightAttacks = false
+	parryNonTwilightAttacks = true
 	#The amount of ticks after raising a shield that makes it OK to parry a projectile.
 	#Range: > 0
 	shieldParryTicksArrow = 40
