@@ -1,0 +1,16 @@
+filename = 'The_Undergarden-1.20.1-0.8.14.jar'
+name = 'The Undergarden'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '1fa7bc50530af3d4f551bb617103c3556b37bb53bb1939203e6d623c0e33404562bb8b772a33d3d0034fd5a29d1fac8cb531a664893e57f2dd3b7d968e71a7a1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Ejfl5qDL/versions/pXfmvzA9/The_Undergarden-1.20.1-0.8.14.jar'
+
+[update.modrinth]
+mod-id = 'Ejfl5qDL'
+version = 'pXfmvzA9'

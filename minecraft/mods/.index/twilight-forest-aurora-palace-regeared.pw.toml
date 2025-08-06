@@ -1,0 +1,16 @@
+filename = 'gearsaw_palace-1.0.0.jar'
+name = 'Twilight Forest - Aurora Palace Regeared'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '79b536908506ed02ed24a44bf0ca8cad9e6d52108a690efa660e847676b29e45e0535091bee7c81bda3a7b5d9e0c27a85c674887924a1eb3261f492225ac75b8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SajyyOLl/versions/qS2XUZNx/gearsaw_palace-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'SajyyOLl'
+version = 'qS2XUZNx'

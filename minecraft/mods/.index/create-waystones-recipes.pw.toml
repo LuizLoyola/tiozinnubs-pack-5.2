@@ -1,0 +1,16 @@
+filename = 'create_waystones_recipes-1.0.1.b.jar'
+name = 'Create Waystones Recipes'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ba845ce81c4e53ca09f82b8c002cd19a10683ff8c538d2c714b0fc28ba0303ad6caedf0e7f82ee726734b5b732d94cb4513b1eb42da974981c1b81c17d57e9b7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wQpKGqNJ/versions/8qDfChgt/create_waystones_recipes-1.0.1.b.jar'
+
+[update.modrinth]
+mod-id = 'wQpKGqNJ'
+version = '8qDfChgt'

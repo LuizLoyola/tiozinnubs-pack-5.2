@@ -1,0 +1,16 @@
+filename = 'ugpaths-1.20.1-0.1.1.jar'
+name = 'Undergarden Paths'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '01f3d7b7ba2479c8e08191fe96b3804fdffe118ec27f3537ae2c69822ecbfe14c1d1a6aaf06641716b8567559e31d66d8d1d6a9585b71bfa4d8a385e078f1415'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CGHGskKo/versions/KVVG77l0/ugpaths-1.20.1-0.1.1.jar'
+
+[update.modrinth]
+mod-id = 'CGHGskKo'
+version = 'KVVG77l0'

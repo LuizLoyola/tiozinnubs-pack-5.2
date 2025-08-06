@@ -64,6 +64,9 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -74,6 +77,9 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "waystones": {
+    "waystone": true
   },
   "balm": {
     "jade": true

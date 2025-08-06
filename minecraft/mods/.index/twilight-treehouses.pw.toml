@@ -1,0 +1,16 @@
+filename = 'TwilightTreehouses-1.20.1-1.0.2.1-forge.jar'
+name = 'Twilight Treehouses'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6f5d74ff0cc17acff864689d4eb47982db591f78a45369a7c6bcd773ce6dbbf55e09ca177bd454fd885968a2a8a216fae8456f207b434079ff93aa533c766342'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/lkU3QIjf/versions/qIHQgFvX/TwilightTreehouses-1.20.1-1.0.2.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'lkU3QIjf'
+version = 'qIHQgFvX'

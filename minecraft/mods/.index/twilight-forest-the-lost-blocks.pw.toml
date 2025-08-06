@@ -1,0 +1,16 @@
+filename = 'TF_Lost_Blocks-1.20.1-1.5.0.jar'
+name = 'Twilight Forest: The Lost Blocks'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'edc012166796ff37a2e337965ab3e1bb6b065da99db350968c1df673aaf9e218e0b2407d21d3c4bc07b50b592a7f32e242b12f3dfcf05a0d893989a1596b89cf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TyYh3b27/versions/GcmbYVPP/TF_Lost_Blocks-1.20.1-1.5.0.jar'
+
+[update.modrinth]
+mod-id = 'TyYh3b27'
+version = 'GcmbYVPP'

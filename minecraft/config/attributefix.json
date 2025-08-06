@@ -55,6 +55,17 @@
         "value": 64
       }
     },
+    "obscure_api:resilience": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -75,17 +86,6 @@
       "max": {
         "default": 1024,
         "value": 1024
-      }
-    },
-    "obscure_api:resilience": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
       }
     },
     "obscure_api:regeneration": {
@@ -154,6 +154,17 @@
         "value": 1000000
       }
     },
+    "obscure_api:critical_hit": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "vminus:protection": {
       "enabled": false,
       "min": {
@@ -165,7 +176,7 @@
         "value": 100
       }
     },
-    "obscure_api:critical_hit": {
+    "obscure_api:magic_resistance": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -198,17 +209,6 @@
         "value": 1024
       }
     },
-    "obscure_api:magic_resistance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 100,
-        "value": 100
-      }
-    },
     "vminus:fall_protection": {
       "enabled": false,
       "min": {
@@ -220,17 +220,6 @@
         "value": 100
       }
     },
-    "tropicraft:underwater_visibility": {
-      "enabled": false,
-      "min": {
-        "default": -1,
-        "value": -1
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "obscure_api:magic_damage": {
       "enabled": false,
       "min": {
@@ -240,6 +229,17 @@
       "max": {
         "default": 100000,
         "value": 100000
+      }
+    },
+    "tropicraft:underwater_visibility": {
+      "enabled": false,
+      "min": {
+        "default": -1,
+        "value": -1
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:generic.flying_speed": {
@@ -418,17 +418,6 @@
         "value": 1000000
       }
     },
-    "vminus:mob_detection_range": {
-      "enabled": false,
-      "min": {
-        "default": -100,
-        "value": -100
-      },
-      "max": {
-        "default": 0,
-        "value": 0
-      }
-    },
     "obscure_api:accuracy": {
       "enabled": false,
       "min": {
@@ -438,6 +427,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "vminus:mob_detection_range": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 0,
+        "value": 0
       }
     },
     "vminus:magic_protection": {

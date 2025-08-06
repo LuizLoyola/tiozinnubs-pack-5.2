@@ -1,0 +1,16 @@
+filename = 'xaeros_waystones_compability-1.19.2-1.20.1--1.0.jar'
+name = "Xaero's Minimap & World Map - Waystones Compatibility"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd9ef8d5035954e9193d7ce29fbf49671dc302fc84ecfa1966f35dbef7c08ba128dc6e4a5d7ec2c8b04073231f88858e9d2c9a095f0ce92a912e1f2551c3dd2a0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7mLhyqIY/versions/flkS2tex/xaeros_waystones_compability-1.19.2-1.20.1--1.0.jar'
+
+[update.modrinth]
+mod-id = '7mLhyqIY'
+version = 'flkS2tex'
