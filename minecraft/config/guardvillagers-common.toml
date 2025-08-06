@@ -1,4 +1,3 @@
-
 ["raids and illagers"]
 	#Illagers In Raids Attack Animals?
 	"Illagers in raids attack animals?" = true
@@ -22,7 +21,7 @@
 ["villager stuff"]
 	"Allow armorers and weaponsmiths repair guard items when down below half durability?" = true
 	#This will make it so villagers will only be converted into guards if the player has hero of the village
-	"Make it so players have to have hero of the village to convert villagers into guards?" = false
+	"Make it so players have to have hero of the village to convert villagers into guards?" = true
 	"Have it so blacksmiths heal golems under 60 health?" = true
 	"Have it so clerics heal guards and players with hero of the village?" = true
 	#This makes villagers run from polar bears, as anyone with common sense would.
@@ -32,8 +31,8 @@
 	"Allow Iron Golems to float on water?" = true
 
 ["guard stuff"]
-	"Allow the player to right click on bells to mass order guards to follow them?" = true
-	"Have guards patrol the village regularly?" = false
+	"Allow the player to right click on bells to mass order guards to follow them?" = false
+	"Have guards patrol the village regularly?" = true
 	#Range: -999.9000244140625 ~ 999.0
 	"Chance to drop equipment" = 100.0
 	#This makes Guards run from polar bears, as anyone with common sense would.
@@ -43,7 +42,7 @@
 	#This will make guards raise their shields all the time, on default they will only raise their shields under certain conditions
 	"Have Guards raise their shield all the time?" = false
 	#Range: -999.9000244140625 ~ 999.0
-	"Chance for guards to lose durability" = 1.0
+	"Chance for guards to lose durability" = 0.25
 	"Allow guards to teleport if following the player" = true
 	#This makes guards form a phalanx
 	"Have guards form a phalanx?" = true
@@ -55,17 +54,16 @@
 	#Range: -500.0 ~ 500.0
 	"Guard health regeneration amount" = 1.0
 	"Allow guard arrows to damage villagers, iron golems, or other guards? The i-frames will still be shown for them but they won't lose any health if this is set to false" = true
-	"Allow players to give guards stuff only if they have the hero of the village effect?" = false
-	"Allow players to set guard patrol points only if they have hero of the village" = false
+	"Allow players to give guards stuff only if they have the hero of the village effect?" = true
+	"Allow players to set guard patrol points only if they have hero of the village" = true
 	#Range: > -2147483648
 	"Minimum reputation requirement for guards to give you access to their inventories" = 15
 	#Range: -500.0 ~ 900.0
-	"Guard health" = 20.0
+	"Guard health" = 40.0
 	#Range: -500.0 ~ 900.0
-	"Guard speed" = 0.5
+	"Guard speed" = 0.75
 	#Range: 0.0 ~ 900.0
-	"Guard follow range" = 20.0
+	"Guard follow range" = 25.0
 	"Have guards only follow the player if they have hero of the village?" = true
 	#Range: -9999 ~ 9999
 	"How low of a reputation of a player should have to be instantly aggroed upon by guards and golems?" = -100
-

@@ -43,7 +43,7 @@
 	#Set to true if waystones should be added to the generation of villages. Some villages may still spawn without a waystone.
 	spawnInVillages = true
 	#Ensures that pretty much every village will have a waystone, by spawning it as early as possible. In addition, this means waystones will generally be located in the center of the village.
-	forceSpawnInVillages = false
+	forceSpawnInVillages = true
 
 [restrictions]
 	#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
