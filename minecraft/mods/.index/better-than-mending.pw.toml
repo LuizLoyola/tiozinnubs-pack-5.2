@@ -1,0 +1,16 @@
+filename = 'BetterThanMending-1.7.2.jar'
+name = 'Better Than Mending'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.1', '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '56b0e6e516a379f2ececaea88e1a7987e461f9e0a871cdedcf2ef95728cfe462b189b01614c3d7bf4d68102df04613a3c4f2a8735d9ff742164bad43b3fcc336'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Lvv4SHrK/versions/AevspkdP/BetterThanMending-1.7.2.jar'
+
+[update.modrinth]
+mod-id = 'Lvv4SHrK'
+version = 'AevspkdP'

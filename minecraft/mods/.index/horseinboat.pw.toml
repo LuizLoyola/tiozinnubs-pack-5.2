@@ -1,0 +1,16 @@
+filename = 'horseinboat-forge-1.1.4.jar'
+name = 'HorseInBoat'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8e0b90c2a226a00b8d25acb378b823becec25f247e623de08fd92bdcaec5c858b3f49b1093c4afb80b55676bfa75c6a92d3a641f6878a0e7b08142af01dc7bf9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jZ1T46Hr/versions/JrWsJCdN/horseinboat-forge-1.1.4.jar'
+
+[update.modrinth]
+mod-id = 'jZ1T46Hr'
+version = 'JrWsJCdN'

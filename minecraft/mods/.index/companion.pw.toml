@@ -1,0 +1,16 @@
+filename = 'Companion-1.20.1-Forge-5.3.0.jar'
+name = 'Companion 🐕'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '15ae310153d2f0283aca266f226d10cb0c084040fd105648f1289d2cf4541fdcc605d7063867a07748c03dab5d16ca517ec6c7644381a62b6c87e576c8a20bda'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4w0EzGRW/versions/IREsC8rP/Companion-1.20.1-Forge-5.3.0.jar'
+
+[update.modrinth]
+mod-id = '4w0EzGRW'
+version = 'IREsC8rP'

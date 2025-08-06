@@ -1,0 +1,16 @@
+filename = 'personality-1.20.1-4.1.0.jar'
+name = 'Personality'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '52cb2060a33f2948c62d829c0f2922424cf80a5f9e6aa5d31b2ad2b07018d754f53ed6bf2374a56b431500556613a74b493ef2b74b7007a80f3e2ff88d55f250'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zrAMu1nt/versions/OFaPf7iz/personality-1.20.1-4.1.0.jar'
+
+[update.modrinth]
+mod-id = 'zrAMu1nt'
+version = 'OFaPf7iz'

@@ -1,0 +1,9 @@
+
+[formatting]
+	#How the mod name should be formatted in the tooltip. Leave blank to disable.
+	#Use these formatting colors:
+	#black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white, indigo, light_pink, pink, orange, coral, sky_blue, pine, plum, toothpaste, neon_yellow, brown, dark_brown, neon_red, cobalt
+	#With these formatting options:
+	#obfuscated, bold, strikethrough, underline, italic
+	modNameFormat = "blue italic"
+

@@ -1,0 +1,16 @@
+filename = 'netherite_horse_armor-forge-1.20.1-1.0.4.jar'
+name = 'Simple Netherite Horse Armor'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '904041fb8032eaa7b95cdb0b7f138bf3060b0150d64b9acf50ea31ea3ef0755fb5a3ac74a48319ade919eaf886f3aaa939b8659165e830e20ae637e0def2b7e7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nDFVOeq7/versions/bkAAaHJp/netherite_horse_armor-forge-1.20.1-1.0.4.jar'
+
+[update.modrinth]
+mod-id = 'nDFVOeq7'
+version = 'bkAAaHJp'

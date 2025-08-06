@@ -17,6 +17,7 @@ minecraft/config/spark/tmp/
 minecraft/crash-reports/
 minecraft/data/fabricDefaultResourcePacks.dat
 minecraft/emojiful/cache/
+minecraft/fabricloader.log
 minecraft/hs_err_pid*.log
 minecraft/logs/
 minecraft/modernfix/structureCacheV1/

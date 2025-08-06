@@ -1,0 +1,16 @@
+filename = 'catloaf-1.1.0-1.20.x-FORGE.jar'
+name = 'Cat Loaf'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '362c5358bb548b7c6a704540257515d154c9d23dc9990cbcea63a4a13a180a9adf6c4adfde3c58d60bb8bd7e354a822efefe5cc200c84ecb8599713476ae7a23'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Q1ZgOTni/versions/5bMeNn4T/catloaf-1.1.0-1.20.x-FORGE.jar'
+
+[update.modrinth]
+mod-id = 'Q1ZgOTni'
+version = '5bMeNn4T'

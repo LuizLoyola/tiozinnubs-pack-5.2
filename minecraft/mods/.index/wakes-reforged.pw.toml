@@ -1,0 +1,16 @@
+filename = 'wakes-1.20.1-Forge-1.0.5.jar'
+name = 'Wakes Reforged'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cd576dcefff4bbc0565db0926e99048f48cee227ef1950357eb4c336856d32280ad1b28b35ce260470f6ed8438a1a5c287cefb23be3edc5c920fa946723a8926'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/E0SdeAoH/versions/Wat8yBcW/wakes-1.20.1-Forge-1.0.5.jar'
+
+[update.modrinth]
+mod-id = 'E0SdeAoH'
+version = 'Wat8yBcW'

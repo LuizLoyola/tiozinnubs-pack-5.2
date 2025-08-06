@@ -1,0 +1,16 @@
+filename = 'berry_good-1.20.1-7.0.0.jar'
+name = 'Berry Good'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e7fa84113308a39104c90f2311d432694e7c6702107849bcd475f2c84c102f6ab9641fcee6c81b2bfebda24a4340b0cbb4e6aa9db76004623fd2f8a649bfe7cb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2WZWaKCl/versions/a8xhP8dI/berry_good-1.20.1-7.0.0.jar'
+
+[update.modrinth]
+mod-id = '2WZWaKCl'
+version = 'a8xhP8dI'
