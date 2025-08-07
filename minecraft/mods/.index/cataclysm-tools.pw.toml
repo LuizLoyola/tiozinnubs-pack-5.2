@@ -1,0 +1,16 @@
+filename = 'cataclysm_tools-2.0.0-forge-1.20.1.jar'
+name = 'Cataclysm Tools'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '69a15b785b7d506e1dd34b3f12fc725f950cbe7357901d434370154b938fa7d2def25cc7444419aac496c13b261de2185ffec134a60d7e757e90337613c9f98d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7apv0bAM/versions/D6Nu8LcF/cataclysm_tools-2.0.0-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '7apv0bAM'
+version = 'D6Nu8LcF'

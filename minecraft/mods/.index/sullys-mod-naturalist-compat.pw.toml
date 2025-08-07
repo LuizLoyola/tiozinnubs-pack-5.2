@@ -1,0 +1,16 @@
+filename = 'Compat_SullysMod-Naturalist.jar'
+name = "Sully's Mod - Naturalist Compat"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e60605f480a6269331c7e32e0f1a2a6b22436231a456028d8fc0a46308570d3815a5bb208d42c6bad4582d490fd50e28cc710600fb1ff8c27ba10ae4ef0bf445'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/V4GGV76T/versions/OtfnYgBt/Compat_SullysMod-Naturalist.jar'
+
+[update.modrinth]
+mod-id = 'V4GGV76T'
+version = 'OtfnYgBt'

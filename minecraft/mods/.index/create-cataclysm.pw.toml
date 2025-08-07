@@ -1,0 +1,16 @@
+filename = 'create_cataclysm-0.1.0-forge-1.20.1.jar'
+name = 'Create: Cataclysm'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '1ffc1750411694f9fa286f131fe416b2fa5f974c7bc2c44fd8c02da7293b6f322266e7053af19a15098640360be083626751d8c4f630074c4d0580c771bf2ce1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8bcgGESI/versions/Q1wmQvd9/create_cataclysm-0.1.0-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '8bcgGESI'
+version = 'Q1wmQvd9'

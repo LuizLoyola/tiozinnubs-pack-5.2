@@ -1,0 +1,16 @@
+filename = 'beekeeperhut-forge-mc1.20.1-2.0.1.jar'
+name = 'Friends&Foes - Beekeeper Hut (Forge/NeoForge)'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fdfabdc4d4a2f6145a98b15845ac57a5b95a4bcf58e300e11837e3ff36dd0d712fe4836437757dd05a03d8ce3e36e8702c626d4d5509ad077e913b13687393b0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/K62sN7Sd/versions/ilMkQEQF/beekeeperhut-forge-mc1.20.1-2.0.1.jar'
+
+[update.modrinth]
+mod-id = 'K62sN7Sd'
+version = 'ilMkQEQF'

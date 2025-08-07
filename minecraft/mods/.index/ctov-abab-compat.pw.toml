@@ -1,0 +1,16 @@
+filename = 'ctov-abab-compat-1.0.jar'
+name = 'CTOV - All Bark, All Bites compat'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5049aee3d904cee2ad40d94b519743b88fac8ab2296e5c02b6b692ec14291a2e5f27a35cdc102187c21b259936d484cddcc096343d3a882ba2b148c7712910c0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xoS29PoB/versions/wXYZsibx/ctov-abab-compat-1.0.jar'
+
+[update.modrinth]
+mod-id = 'xoS29PoB'
+version = 'wXYZsibx'

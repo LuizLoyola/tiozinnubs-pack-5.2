@@ -1,0 +1,16 @@
+filename = 'cataclysmartifacts-1.0.4.2-1.20.1.jar'
+name = 'Cataclysm Artifacts'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7af41831c4f0dedaed4ebf2c39ee40185ed026df9e0f0a772e2fd9b81c4cf7a2c03abdf4e666e772586c9a56e34c17f8fd7051fc157b96455b2f2f5513dad1ea'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vg0wlvrM/versions/qV3KgPGs/cataclysmartifacts-1.0.4.2-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'vg0wlvrM'
+version = 'qV3KgPGs'
