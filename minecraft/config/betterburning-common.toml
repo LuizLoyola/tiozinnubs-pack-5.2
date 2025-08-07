@@ -9,12 +9,12 @@
 	fireDamageSpreads = true
 	#What is the % chance that fire damage will spread between mobs?
 	#Range: 0.0 ~ 1.0
-	fireDamageSpreadChance = 0.3
+	fireDamageSpreadChance = 1.0
 	#Should skeletons shoot flaming arrows while on fire?
 	flameArrowSkeletons = true
 	#What is the % chance skeletons will shoot flaming arrows while on fire?
 	#Range: 0.0 ~ 1.0
-	flameArrowSkeletonChance = 0.7
+	flameArrowSkeletonChance = 1.0
 	#Should flint and steel deal fire damage when used as a weapon?
 	ShouldFlintAndSteelDoFireDamage = true
 	#How much fire damage should flint and steel do?

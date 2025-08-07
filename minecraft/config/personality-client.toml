@@ -25,7 +25,7 @@
 
 	[tweaks.villagers]
 		#If Baby Villagers should have larger heads like other baby mobs
-		"Large baby villager heads" = true
+		"Large baby villager heads" = false
 		#If Villagers should close their eyes when sleeping
 		"Villager close eyes" = false
 

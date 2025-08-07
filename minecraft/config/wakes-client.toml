@@ -2,7 +2,7 @@
 disableMod = false
 pickBoat = true
 #Allowed Values: EIGHT, SIXTEEN, THIRTYTWO
-wakeResolution = "SIXTEEN"
+wakeResolution = "THIRTYTWO"
 #Range: 0.0 ~ 1.0
 wakeOpacity = 1.0
 #Range: 0.0 ~ 1.0
