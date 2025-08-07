@@ -15,25 +15,25 @@
 	staffSlotGainingMethod = "PREDEFINED_ORDER"
 	#Method of gaining stats for tools.
 	#Allowed Values: NONE, PREDEFINED_ORDER, RANDOM
-	toolsStatGainingMethod = "NONE"
+	toolsStatGainingMethod = "PREDEFINED_ORDER"
 	#Method of gaining stats for tools.
 	#Allowed Values: NONE, PREDEFINED_ORDER, RANDOM
-	rangedStatGainingMethod = "NONE"
+	rangedStatGainingMethod = "PREDEFINED_ORDER"
 	#Method of gaining stats for armor.
 	#Allowed Values: NONE, PREDEFINED_ORDER, RANDOM
-	armorStatGainingMethod = "NONE"
+	armorStatGainingMethod = "PREDEFINED_ORDER"
 	#Method of gaining stats for staffs.
 	#Allowed Values: NONE, PREDEFINED_ORDER, RANDOM
-	staffStatGainingMethod = "NONE"
+	staffStatGainingMethod = "PREDEFINED_ORDER"
 	#Maximum tool level that could be achieved. If set to 0 there is no upper limit.
 	#Range: > 0
-	maxLevel = 5
+	maxLevel = 0
 	#Base amount of experience required to reach next level.
 	#Range: > 1
 	baseExperience = 500
 	#How much the amount of experience required to reach next level will be multiplied per level.
 	#Range: 1.0 ~ 10.0
-	requiredXpMultiplier = 2.0
+	requiredXpMultiplier = 1.5
 	#Additional multiplier for broad tools for experience required to level up.
 	#Range: 1.0 ~ 10.0
 	broadToolRequiredXpMultiplier = 3.0
@@ -176,7 +176,7 @@
 	#The time (in ticks) of continuous flight using an elytra after which experience points will be awarded.
 	#20 ticks = 1 second
 	#Range: 1 ~ 1200
-	flyingTime = 300
+	flyingTime = 100
 
 	#If true, given action will yield tool experience.
 	[toolLevelling.actions]
