@@ -1,0 +1,16 @@
+filename = 'connection-forge-1.20.1-1.0.0.jar'
+name = 'Heartstone: Connection'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a0d21da101b7ed4dabe7c102b60a499b77d7eefc4356b9494767a16a94d825a9b1256c1a60f698ea1ad494486a9c2cb1ae103e58d63fb012fd096f5ae3f86b52'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/80L9ta2a/versions/42v8vHzi/connection-forge-1.20.1-1.0.0.jar'
+
+[update.modrinth]
+mod-id = '80L9ta2a'
+version = '42v8vHzi'

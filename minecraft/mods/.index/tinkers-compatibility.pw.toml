@@ -1,0 +1,16 @@
+filename = 'tcompat-1.20.1-1.0.0.jar'
+name = "Tinker's Compatibility"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '32661026eae0d33e7ff9055b7399d3ffddd2c5aa8f1fd78c6281f4630234af5ba5388afed17306ad00dfacfc1e7f5398400c7a639c2e90216354a0f9061dc846'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7dqAlUms/versions/iM08rGpL/tcompat-1.20.1-1.0.0.jar'
+
+[update.modrinth]
+mod-id = '7dqAlUms'
+version = 'iM08rGpL'

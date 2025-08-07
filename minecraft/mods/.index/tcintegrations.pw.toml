@@ -1,0 +1,16 @@
+filename = 'TCIntegrations-1.20.1-2.0.25.9.jar'
+name = "Tinkers' Integrations and Tweaks"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd1b585768e2a90bdb14bf4d9c50d0888fedca2a7ac2fb376953f8183af23d904322df2cbdbe31f3ec62c1f7809bce3c8653629bd00a6ead7cdd89becbd87dee9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jNa5P8yc/versions/4hsJrBUo/TCIntegrations-1.20.1-2.0.25.9.jar'
+
+[update.modrinth]
+mod-id = 'jNa5P8yc'
+version = '4hsJrBUo'

@@ -1,0 +1,16 @@
+filename = 'ctov-monobank-compat-1.0.a.jar'
+name = 'CTOV -  Monobank compat'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f6e14e553cf704b21fa6452c787e7259d33f3948530ed894de7fb5604ebf60d18ddace0489ffe6225d1461c860d0d083a76bbaf453195a741720d881c1a6cd53'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/S313KZR3/versions/SUeKmmMO/ctov-monobank-compat-1.0.a.jar'
+
+[update.modrinth]
+mod-id = 'S313KZR3'
+version = 'SUeKmmMO'

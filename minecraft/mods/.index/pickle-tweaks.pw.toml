@@ -1,0 +1,16 @@
+filename = 'PickleTweaks-1.20.1-8.0.5.jar'
+name = 'Pickle Tweaks'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '639aad1dcf5b6403b491478bd0c3b1d51b6692ae2cb14fc7455c0e8a5a0fefac09627eea75b42c6904b0bda137ec364cd4f3ff1c72b6b2ef44aa8c8118310ddb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/J868sgbE/versions/b6mwFNFs/PickleTweaks-1.20.1-8.0.5.jar'
+
+[update.modrinth]
+mod-id = 'J868sgbE'
+version = 'b6mwFNFs'

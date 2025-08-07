@@ -1,0 +1,3 @@
+#Show item hint icon un unlocking screen. Default: true
+ShowHintIcon = true
+
