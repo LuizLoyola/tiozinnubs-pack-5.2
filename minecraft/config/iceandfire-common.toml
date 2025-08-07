@@ -6,13 +6,13 @@
 		"Generate Dragon Skeletons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Skeleton Chance" = 300
+		"Generate Dragon Skeleton Chance" = 1500
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Cave Chance" = 180
+		"Generate Dragon Cave Chance" = 900
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Generate Dragon Roost Chance" = 360
+		"Generate Dragon Roost Chance" = 1800
 		#1 out of this number chance per block that gold will generate in dragon lairs.
 		#Range: 1 ~ 10000
 		"Dragon Den Gold Amount" = 4
@@ -23,15 +23,15 @@
 	[Generation.Structures-Features]
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn.
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist From Spawn" = 800
+		"Dangerous World Gen Dist From Spawn" = 4000
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
 		#Range: 1 ~ 10000
-		"Dangerous World Gen Dist Seperation" = 300
+		"Dangerous World Gen Dist Seperation" = 1000
 		#Whether to generate glacier biomes or not
 		"Generate Glaciers" = true
 		#Glacier Spawn Weight. Higher number = more common
 		#Range: 1 ~ 10000
-		"Glacier Spawn Weight" = 4
+		"Glacier Spawn Weight" = 2
 		#True if mausoleums are allowed to generate
 		"Generate Mausoleums" = true
 		#Whether to generate graveyards or not
@@ -49,7 +49,7 @@
 		"Tamed Dragon Griefing" = true
 		#The percentage chance for a block to drop as an item when a dragon breaks it.
 		#Range: 0.0 ~ 1.0
-		"Dragon Block Breaking Drop Chance" = 0.10000000149011612
+		"Dragon Block Breaking Drop Chance" = 1.0
 
 	[Dragons.Attributes]
 		#How long it takes(in ticks) for a dragon egg to hatch
@@ -57,13 +57,13 @@
 		"Dragon Egg Hatch Time" = 7200
 		#Dragon Flap Noise Distance - Larger number, further away you can hear it
 		#Range: 0 ~ 10000
-		"Dragon Flap Noise Distance" = 4
+		"Dragon Flap Noise Distance" = 8
 		#Dragon Flute Distance - how many chunks away is the dragon flute effective?
 		#Range: 0 ~ 10000
-		"Dragon Flute Distance" = 4
+		"Dragon Flute Distance" = 8
 		#Max dragon health. Health is scaled to this
 		#Range: 1.0 ~ 100000.0
-		"Dragon Health" = 500.0
+		"Dragon Health" = 1000.0
 		#Max dragon attack damage. Attack Damage is scaled to this
 		#Range: 1 ~ 10000
 		"Dragon Attack Damage" = 17
@@ -78,19 +78,19 @@
 		"Dragon Attack Damage(Lightning breath)" = 3.5
 		#Change this to slow down or speed up dragon or amphithere flight.
 		#Range: 0.0 ~ 2.0
-		"Dragon Flight Speed Modifier" = 1.0
+		"Dragon Flight Speed Modifier" = 1.5
 		#Enable this if your server is being bombarded with moved wrongly or moved too fast console messages. REQUIRES RESTART!
-		"Dragon Moved Wrongly Error Fix" = false
+		"Dragon Moved Wrongly Error Fix" = true
 
 	[Dragons.Behaviour]
 		#How high dragons can fly, in Y height.
 		#Range: > 100
-		"Max Dragon Flight Height" = 256
+		"Max Dragon Flight Height" = 768
 		#How far away dragons will detect gold blocks being destroyed or chests being opened
 		#Range: 0 ~ 10000
-		"Dragon Gold Search Length" = 30
+		"Dragon Gold Search Length" = 64
 		#Whether the bite attack from a dragon heals them or not.
-		"Dragon Bite Heal" = true
+		"Dragon Bite Heal" = false
 		#True if dragons can despawn. Note that if this is false there may be SERIOUS lag issues.
 		"Dragons Despawn" = true
 		#True if tamed dragons go to sleep at night.
@@ -110,42 +110,42 @@
 		"Dragon Target Search Length" = 128
 		#How many blocks away can dragons wander from their defined "home" position.
 		#Range: 1 ~ 10000
-		"Dragon Wander From Home Distance" = 40
+		"Dragon Wander From Home Distance" = 32
 		#Every interval of this number in ticks, dragon hunger decreases.
 		#Range: 1 ~ 10000
 		"Dragon Hunger Tick Rate" = 3000
 		#Every interval of this number in ticks, dragon allowed to break blocks.
 		#Range: 0 ~ 10000
-		"Dragon Block Break Cooldown" = 5
+		"Dragon Block Break Cooldown" = 20
 		#True if villagers should run away and hide from dragons and other hostile Ice and Fire mobs.
 		"Villagers Fear Dragons" = true
 		#True if animals should run away and hide from dragons and other hostile Ice and Fire mobs.
 		"Animals Fear Dragons" = true
 		#A more intelligent dragon pathfinding system, but is also laggier. Turn this on if you think dragons are too stupid.
-		"Intelligent Dragon Pathfinding" = false
+		"Intelligent Dragon Pathfinding" = true
 
 [Mobs]
 
 	[Mobs.Pixies]
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Pixies Chance" = 60
+		"Spawn Pixies Chance" = 300
 		#size of pixie villages
 		#Range: 1 ~ 10000
-		"Pixie Village Size" = 5
+		"Pixie Village Size" = 3
 		#True if pixies are allowed to steal from players
 		"Pixies Steal Items" = true
 
 	[Mobs.Cyclops]
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Cyclops Cave Chance" = 100
+		"Spawn Cyclops Cave Chance" = 500
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Wandering Cyclops Chance" = 100
+		"Spawn Wandering Cyclops Chance" = 500
 		#Maximum cyclops health
 		#Range: 1.0 ~ 10000.0
-		"Cyclops Max Health" = 150.0
+		"Cyclops Max Health" = 500.0
 		#How many blocks away can cyclopes detect sheep. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
 		"Cyclopes Sheep Search Length" = 17
@@ -166,7 +166,7 @@
 		"Use Siren Shader" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sirens Chance" = 400
+		"Spawn Sirens Chance" = 2000
 		#how long(in ticks) can a siren use its sing effect on a player, without a cooldown.
 		#Range: 100 ~ 24000
 		"Siren Max Sing Time" = 12000
@@ -188,7 +188,7 @@
 		"Death Worms Target Monsters" = true
 		#Deathworm spawn weight. Higher = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Death Worm Spawn Weight" = 30
+		"Death Worm Spawn Weight" = 300
 
 	[Mobs.Cockatrice]
 		#Maximum cockatrice health
@@ -203,7 +203,7 @@
 		"Spawn Cockatrices" = true
 		#Cockatrice spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Cockatrice Spawn Weight" = 4
+		"Cockatrice Spawn Weight" = 1
 
 	[Mobs.Stymphalians]
 		#How many blocks away can stymphalian birds spot potential prey. Note that increasing this could cause lag.
@@ -227,7 +227,7 @@
 		"Stymphalian Birds Target Animals" = false
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Stymhphalian Bird Chance" = 100
+		"Spawn Stymhphalian Bird Chance" = 500
 
 	[Mobs.Trolls]
 		#True if trolls are allowed to spawn
@@ -236,10 +236,10 @@
 		"Trolls Drop Weapon" = true
 		#Troll spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Troll Spawn Weight" = 40
+		"Troll Spawn Weight" = 200
 		#Maximum troll health
 		#Range: 1.0 ~ 10000.0
-		"Troll Max Health" = 50.0
+		"Troll Max Health" = 100.0
 		#Troll attack strength
 		#Range: 1.0 ~ 10000.0
 		"Troll Attack Strength" = 10.0
@@ -253,7 +253,7 @@
 		"Myrmex Hatch Length" = 35000
 		#One out of this number chance per chunk to generate a myrmex hive.
 		#Range: 1 ~ 10000
-		"Myrmex Colony Gen Chance" = 150
+		"Myrmex Colony Gen Chance" = 750
 		#How many maximum individuals a myrmex colony can have.
 		#Range: 10 ~ 10000
 		"Myrmex Colony Max Size" = 80
@@ -271,7 +271,7 @@
 		"Spawn Amphitheres" = true
 		#Amphithere spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Amphithere Spawn Weight" = 50
+		"Amphithere Spawn Weight" = 250
 		#How many blocks away can ampitheres detect villagers being hurt. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
 		"Amphithere Villager Search Length" = 64
@@ -291,7 +291,7 @@
 	[Mobs.SeaSerpents]
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 250
+		"Spawn Sea Serpent Chance" = 1250
 		#Whether or not sea serpents can break weak blocks in their way
 		"Sea Serpent Griefing" = true
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
@@ -304,7 +304,7 @@
 	[Mobs.Hippocampus]
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Hippocampus Chance" = 40
+		"Spawn Hippocampus Chance" = 200
 		#Change this to slow down or speed up hippocampus swimming.
 		#Range: 0.0 ~ 2.0
 		"Hippocampus Swim Speed Modifier" = 1.0
@@ -314,7 +314,7 @@
 		"Spawn Hippogryphs" = true
 		#Hippogryph spawn weight. Lower = lower chance to spawn.
 		#Range: 1 ~ 10000
-		"Hippogryph Spawn Weight" = 2
+		"Hippogryph Spawn Weight" = 1
 		#Change this to slow down or speed up hippogryph flight.
 		#Range: 0.0 ~ 2.0
 		"Hippogryph Flight Speed Modifier" = 1.0
@@ -322,20 +322,20 @@
 	[Mobs.Gorgons]
 		#Maximum gorgon health
 		#Range: 1.0 ~ 10000.0
-		"Gorgon Max Health" = 100.0
+		"Gorgon Max Health" = 200.0
 
 	[Mobs.Others]
 		#True if dread liches are allowed to spawn
 		"Spawn Liches" = true
 		#Dread Lich spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Lich Spawn Weight" = 2
+		"Lich Spawn Weight" = 1
 		#Dread Lich spawn chance. Lower = higher chance to spawn
 		#Range: 1 ~ 10000
-		"Lich Spawn Chance" = 30
+		"Lich Spawn Chance" = 150
 		#Maximum hydra health
 		#Range: 1.0 ~ 10000.0
-		"Hydra Max Health" = 250.0
+		"Hydra Max Health" = 500.0
 		#One out of this number chance per chunk to generate a hydra cave.
 		#Range: 1 ~ 10000
 		"Hydra Caves Gen Chance" = 60
@@ -373,7 +373,7 @@
 	Weezer = true
 	#Percentage of critical strike that will disarm with easter egg tinkers material.
 	#Range: 0.0 ~ 1.0
-	"Easter Egg Tinkers Tool Disarm chance" = 0.20000000298023224
+	"Easter Egg Tinkers Tool Disarm chance" = 0.2
 	#True if the summon crystal can load chunks to find dragons.
 	"Chunk Load Summon Crystal" = true
 	#True if the dragon bone fire sword ignites attackers.

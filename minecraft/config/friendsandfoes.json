@@ -37,7 +37,7 @@
   "enableIceologerSpawn": true,
   "enableIceologerInRaids": true,
   "generateIceologerCabinStructure": true,
-  "enableIllusioner": true,
+  "enableIllusioner": false,
   "enableIllusionerSpawn": true,
   "enableIllusionerInRaids": true,
   "generateIllusionerShackStructure": true,
