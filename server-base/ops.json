@@ -4,5 +4,11 @@
     "name": "TiozinNub",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "25f128e7-2733-4afe-8703-7d142dce9840",
+    "name": "TiaKet",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
