@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet"
+  ],
+  "incompatible": [
+    "domesticationinnovation:healing_aura",
+    "domesticationinnovation:magnetic",
+    "domesticationinnovation:health_siphon",
+    "domesticationinnovation:gluttonous"
+  ]
+}

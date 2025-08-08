@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet"
+  ],
+  "incompatible": [
+    "domesticationinnovation:shadow_hands",
+    "domesticationinnovation:magnetic",
+    "domesticationinnovation:frost_fang",
+    "domesticationinnovation:bubbling"
+  ]
+}

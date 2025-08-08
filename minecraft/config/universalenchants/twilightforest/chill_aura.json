@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "revampedwolf:leather_wolf_armor",
+    "revampedwolf:golden_wolf_armor",
+    "revampedwolf:iron_wolf_armor",
+    "revampedwolf:diamond_wolf_armor",
+    "revampedwolf:netherite_wolf_armor"
+  ],
+  "incompatible": [
+    "twilightforest:fire_react",
+    "minecraft:thorns"
+  ]
+}

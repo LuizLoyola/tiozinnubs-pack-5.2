@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:dreadbow"
+  ],
+  "incompatible": [
+    "alexscaves:relentless_darkness"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "cataclysm:coral_spear",
+    "cataclysm:coral_bardiche",
+    "$minecraft:weapon",
+    "$minecraft:universal_enchants_axe"
+  ],
+  "incompatible": [
+    "deeperdarker:sculk_smite",
+    "minecraft:bane_of_arthropods",
+    "minecraft:smite"
+  ]
+}

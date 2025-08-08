@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "the_bumblezone:crystal_cannon",
+    "cataclysm:cursed_bow",
+    "cataclysm:wrath_of_the_desert",
+    "create:potato_cannon",
+    "$minecraft:crossbow"
+  ],
+  "incompatible": []
+}

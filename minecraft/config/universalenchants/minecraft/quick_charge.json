@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:crossbow",
+    "the_bumblezone:bee_cannon",
+    "the_bumblezone:crystal_cannon",
+    "supplementaries:slingshot",
+    "$minecraft:trident",
+    "$minecraft:bow"
+  ],
+  "incompatible": []
+}

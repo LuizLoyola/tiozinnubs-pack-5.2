@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "the_bumblezone:carpenter_bee_boots_1",
+    "the_bumblezone:carpenter_bee_boots_2",
+    "twilightforest:block_and_chain",
+    "quark:pickarang",
+    "quark:flamerang"
+  ],
+  "incompatible": [
+    "minecraft:piercing"
+  ]
+}

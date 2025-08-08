@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet"
+  ],
+  "incompatible": [
+    "domesticationinnovation:defusal",
+    "domesticationinnovation:blazing_protection",
+    "domesticationinnovation:immunity_frame",
+    "domesticationinnovation:psychic_wall"
+  ]
+}

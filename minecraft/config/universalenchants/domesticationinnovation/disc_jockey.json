@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:pet"
+  ],
+  "incompatible": [
+    "domesticationinnovation:muffled",
+    "domesticationinnovation:shadow_hands",
+    "domesticationinnovation:blazing_protection"
+  ]
+}

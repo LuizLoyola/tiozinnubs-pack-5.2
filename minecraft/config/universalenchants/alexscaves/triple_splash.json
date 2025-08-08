@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:sea_staff"
+  ],
+  "incompatible": [
+    "alexscaves:bouncing_bolt"
+  ]
+}
