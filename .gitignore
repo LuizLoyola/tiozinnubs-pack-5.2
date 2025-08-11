@@ -1,6 +1,7 @@
 !minecraft/config/inventoryprofilesnext/inventoryprofiles.json
 .fuse_hidden*
 instance.cfg
+minecraft/.mixin.out/
 minecraft/cherishedworlds-favorites.dat
 minecraft/config-old/
 minecraft/config/chunky/tasks/
@@ -22,6 +23,7 @@ minecraft/hs_err_pid*.log
 minecraft/logs/
 minecraft/modernfix/structureCacheV1/
 minecraft/mods/.connector/
+minecraft/patchouli_data.json
 minecraft/saves/
 minecraft/screenshots/
 minecraft/servers.dat*
@@ -31,5 +33,3 @@ minecraft/xaero/minimap/
 minecraft/xaero/world-map/
 minecraft/XaeroWaypoints_*/
 server/
-
-minecraft/.mixin.out/

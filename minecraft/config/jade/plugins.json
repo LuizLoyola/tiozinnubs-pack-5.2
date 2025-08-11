@@ -51,6 +51,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
@@ -63,6 +66,10 @@
     "exact_block": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "arsmagicalegacy": {
+    "altar": true,
+    "etherium": true
   },
   "twilightforest": {
     "quest_ram_wool": true
@@ -77,6 +84,11 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
   },
   "waystones": {
     "waystone": true

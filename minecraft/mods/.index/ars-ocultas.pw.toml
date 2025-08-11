@@ -1,0 +1,16 @@
+filename = 'ars_ocultas-1.20.1-1.2.2-all.jar'
+name = 'Ars Ocultas'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7930d235da8769d3b0d0f05831bf8febb3be5377637c833d8350c8cef11e106383049543b09fa8f41257a45d0f4b84c8d3704978c7d81db3e9e1e4adef802c6d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Tsw8vbks/versions/si2iOQut/ars_ocultas-1.20.1-1.2.2-all.jar'
+
+[update.modrinth]
+mod-id = 'Tsw8vbks'
+version = 'si2iOQut'

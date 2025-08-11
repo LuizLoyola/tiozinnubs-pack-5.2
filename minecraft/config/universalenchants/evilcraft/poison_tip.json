@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "apotheosis:bow_tome",
+    "cataclysm:cursed_bow",
+    "cataclysm:wrath_of_the_desert"
+  ],
+  "incompatible": []
+}

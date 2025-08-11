@@ -1,0 +1,16 @@
+filename = 'EvilCraft-1.20.1-1.2.57.jar'
+name = 'EvilCraft'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b191057b7f8e20ea2cd9eb14e322479c2381128b73ce7e8122db37a957ae135b4c087ee67426f6eca84534d74f440a16c77a0501c241cc5c926488acaed55ae8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3ANq2btA/versions/wOuvEQaO/EvilCraft-1.20.1-1.2.57.jar'
+
+[update.modrinth]
+mod-id = '3ANq2btA'
+version = 'wOuvEQaO'
