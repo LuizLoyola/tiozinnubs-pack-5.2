@@ -1,5 +1,5 @@
 #Set this to true if you'd like the oven to only accept cooking oil as fuel (requires Pam's Harvestcraft)
-ovenRequiresCookingOil = false
+ovenRequiresCookingOil = true
 #Set to false if you don't want ingredients to be marked with a special icon in the recipe book.
 showIngredientIcon = true
 #The amount of milk the cow in a jar generates per tick.
@@ -11,7 +11,7 @@ sinkRequiresWater = false
 #Set this to true if you'd like to disallow automation of the oven (pipes and such won't be able to insert/extract)
 disallowOvenAutomation = false
 #The cooking time multiplier for the cooking oven. Higher values means it will take longer.
-ovenCookTimeMultiplier = 1.0
+ovenCookTimeMultiplier = 0.5
 #Toasting toasted bread again will turn into charcoal (only if no other mod adding toast is present). Set to false to disable.
 allowVeryToastedBread = true
 #If true, a cow can be squished into a Milk Jar by dropping an anvil on top.
@@ -19,5 +19,5 @@ cowJarEnabled = true
 #Enabling this will make the kitchen counters have twice as much inventory space.
 largeCounters = false
 #The fuel multiplier for the cooking oven. Higher values means fuel lasts longer, 1.0 is furnace default.
-ovenFuelTimeMultiplier = 0.33000001311302185
+ovenFuelTimeMultiplier = 1.0
 

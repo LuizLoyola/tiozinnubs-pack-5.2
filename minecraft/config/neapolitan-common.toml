@@ -41,7 +41,7 @@
 		#If Banana Plants can rarely generate with Suspicious Gravel and archaeology
 		"Suspicious Banana Plants" = true
 		#The percentage chance for a Suspicious Banana Plant to generate
-		"Suspicious Banana Plant chance" = 0.125
+		"Suspicious Banana Plant chance" = 0.08
 		#The minimum amount of Suspicious Gravel total that can spawn at a Suspicious Banana Plant
 		"Common Suspicious Gravel minimum" = 8
 		#The minimum amount of Suspicious Gravel with the rare archaeology loot table that can spawn at a Suspicious Banana Plant
