@@ -142,11 +142,11 @@
 
 		[tweaks.experience.anvil]
 			#If renaming items should always cost 1 experience
-			"Cheap item renaming" = true
+			"Cheap item renaming" = false
 			#Remove the cap of 40 on anvil repairing prices
 			"Remove too expensive" = true
 			#If anvils can be repaired by right clicking with an iron ingot or using a dispenser
-			"Anvil ingot repairing" = true
+			"Anvil ingot repairing" = false
 			#The amount of tries it should take on average to repair an anvil with an ingot (1 in x chance)
 			#Range: > 0
 			"Ingot repair chance" = 5
