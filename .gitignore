@@ -31,3 +31,5 @@ minecraft/xaero/minimap/
 minecraft/xaero/world-map/
 minecraft/XaeroWaypoints_*/
 server/
+
+minecraft/.mixin.out/
