@@ -1,16 +1,16 @@
-filename = 'tectonic-forge-1.20.1-2.4.1.jar'
+filename = 'tectonic-3.0.6-forge-1.20.1.jar'
 name = 'Tectonic'
-side = 'server'
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '64fc99b8df17999117f3f9ef460dcac9acddc70c418d236e7a7b1d489a10ac737eaedc15c01540f0bf9e2bf51aee04f16bfb741c680370ac69f6f2ca2af24afc'
+hash = 'e2e241d94ed0a6cb12f6640418bbd36c638c064b69e565111a2edb01c49d3f055368f2524446915f72f0dd1a0a90d1649795b22a7dc0d1bfe07b461ccae5dbbd'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/lWDHr9jE/versions/ubqOXeYf/tectonic-forge-1.20.1-2.4.1.jar'
+url = 'https://cdn.modrinth.com/data/lWDHr9jE/versions/rPf6mMAn/tectonic-3.0.6-forge-1.20.1.jar'
 
 [update.modrinth]
 mod-id = 'lWDHr9jE'
-version = 'ubqOXeYf'
+version = 'rPf6mMAn'

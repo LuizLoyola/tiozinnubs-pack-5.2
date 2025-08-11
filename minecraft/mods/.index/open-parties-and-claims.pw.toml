@@ -1,16 +1,16 @@
-filename = 'open-parties-and-claims-forge-1.20.1-0.24.0.jar'
+filename = 'open-parties-and-claims-forge-1.20.1-0.25.3.jar'
 name = 'Open Parties and Claims'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '351ff271cac9ff89e408b6e0fa6a473934496e34c10487610fb414cee61e721539be1d3ffabbf31408c2656b49c85bf8ae9c92aba16e5a7192e676d4ee3bee03'
+hash = '6d5fb0ac1400ba6c1a7e0320a6c5ed56535e1ffeda1bff191ef802907420d488e52b9ea5a5c3f3ba9fb37fccab9841661bac7294a46d6abcb03d229c76bc5dfa'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/gF3BGWvG/versions/pRiZtdXR/open-parties-and-claims-forge-1.20.1-0.24.0.jar'
+url = 'https://cdn.modrinth.com/data/gF3BGWvG/versions/Z4O1lWSZ/open-parties-and-claims-forge-1.20.1-0.25.3.jar'
 
 [update.modrinth]
 mod-id = 'gF3BGWvG'
-version = 'pRiZtdXR'
+version = 'Z4O1lWSZ'

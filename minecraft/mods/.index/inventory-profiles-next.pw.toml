@@ -1,16 +1,16 @@
-filename = 'InventoryProfilesNext-forge-1.20-1.10.16.jar'
+filename = 'InventoryProfilesNext-forge-1.20-1.10.18.jar'
 name = 'Inventory Profiles Next'
-side = 'client'
+side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '14bf3adf4e8249c3d9735d6f768eb299b0787b76bad6749491b6e392cecd51f55a7b8b137894a651ee9a94e7cc245bced694abebcde9e219eda348d2513b3e30'
+hash = 'fc91a4a0fa69f5dc185ad985bb04e6d29778d7f6d61407961f02dfa227371556371e01ad72e83b9e9f0e50d09026b88dc4e47a566f02aab8367f47650892b495'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/O7RBXm3n/versions/AzpKdY8i/InventoryProfilesNext-forge-1.20-1.10.16.jar'
+url = 'https://cdn.modrinth.com/data/O7RBXm3n/versions/zfMAJhHq/InventoryProfilesNext-forge-1.20-1.10.18.jar'
 
 [update.modrinth]
 mod-id = 'O7RBXm3n'
-version = 'AzpKdY8i'
+version = 'zfMAJhHq'

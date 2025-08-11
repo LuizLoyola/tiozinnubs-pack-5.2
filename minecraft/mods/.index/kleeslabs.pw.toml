@@ -1,16 +1,16 @@
-filename = 'kleeslabs-forge-1.20.1-15.0.8.jar'
+filename = 'kleeslabs-forge-1.20.1-15.0.9.jar'
 name = 'KleeSlabs'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'e311f5fc1fc4d827d35945c364aa757a48492caefb4ae84bbeb1b68e3bccf5713b17702ed230f43deeef42f46b5f537f434b554b04231e91cd2fbb0c36064e82'
+hash = 'ab76b2960dd1719e1c5a20db066634021e0d1a8dba5a2a7bf97c03d6c6c11efc74c34868b09af82189985a8b98bebd80a4d4c6d2c4f9cd41d2b05fef3884cdb1'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/7uh75ruZ/versions/u0OuPBOa/kleeslabs-forge-1.20.1-15.0.8.jar'
+url = 'https://cdn.modrinth.com/data/7uh75ruZ/versions/wIceOdyy/kleeslabs-forge-1.20.1-15.0.9.jar'
 
 [update.modrinth]
 mod-id = '7uh75ruZ'
-version = 'u0OuPBOa'
+version = 'wIceOdyy'

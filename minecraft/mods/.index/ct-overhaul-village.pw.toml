@@ -1,16 +1,16 @@
-filename = 'ctov-3.3.3.jar'
+filename = '[forge]ctov-3.4.14.jar'
 name = "ChoiceTheorem's Overhauled Village"
-side = 'server'
-x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'e4df497642ffa77f1452acc9a7b6b53b8b23bc62589ca81caf63678c20d772a8dba716a594172169ffd3d51111ff1a854a0b8c10fabcf8f2a2da196df772bc12'
+hash = '66c5846c0065afb1bad3001bccaa32f58cb8e608c3914d6611a20e30fd145dd0487a6255ee410b72cfee6f28f06c19dda4216459b230ded693c2772b2576b28e'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/fgmhI8kH/versions/f51MDpat/ctov-3.3.3.jar'
+url = 'https://cdn.modrinth.com/data/fgmhI8kH/versions/o7mg6MeV/%5Bforge%5Dctov-3.4.14.jar'
 
 [update.modrinth]
 mod-id = 'fgmhI8kH'
-version = 'f51MDpat'
+version = 'o7mg6MeV'

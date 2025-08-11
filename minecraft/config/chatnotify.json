@@ -1,12 +1,9 @@
 {
   "version": 9,
-  "detectionMode": "HUD_KNOWN_TAGS",
   "debugMode": "NONE",
   "notifMode": "ALL_SINGLE_SOUND",
   "restyleMode": "ALL_INSTANCES",
   "sendMode": "PACKET",
-  "senderDetectionMode": "COMBINED",
-  "checkOwnMessages": true,
   "soundSource": "PLAYERS",
   "defaultColor": 16761856,
   "defaultSound": {
@@ -16,6 +13,12 @@
     "volume": 1.0,
     "pitch": 1.0
   },
+  "detectionMode": "HUD_KNOWN_TAGS",
+  "actionBarDetectionMode": "NONE",
+  "titleDetectionMode": "NONE",
+  "subtitleDetectionMode": "NONE",
+  "senderDetectionMode": "COMBINED",
+  "checkOwnMessages": true,
   "prefixes": [
     "/shout",
     "/me",

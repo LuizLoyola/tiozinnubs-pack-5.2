@@ -1,16 +1,16 @@
-filename = 'smsn-forge-1.2.5+mc1.20.1.jar'
-name = 'Save My Shaky Network'
+filename = 'smsn-forge-1.20.1-1.2.7.jar'
+name = 'Save My Shit Network'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '5d524a1be43de39ae8e38e0a89bf6e8478e1ba051c50d0faae9f1f8fb18062e6d933fe7278bf75430bf7773f212d48fdf27cc334e43ece8e0933986425bea7d8'
+hash = '4cf8f509957de637b4145ea195840fe6e968ffe924327cec814217827eff230938dccb14ca8766b6e0746207785793885bb9930160815080e56dab5648f0857a'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/oXzIQwRj/versions/8EK0ryHJ/smsn-forge-1.2.5%2Bmc1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/oXzIQwRj/versions/3KpzhovE/smsn-forge-1.20.1-1.2.7.jar'
 
 [update.modrinth]
 mod-id = 'oXzIQwRj'
-version = '8EK0ryHJ'
+version = '3KpzhovE'
