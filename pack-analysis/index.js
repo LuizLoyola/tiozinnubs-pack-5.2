@@ -40,7 +40,7 @@ const ignoredDeps = [
 
 const equivalentMods = [
     ['puzzleslib', 'puzzlesapi', 'puzzlesaccessapi'],
-    ['create', 'flywheel'],
+    ['create', 'flywheel', 'ponder'],
     ['fabric', 'fabricloader', 'connector', 'connectormod'],
     ['fabric-api', 'fabric_api', 'fabric-api-base', 'fabric-resource-loader-v0', 'fabric-rendering-v1'],
     ['owo', 'owo-lib'],
