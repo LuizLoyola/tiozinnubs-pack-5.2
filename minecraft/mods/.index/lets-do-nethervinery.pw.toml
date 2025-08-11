@@ -1,0 +1,16 @@
+filename = 'letsdo-nethervinery-forge-1.2.19.jar'
+name = "[Let's Do] NetherVinery"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7da52de48e9d7143b6421155a7cc2c0c119759c32a6d5cc787034e6e7e7ac81820a77ef63e9aec90a3c657b68bd06577adda80176e800a832555cf50679bca75'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4TTDxtOx/versions/am5K7Gy8/letsdo-nethervinery-forge-1.2.19.jar'
+
+[update.modrinth]
+mod-id = '4TTDxtOx'
+version = 'am5K7Gy8'

@@ -1,0 +1,16 @@
+filename = 'ctov-floralis-compat-1.0.jar'
+name = 'CTOV - Floralis Compat'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '41ac3d0b3bc806578d4bf61de5ee181a7cfaef4d2a8d305fdf34d21c6b257e7df6001e5d64e8e9d93ff7497de9fbe9a4f3c94e7b2b5df110dec99d37b6e24432'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/t2YHGsHK/versions/PXQXOs9k/ctov-floralis-compat-1.0.jar'
+
+[update.modrinth]
+mod-id = 't2YHGsHK'
+version = 'PXQXOs9k'

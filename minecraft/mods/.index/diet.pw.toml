@@ -1,0 +1,16 @@
+filename = 'diet-forge-2.1.1+1.20.1.jar'
+name = 'Diet'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e8ecbd64c8b35f7758ddac572c5127003702bf7fa365c19f9a2eb92c476823c5ab8598836b87f7a50823bafdc23a9235a5285160ed0ba4be875f698263b8fcb9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SsIkH9rZ/versions/oHxMouff/diet-forge-2.1.1%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'SsIkH9rZ'
+version = 'oHxMouff'

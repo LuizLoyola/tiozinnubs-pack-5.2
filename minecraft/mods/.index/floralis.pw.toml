@@ -1,0 +1,16 @@
+filename = 'floralis-1.20.1-10.6.0.jar'
+name = 'Floralis'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8958cd9b16a2610a98f5a3a94ae136200249c96a8289a55eefa469e695af13969f6290c21eb41eb8ce638fedf98c9b74f1f60e96a8985c478ee734af90e22684'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1Nde79GO/versions/wS9vTU6m/floralis-1.20.1-10.6.0.jar'
+
+[update.modrinth]
+mod-id = '1Nde79GO'
+version = 'wS9vTU6m'

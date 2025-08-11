@@ -1,0 +1,16 @@
+filename = 'seasonals-1.20.1-5.0.2.jar'
+name = 'Seasonals'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '647189b92c104c74cc373f6b57cbf05ca4b0e001f29470a3515856818b5969d90af5db55ffa5bc0bfa05c4490e5fee7ddc2d8683ae63b749e5a6a1e41fedba86'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/P59fUQow/versions/2pzwVoQV/seasonals-1.20.1-5.0.2.jar'
+
+[update.modrinth]
+mod-id = 'P59fUQow'
+version = '2pzwVoQV'

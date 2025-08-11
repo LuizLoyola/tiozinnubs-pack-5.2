@@ -1,0 +1,16 @@
+filename = 'ctov-incubation-compat-2.0.jar'
+name = 'CTOV - Incubation Compat'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '739e46170814b4b2e124f6c9fa1ed671b4e4af8a7472b0ec705d5cde6542fc0829400f28e772ff3323912775205cdfb5fb71b66f183b09d13433f90111a62846'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wdHQKBmL/versions/PFSWYEa8/ctov-incubation-compat-2.0.jar'
+
+[update.modrinth]
+mod-id = 'wdHQKBmL'
+version = 'PFSWYEa8'

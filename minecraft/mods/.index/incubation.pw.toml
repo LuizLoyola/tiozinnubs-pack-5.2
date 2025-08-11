@@ -1,0 +1,16 @@
+filename = 'incubation-1.20.1-4.0.4.jar'
+name = 'Incubation'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b3a1dc70385bd91bd97571bdb9779ad5d6add6c5cbabc028bb73f700027a2bf03166f40f2214a2895dd4b8e8754a1c93d9aa55879c0ffb003d821b852fe787ea'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/A4Xrv60A/versions/WAqOPLlv/incubation-1.20.1-4.0.4.jar'
+
+[update.modrinth]
+mod-id = 'A4Xrv60A'
+version = 'WAqOPLlv'
