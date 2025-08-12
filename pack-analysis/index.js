@@ -1016,6 +1016,12 @@ const commands = {
             emiJson.favorites = [];
             emiJson.lookup_history = [];
             emiJson.craft_history = [];
+            emiJson.recipe_defaults = {
+                added: [],
+                tags: {},
+                resolutions: {},
+                disabled: []
+            };
 
             fs.writeFileSync(emiJsonPath, JSON.stringify(emiJson, null, 2));
             c.log(`Fixed EMI config.`);
