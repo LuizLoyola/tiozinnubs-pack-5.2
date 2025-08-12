@@ -1,0 +1,16 @@
+filename = 'forestry-1.20.1-2.6.2.jar'
+name = 'Forestry: Community Edition'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '81b8f07cb4e8f1fc85c9d4767448b9d0cfe7c8e936803e3342066167ccde3d200d643c29e315bab286ebebc15fb339c6c505ce210573d7f118d47215a858ba32'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2oORTOi2/versions/KcgBXDeI/forestry-1.20.1-2.6.2.jar'
+
+[update.modrinth]
+mod-id = '2oORTOi2'
+version = 'KcgBXDeI'

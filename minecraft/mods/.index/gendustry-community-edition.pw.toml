@@ -1,0 +1,16 @@
+filename = 'gendustry-1.20.1-1.0.3.jar'
+name = 'Gendustry: Community Edition'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '740c4470637afa33155ff32dfa26b9ae5498884bf9baf8f8393418c3252a8c9d34cd4deeff0bcb7d1f5e7ce8533591312fe275cedd37cf797f5115e220b4cda2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2zkSGMyK/versions/FlKzMztH/gendustry-1.20.1-1.0.3.jar'
+
+[update.modrinth]
+mod-id = '2zkSGMyK'
+version = 'FlKzMztH'

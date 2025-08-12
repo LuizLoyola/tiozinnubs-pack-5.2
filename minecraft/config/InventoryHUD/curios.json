@@ -62,6 +62,13 @@
     "halign": "LEFT",
     "valign": "TOP"
   },
+  "curio_2": {
+    "x": 0,
+    "y": 120,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
   "feet": {
     "x": 0,
     "y": 160,
