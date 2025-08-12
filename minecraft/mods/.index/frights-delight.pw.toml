@@ -1,0 +1,16 @@
+filename = 'frightsdelight-forge-1.20.1-1.3.3.jar'
+name = "Fright's Delight"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b00893be89e5d6e4ba1c31363e40d3ddd4686c71501d2ae5f7b095d7842b5a96d8e194e7de665cdeee1590058ad98a46f54cdd7e5a50c16a6aaf35a3d37df8c9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/awWvXlb2/versions/SvpkztAp/frightsdelight-forge-1.20.1-1.3.3.jar'
+
+[update.modrinth]
+mod-id = 'awWvXlb2'
+version = 'SvpkztAp'

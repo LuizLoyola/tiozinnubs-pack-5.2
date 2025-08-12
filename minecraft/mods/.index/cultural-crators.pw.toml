@@ -1,0 +1,16 @@
+filename = 'culturalcreators-1.0.jar'
+name = 'Cultural Creators'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4dde378776549cc5fd543679a5c3e7f87f1a05549a639cd5277b663ec7d020ede84098669a9bb6300f5a47cea055cece5606856fcbbbfba6ca204a53ad672419'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dsR1i0P9/versions/gJyt4FwB/culturalcreators-1.0.jar'
+
+[update.modrinth]
+mod-id = 'dsR1i0P9'
+version = 'gJyt4FwB'
