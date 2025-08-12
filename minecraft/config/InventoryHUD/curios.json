@@ -34,6 +34,20 @@
     "halign": "LEFT",
     "valign": "TOP"
   },
+  "bracelet_2": {
+    "x": 0,
+    "y": 60,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "bundle": {
+    "x": 0,
+    "y": 80,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
   "charm": {
     "x": 0,
     "y": 60,

@@ -1,0 +1,16 @@
+filename = 'extra_compat-1.5.25 (1).jar'
+name = 'Extra Compat'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '18997f248dedaee472b58d337dcc2a4f88beb4bd5827228d3e91bb204f763f1a07521c53e8f617de273b086e9285119fa1585c1584b3b858d11b1d75c91a4ce0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZEmnOZbp/versions/OrWDjxxP/extra_compat-1.5.25 %281%29.jar'
+
+[update.modrinth]
+mod-id = 'ZEmnOZbp'
+version = 'OrWDjxxP'

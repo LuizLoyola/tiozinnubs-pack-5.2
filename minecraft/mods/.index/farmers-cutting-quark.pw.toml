@@ -1,0 +1,16 @@
+filename = 'farmers-cutting-quark-1.0.0.jar'
+name = "Farmer's Cutting: Quark"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c20ad99b527c391f0bcf7f360de7b75d511cbb617bf9b2119113252579fa316141699e6462a6a3276a0b94a600ef609cd21c965f9558438c75adecd80bbdf7af'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rH2QzhPh/versions/jvk6T2SJ/farmers-cutting-quark-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'rH2QzhPh'
+version = 'jvk6T2SJ'
