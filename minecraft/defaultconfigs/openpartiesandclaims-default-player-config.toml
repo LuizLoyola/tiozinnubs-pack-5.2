@@ -463,3 +463,4 @@
 		receiveLocationsFromParty = true
 		#When enabled, the sharable positions of players from the mutual ally parties of the party that you are in are shared with your game client, which can be used by other mods, e.g. to display allies on a map.
 		receiveLocationsFromMutualAllyParties = true
+

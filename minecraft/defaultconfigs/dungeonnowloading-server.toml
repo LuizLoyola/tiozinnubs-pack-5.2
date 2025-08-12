@@ -38,3 +38,4 @@
 [pvp-settings]
 	#Whether some features work for Pvp purpose
 	toggle_pvp = true
+

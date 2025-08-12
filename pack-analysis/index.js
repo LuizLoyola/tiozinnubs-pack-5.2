@@ -6,11 +6,30 @@ const moment = require('moment');
 const prompt = require('prompt-sync')();
 const pc = require('picocolors');
 
+let logIndentLevel = 0;
+
+const addPref = (...args) => {
+    if (logIndentLevel <= 0) {
+        return args;
+    }
+
+    const pref = '| '.repeat(logIndentLevel)
+
+    if (args.length === 0) {
+        return pref;
+    }
+    const firstArg = `${pref}${args[0]}`;
+
+    return [firstArg, ...args.slice(1)];
+}
+
 const c = {
-    log: (...args) => console.log(pc.white(...args)),
-    warn: (...args) => console.log(pc.yellow(...args)),
-    error: (...args) => console.log(pc.red(...args)),
-    clear: () => console.clear()
+    log: (...args) => console.log(pc.white(...addPref(...args))),
+    warn: (...args) => console.log(pc.yellow(...addPref(...args))),
+    error: (...args) => console.log(pc.red(...addPref(...args))),
+    clear: () => console.clear(),
+    addLevel: () => logIndentLevel++,
+    remLevel: () => logIndentLevel > 0 ? logIndentLevel-- : 0
 }
 
 const rootFolder = path.join(__dirname, '..')
@@ -324,15 +343,19 @@ async function generateReport() {
 
     if (duplicates.length > 0) {
         c.warn(`Found mods with duplicate names:`);
+        c.addLevel();
 
         for (const name of duplicates) {
             const modsWithName = mods.filter(m => m.name === name);
-            c.warn(`- ${name} (${modsWithName.length})`);
+            c.warn(`${name} (${modsWithName.length})`);
+            c.addLevel();
             modsWithName.forEach(m => {
-                c.warn(`  - ${m.modId}`);
+                c.warn(m.modId);
                 m.name = `${m.name} (${m.modId})`;
             });
+            c.remLevel();
         }
+        c.remLevel();
 
         c.log('');
     }
@@ -770,8 +793,116 @@ const commands = {
             copiedFiles.push(mod.file);
             c.log(`Copied ${mod.name} (${mod.modId}) to server.`);
         }
+    },
+    autofix: async () => {
+        c.log('Auto-fixing config files...');
 
-        c.log('Server pack generated.');
+        // attributefix.json: sort all attributes
+        const attributeFixPath = path.join(minecraftFolder, 'config', 'attributefix.json');
+        if (fs.existsSync(attributeFixPath)) {
+            const attributeFix = JSON.parse(fs.readFileSync(attributeFixPath, 'utf8'));
+
+            // sort all attributes
+            const attributes = attributeFix.attributes;
+            const newAttributes = {};
+            Object.keys(attributes).sort().forEach((key) => {
+                const attr = attributes[key];
+                newAttributes[key] = attr;
+            });
+            attributeFix.attributes = newAttributes;
+            fs.writeFileSync(attributeFixPath, JSON.stringify(attributeFix, null, 2));
+            c.log(`Fixed AttributeFix config.`);
+        }
+
+        // curios.json: sort and format
+        const curiosJsonPath = path.join(minecraftFolder, 'config', 'InventoryHUD', 'curios.json');
+        if (fs.existsSync(curiosJsonPath)) {
+            const curios = JSON.parse(fs.readFileSync(curiosJsonPath, 'utf8'));
+
+            // sort
+            const keys = Object.keys(curios).sort();
+            const newCurios = {};
+            keys.forEach((key) => {
+                newCurios[key] = curios[key];
+            });
+            fs.writeFileSync(curiosJsonPath, JSON.stringify(newCurios, null, 2));
+            c.log(`Fixed Curios config.`);
+        }
+
+        // recipe-category-sort-order.ini: Set correct order of categories
+        const jeiRecipeCategorySortOrderPath = path.join(minecraftFolder, 'config', 'jei', 'recipe-category-sort-order.ini');
+        if (fs.existsSync(jeiRecipeCategorySortOrderPath)) {
+            const jeiRecipeCategorySortOrder = fs.readFileSync(jeiRecipeCategorySortOrderPath, 'utf8');
+            const categories = jeiRecipeCategorySortOrder.split('\n').filter(Boolean);
+
+            // starts with minecraft: and (Ice and Fire) doesn't end with dragonforge
+            const vanillaCategories = categories.filter(c => c.startsWith('minecraft:') && !c.endsWith('dragonforge'));
+            const nonVanillaCategories = categories.filter(c => !vanillaCategories.includes(c));
+
+            // sort vanilla categories, keeping minecraft:crafting the first
+            vanillaCategories.sort((a, b) => {
+                if (a === 'minecraft:crafting') return -1;
+                if (b === 'minecraft:crafting') return 1;
+                return a.localeCompare(b);
+            });
+
+            // sort non-vanilla categories, keeping jei:information first
+            nonVanillaCategories.sort((a, b) => {
+                if (a === 'jei:information') return -1;
+                if (b === 'jei:information') return 1;
+                return a.localeCompare(b);
+            });
+            const newCategories = [...vanillaCategories, ...nonVanillaCategories];
+
+            fs.writeFileSync(jeiRecipeCategorySortOrderPath, newCategories.join('\n'));
+            c.log(`Fixed JEI Recipe Category Sort Order config.`);
+        }
+
+        // emi.json: remove any user-specific stuff
+        const emiJsonPath = path.join(minecraftFolder, 'emi.json');
+        if (fs.existsSync(emiJsonPath)) {
+            const emiJson = JSON.parse(fs.readFileSync(emiJsonPath, 'utf8'));
+
+            // remove user-specific stuff
+            emiJson.favorites = [];
+            emiJson.lookup_history = [];
+            emiJson.craft_history = [];
+
+            fs.writeFileSync(emiJsonPath, JSON.stringify(emiJson, null, 2));
+            c.log(`Fixed EMI config.`);
+        }
+
+        // Copy over any new serverconfig
+        if (fs.existsSync(serverFolder)) {
+            const serverWorldConfigFolder = path.join(serverFolder, 'world', 'serverconfig');
+            if (fs.existsSync(serverWorldConfigFolder)) {
+                // delete defaultconfigs folder
+                const defaultConfigsFolder = path.join(minecraftFolder, 'defaultconfigs');
+                if (fs.existsSync(defaultConfigsFolder)) {
+                    fs.rmSync(defaultConfigsFolder, { recursive: true, force: true });
+                }
+
+                // copy the serverconfigs
+                fs.cpSync(serverWorldConfigFolder, defaultConfigsFolder, { recursive: true });
+
+                c.log('Synced the defaultconfigs.');
+            } else {
+                c.warn('No world config files found to copy.');
+                c.warn('Run the server to generate them.');
+            }
+        } else {
+            c.warn('No server files found to copy.');
+            c.warn('Run the "server" command to generate them.');
+        }
+
+        // .gitignore: sort
+        const gitignorePath = path.join(rootFolder, '.gitignore');
+        if (fs.existsSync(gitignorePath)) {
+            const gitignore = fs.readFileSync(gitignorePath, 'utf8');
+            const sorted = gitignore.split('\n').filter(Boolean).sort().join('\n');
+            fs.writeFileSync(gitignorePath, sorted);
+            c.log(`Fixed .gitignore.`);
+        }
     }
 }
 
@@ -791,6 +922,7 @@ async function main() {
         if (split.length === 0) continue;
         const commandName = split[0].toLowerCase();
 
+        c.addLevel();
         switch (commandName) {
             case 'report':
                 await generateReport();
@@ -921,6 +1053,11 @@ async function main() {
                 c.log('Server generated.');
                 break;
 
+            case 'autofix':
+                await commands.autofix();
+                c.log('Autofix applied.');
+                break;
+
             case 'exit':
                 return;
 
@@ -928,6 +1065,8 @@ async function main() {
                 c.warn('Unknown command.');
                 break;
         }
+        c.remLevel();
+        c.log('');
     }
 }
 
