@@ -1,0 +1,16 @@
+filename = 'aiotbotania-1.20.1-4.0.6.jar'
+name = 'AIOT Botania'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3227395186d54deb6eecb64d6247cf113302c8365c0ad544dab93a3dd80bc8f42cecebaff8e8481dd0207029502338025020886f577da0f9719c873e616aeda0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TFFWPTSD/versions/cjprVBKN/aiotbotania-1.20.1-4.0.6.jar'
+
+[update.modrinth]
+mod-id = 'TFFWPTSD'
+version = 'cjprVBKN'

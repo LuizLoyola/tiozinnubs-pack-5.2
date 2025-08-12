@@ -1,0 +1,16 @@
+filename = 'HammerLib-1.20.1-20.1.50.jar'
+name = 'HammerLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '85f1c4166eb978b88ba7afdebb172a9e150385243e41b014e245670b49941e37f6c62468059a57c70bf80c4eacb7ff38a6ebcbcc4d35ef809d07dfbaefc5320c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PlkSuVtM/versions/4gPgzjxl/HammerLib-1.20.1-20.1.50.jar'
+
+[update.modrinth]
+mod-id = 'PlkSuVtM'
+version = '4gPgzjxl'

@@ -1,0 +1,16 @@
+filename = 'botaniaartifacts-1.0.3.2-1.20.1.jar'
+name = 'Botania Artifacts'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8b46a72b3afd933bb350055e6352ed2abeeff8de2ce1cdeb08e4342259a55ae4457195db8074093ddd76e4df748c8db9b4130135bf29ab26e96835ff2cfd0d7a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LTkrKcvn/versions/rGumwCgS/botaniaartifacts-1.0.3.2-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'LTkrKcvn'
+version = 'rGumwCgS'

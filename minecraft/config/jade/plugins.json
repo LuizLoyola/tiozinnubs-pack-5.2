@@ -92,6 +92,9 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "hammerlib": {
+    "root": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
