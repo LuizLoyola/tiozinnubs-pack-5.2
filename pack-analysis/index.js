@@ -29,7 +29,30 @@ const c = {
     error: (...args) => console.log(pc.red(...addPref(...args))),
     clear: () => console.clear(),
     addLevel: () => logIndentLevel++,
-    remLevel: () => logIndentLevel > 0 ? logIndentLevel-- : 0
+    remLevel: () => logIndentLevel > 0 ? logIndentLevel-- : 0,
+    progress: (text, total) => {
+        let lastLineLength = 0;
+        let lastTotal = total;
+        const getCurrPadded = (c, t) => String(c).padStart(String(t ?? lastTotal ?? 0).length, ' ');
+        const write = (text) => {
+            const textToWrite = text.padEnd(lastLineLength, ' ');
+            lastLineLength = text.length;
+            process.stdout.cursorTo(0);
+            process.stdout.write(...addPref(textToWrite));
+        }
+        write(`${text}... (${getCurrPadded(0)}/${total})`);
+
+        return {
+            update: (current, total) => {
+                lastTotal = total;
+                write(`${text}... ${getCurrPadded(current, total)}/${total}`);
+            },
+            finish: () => {
+                write(`${text}... ${lastTotal}/${lastTotal} - Done`);
+                process.stdout.write('\n');
+            }
+        }
+    }
 }
 
 const rootFolder = path.join(__dirname, '..')
@@ -770,6 +793,8 @@ const commands = {
 
         const copiedFiles = [];
 
+        const operations = [];
+
         // copy mods
         for (const mod of mods) {
             if (copiedFiles.includes(mod.file)) continue;
@@ -789,10 +814,19 @@ const commands = {
 
             const modFile = path.join(modsFolder, mod.file);
             const destFile = path.join(serverFolder, 'mods', mod.file);
-            fs.copyFileSync(modFile, destFile);
+            operations.push({ src: modFile, dest: destFile });
             copiedFiles.push(mod.file);
-            c.log(`Copied ${mod.name} (${mod.modId}) to server.`);
         }
+
+        const progress = c.progress('Copying server mod files');
+
+        for (let id = 0; id < operations.length; id++) {
+            const operation = operations[id];
+            fs.copyFileSync(operation.src, operation.dest);
+
+            progress.update(id + 1, operations.length);
+        }
+        progress.finish();
     },
     autofix: async () => {
         c.log('Auto-fixing config files...');
