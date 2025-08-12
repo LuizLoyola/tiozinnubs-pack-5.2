@@ -1,0 +1,16 @@
+filename = 'occultengineering-1.20.1-0.8.1.jar'
+name = 'Create: Occult Engineering'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'd96689f4a8e202e08c2e608247038b212e67bad0ce144d067b788221d0b7c7fae1b60ac16c54520e3ab4ddc4cecca39a31ff82d2ac564a1b0c82c0c8f02b065c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FHMHF9Qr/versions/kv2VRVMA/occultengineering-1.20.1-0.8.1.jar'
+
+[update.modrinth]
+mod-id = 'FHMHF9Qr'
+version = 'kv2VRVMA'

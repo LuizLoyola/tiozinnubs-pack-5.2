@@ -1,0 +1,16 @@
+filename = 'creosotepath-1.1.0.jar'
+name = 'CreosotePatch'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd38b08c4029547d04bafce47f7c28968be4e276178d3272b8ecd9cba371e4467a5110e3031361ba75da85c8a9575bdc731212e56f67269436b28733a9605f301'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yhWkH1NS/versions/uZ5zLm5K/creosotepath-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'yhWkH1NS'
+version = 'uZ5zLm5K'
