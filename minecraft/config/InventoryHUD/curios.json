@@ -118,6 +118,13 @@
     "halign": "LEFT",
     "valign": "TOP"
   },
+  "ring_3": {
+    "x": 0,
+    "y": 260,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
   "shoes": {
     "x": 0,
     "y": 240,

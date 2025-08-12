@@ -1,6 +1,7 @@
 !minecraft/config/inventoryprofilesnext/inventoryprofiles.json
 .fuse_hidden*
 instance.cfg
+minecraft/.cache/
 minecraft/.mixin.out/
 minecraft/XaeroWaypoints_*/
 minecraft/cherishedworlds-favorites.dat

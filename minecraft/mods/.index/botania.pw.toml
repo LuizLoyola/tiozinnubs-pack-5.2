@@ -1,0 +1,16 @@
+filename = 'Botania-1.20.1-450-FORGE.jar'
+name = 'Botania'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a19581dbab10c93266418c7a2713454f8d5266fec03316252804be8829180cac535cb8cceeb37febe7e28a57b3ada4aa261164b821d3e48f2669cf8ae73716db'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pfjLUfGv/versions/cuN4HNDd/Botania-1.20.1-450-FORGE.jar'
+
+[update.modrinth]
+mod-id = 'pfjLUfGv'
+version = 'cuN4HNDd'

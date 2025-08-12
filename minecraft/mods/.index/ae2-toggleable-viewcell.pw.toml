@@ -1,0 +1,16 @@
+filename = 'AE2ToggleableViewCell-1.20.1-1.0.0.jar'
+name = 'AE2 Toggleable ViewCell'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1e3354a823004089aa9273a7b862b986237dfb5d1cc75157e97fe94e44d1fb93198ca9f7e063ba9a2a932cba1ba8b63f532fcd46488860705ead40a8a5724427'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7GNdjsfs/versions/d7jkyARB/AE2ToggleableViewCell-1.20.1-1.0.0.jar'
+
+[update.modrinth]
+mod-id = '7GNdjsfs'
+version = 'd7jkyARB'

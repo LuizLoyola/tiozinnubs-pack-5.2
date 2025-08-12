@@ -1,0 +1,16 @@
+filename = 'createartifactscompat-1.0.2.3-1.20.1.jar'
+name = 'Create Artifacts'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2e662a1a725e6e1982382679a96c8edf9546aa56ddead070ffc3fa7b6ea5c16a9c2b7aeccfb4490e2883c06af0354271fb57416f2d110192239148ba83c2ad48'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/h89fnqLn/versions/alIexIHv/createartifactscompat-1.0.2.3-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'h89fnqLn'
+version = 'alIexIHv'

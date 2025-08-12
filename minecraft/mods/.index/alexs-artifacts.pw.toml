@@ -1,0 +1,16 @@
+filename = 'alexsartifacts-1.0.3-1.20.1.jar'
+name = 'Alex’s Artifacts'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '808570482e924d671da2ce2f5ce2329c40cd3303b40c5d6de26992256747ee5e852ace5fe03ae10e1becaffa6bc99d00d32fddac6d6a721732bf271fc5d13b67'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/e2K1ji1q/versions/Pp3Bix8s/alexsartifacts-1.0.3-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'e2K1ji1q'
+version = 'Pp3Bix8s'
