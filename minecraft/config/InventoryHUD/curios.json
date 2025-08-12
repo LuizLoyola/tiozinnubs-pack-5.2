@@ -55,6 +55,27 @@
     "halign": "LEFT",
     "valign": "TOP"
   },
+  "charm_2": {
+    "x": 0,
+    "y": 400,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "charm_3": {
+    "x": 0,
+    "y": 420,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "charm_4": {
+    "x": 0,
+    "y": 440,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
   "curio": {
     "x": 0,
     "y": 280,

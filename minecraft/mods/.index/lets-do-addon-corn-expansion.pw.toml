@@ -1,0 +1,16 @@
+filename = 'cornexpansion-forge-1.0.4.jar'
+name = "[Let's Do Addon] Corn Expansion"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5bbaf32c6eb59933a61f4ce4fbee3f0d5c751d017920c02fd943c615d83dee564fbf2b2d538e8a3a96d5fe0ff90ca7cad24a34ee253155b32d8596d2581a20e6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/20p2kirx/versions/1YG0DxzU/cornexpansion-forge-1.0.4.jar'
+
+[update.modrinth]
+mod-id = '20p2kirx'
+version = '1YG0DxzU'

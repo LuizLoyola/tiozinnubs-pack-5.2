@@ -1,0 +1,16 @@
+filename = 'dragonfinder-1.20.1-1.0.0.jar'
+name = 'Ice and Fire: Dragon Finder'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '17a247ade2df68e59167f36682665298af471bab522d1b2d7f8be80d08c22ea314a8ea552474e10524f4819bda57de02117f4446b0fa70823c2eb981067ce87b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6jH64T6j/versions/W7d3gdr9/dragonfinder-1.20.1-1.0.0.jar'
+
+[update.modrinth]
+mod-id = '6jH64T6j'
+version = 'W7d3gdr9'

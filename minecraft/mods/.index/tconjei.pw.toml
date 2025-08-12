@@ -1,0 +1,16 @@
+filename = 'tconjei-1.20.1-1.5.0.jar'
+name = 'TConJEI'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ae8d600b2ce4e2da89ce8cad3ae24e46182cc19abf9ca9f2f54bd94e4eaa5ec28c8107983b4b0fd7bb93edb4aa89fe59a19cb59ae3002fc32072dfa71c920a7f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DhBtjMiv/versions/r2UoKjoQ/tconjei-1.20.1-1.5.0.jar'
+
+[update.modrinth]
+mod-id = 'DhBtjMiv'
+version = 'r2UoKjoQ'

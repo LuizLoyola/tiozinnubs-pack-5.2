@@ -1,0 +1,16 @@
+filename = 'geotagged_screenshots-1.20.1-0.2.0.jar'
+name = 'Geotagged Screenshots'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '5552d8369f80ef84c86271d8cc15c21cca7d6dd501cb618cdef67e6b0a7780fd2a413cb9975a6bf8d1289d294e86c904a2ec189e721215be15885d94a5264b40'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7CySswUz/versions/XOCJRki9/geotagged_screenshots-1.20.1-0.2.0.jar'
+
+[update.modrinth]
+mod-id = '7CySswUz'
+version = 'XOCJRki9'

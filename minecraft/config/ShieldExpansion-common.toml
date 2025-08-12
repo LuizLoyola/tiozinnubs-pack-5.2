@@ -3,7 +3,7 @@
 	#
 	#List of items to considered as shields, any item with right-click functionality will theoretically work
 	#Automatically populated with items that have parrying stats set by active datapacks
-	shieldList = ["alexsmobs:shield_of_the_deep", "artifacts:umbrella", "blue_skies:moonstone_shield", "blue_skies:spike_shield", "minecraft:shield", "shieldexp:diamond_shield", "shieldexp:golden_shield", "shieldexp:iron_shield", "shieldexp:netherite_shield", "shieldexp:wooden_shield", "stalwart_dungeons:chorundum_shield", "stalwart_dungeons:tungsten_shield", "stalwart_dungeons:warted_tungsten_shield", "sullysmod:jade_shield", "twilightforest:knightmetal_shield", "undergarden:cloggrum_shield"]
+	shieldList = ["alexsmobs:shield_of_the_deep", "artifacts:umbrella", "blue_skies:moonstone_shield", "blue_skies:spike_shield", "minecraft:shield", "shieldexex:adamantite_shield", "shieldexex:adamantite_tower_shield", "shieldexex:diamond_shield", "shieldexex:diamond_tower_shield", "shieldexex:golden_shield", "shieldexex:golden_tower_shield", "shieldexex:iron_shield", "shieldexex:iron_tower_shield", "shieldexex:netherite_shield", "shieldexex:netherite_tower_shield", "shieldexex:stone_shield", "shieldexex:stone_tower_shield", "shieldexex:wooden_shield", "shieldexex:wooden_tower_shield", "shieldexp:diamond_shield", "shieldexp:golden_shield", "shieldexp:iron_shield", "shieldexp:netherite_shield", "shieldexp:wooden_shield", "stalwart_dungeons:chorundum_shield", "stalwart_dungeons:tungsten_shield", "stalwart_dungeons:warted_tungsten_shield", "sullysmod:jade_shield", "twilightforest:knightmetal_shield", "undergarden:cloggrum_shield"]
 	#
 	#List of items to not consider as shields, even if they have stats set by a datapack
 	shieldBlacklist = []
@@ -27,4 +27,3 @@
 	#
 	#Double the shield stamina for a more relaxed experience
 	lenientStaminaMode = false
-

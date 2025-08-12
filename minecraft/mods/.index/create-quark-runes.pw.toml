@@ -1,0 +1,16 @@
+filename = 'Butters-CreateQuarkRecipe-1.20.1.jar'
+name = 'Create: Quark Runes'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '6e629e57927d2ece1c82b90e302a2cbd289488aa7c5e805e7cbde9c4e8d06720543f52fe906f9b04fe755c7646d52f910b0de8eccbba1e7a1d9f5f3f1a1f6184'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GJs4Y70q/versions/rbdwhH7W/Butters-CreateQuarkRecipe-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'GJs4Y70q'
+version = 'rbdwhH7W'
