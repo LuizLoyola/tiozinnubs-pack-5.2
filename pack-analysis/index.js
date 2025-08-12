@@ -794,6 +794,11 @@ const commands = {
         c.log(`Mod "${mod.name}" ${enabled ? 'enabled' : 'disabled'}.`);
     },
     server: async () => {
+        if (isServerRunning()) {
+            c.warn("Server is running. Can't generate server.");
+            return;
+        }
+
         c.log('Generating server...');
 
         if (fs.existsSync(serverFolder)) {
@@ -969,7 +974,7 @@ const commands = {
             const curios = JSON.parse(fs.readFileSync(curiosJsonPath, 'utf8'));
 
             // sort
-            const keys = Object.keys(curios).sort();
+            // const keys = Object.keys(curios).sort(); // not sorting temporarily to see the default order
             const newCurios = {};
             keys.forEach((key) => {
                 newCurios[key] = curios[key];
@@ -1223,7 +1228,6 @@ async function main() {
 
             case 'server':
                 await commands.server();
-                c.log('Server generated.');
                 break;
 
             case 'runserver':
