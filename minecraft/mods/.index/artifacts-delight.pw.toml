@@ -1,0 +1,16 @@
+filename = 'artifactsdelight-1.0.2.2-1.20.1.jar'
+name = 'Artifacts Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '835a25057d1bcddb363e8311fc3c32fd3bc0588044e3414329642b3efb353f87e859d2e91c0502aea9137c99adbe286ef4ac3b532e6a60775eb22ebd31ba8264'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bbQvw0zL/versions/uxLuyn8J/artifactsdelight-1.0.2.2-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'bbQvw0zL'
+version = 'uxLuyn8J'

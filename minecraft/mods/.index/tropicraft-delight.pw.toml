@@ -1,0 +1,16 @@
+filename = 'tropicraftdelight-1.1.0-1.20.1.jar'
+name = 'Tropicraft Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2cb4e2fe5a820a3310e7abd6011909c8e11f3ee3791a478c551f89b42a8c742b1a34710d72ef9ecc7cb4bdc2561d3fa80944fa945bc81b7c1c717e76dbc00caf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/THfVRQdH/versions/o1EdKBD4/tropicraftdelight-1.1.0-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'THfVRQdH'
+version = 'o1EdKBD4'

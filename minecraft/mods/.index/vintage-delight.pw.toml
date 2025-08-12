@@ -1,0 +1,16 @@
+filename = 'vintagedelight-0.1.6.jar'
+name = 'Vintage Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'aa8a527c0db8f0b24f3444bf072ca98130fb1cf4e59a273922d874cd6a2bf1c992d5b717db278e778543aaa967a5b78131b25ae318beeb6eb63b5e3b3bb29e56'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/T7XZLHGD/versions/q8Ght7Bo/vintagedelight-0.1.6.jar'
+
+[update.modrinth]
+mod-id = 'T7XZLHGD'
+version = 'q8Ght7Bo'

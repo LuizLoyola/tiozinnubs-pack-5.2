@@ -54,6 +54,33 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "balm": {
+    "jade": true
+  },
+  "barbequesdelight": {
+    "grill": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true,
+    "mushroom_colony": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "mod_name": true
+  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
@@ -67,41 +94,13 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "arsmagicalegacy": {
-    "altar": true,
-    "etherium": true
+  "supplementaries": {
+    "hat_stand": true
   },
   "twilightforest": {
     "quest_ram_wool": true
   },
-  "supplementaries": {
-    "hat_stand": true
-  },
-  "jade": {
-    "coordinates.rel": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "mod_name": true
-  },
-  "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
-  },
   "waystones": {
     "waystone": true
-  },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "preservation_chamber": true,
-    "milk_jar": true,
-    "toaster": true
-  },
-  "balm": {
-    "jade": true
   }
 }

@@ -1,0 +1,16 @@
+filename = 'mowziesdelight-1.1.2.1-1.20.1.jar'
+name = "Mowzie's Delight"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '94c3fcbc3f2330d6c0348342a958b927d486e7ffb7c1f00505821537348ab8abb672bd239eb07e2ad14829e45ce3d17b4fd0c16823d9a7e1dc543656531f03f5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Sks5fovq/versions/8YTMHUIv/mowziesdelight-1.1.2.1-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'Sks5fovq'
+version = '8YTMHUIv'

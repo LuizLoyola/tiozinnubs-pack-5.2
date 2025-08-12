@@ -1,0 +1,16 @@
+filename = 'MEED-1.20.1-5.7.jar'
+name = 'Moderately Enough Effect Descriptions (MEED)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '816288f1aa08de3d3422a0ae896eb48d3653a79c6199301e314a62458fb9d6e154b9674f8b4d90a683edb0e3dd60c94cf497436e1e03eecf412d2ef78460e1be'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1dxbxzCg/versions/VLkj6ZLI/MEED-1.20.1-5.7.jar'
+
+[update.modrinth]
+mod-id = '1dxbxzCg'
+version = 'VLkj6ZLI'

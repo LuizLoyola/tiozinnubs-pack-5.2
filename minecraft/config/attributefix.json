@@ -154,6 +154,17 @@
         "value": 1024
       }
     },
+    "ice_and_fire_delight:number_of_explosions": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 9999,
+        "value": 9999
+      }
+    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
