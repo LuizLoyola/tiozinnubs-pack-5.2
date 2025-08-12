@@ -1,7 +1,7 @@
 
 [General]
 	#This variable is responsible for give book on startup or not. Default: true  
-	give_book_on_startup = true
+	give_book_on_startup = false
 
 ["Special pie"]
 	#Will there be an explosion when eating a special pie. Default: true
