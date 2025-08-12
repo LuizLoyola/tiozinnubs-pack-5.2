@@ -903,6 +903,24 @@ const commands = {
             fs.writeFileSync(gitignorePath, sorted);
             c.log(`Fixed .gitignore.`);
         }
+
+        // jade/plugins.json: sort
+        const jadePluginsJsonPath = path.join(minecraftFolder, 'config', 'jade', 'plugins.json');
+        if (fs.existsSync(jadePluginsJsonPath)) {
+            const plugins = JSON.parse(fs.readFileSync(jadePluginsJsonPath, 'utf8'));
+
+            // first is always minecraft
+            const newPlugins = {
+                minecraft: plugins.minecraft,
+            };
+
+            Object.keys(plugins).filter(key => key !== 'minecraft').sort().forEach((key) => {
+                newPlugins[key] = plugins[key];
+            });
+
+            fs.writeFileSync(jadePluginsJsonPath, JSON.stringify(newPlugins, null, 2));
+            c.log(`Fixed Jade Plugins order.`);
+        }
     }
 }
 
