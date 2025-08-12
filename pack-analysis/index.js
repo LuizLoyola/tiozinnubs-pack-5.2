@@ -5,6 +5,7 @@ const toml = require('toml');
 const moment = require('moment');
 const prompt = require('prompt-sync')();
 const pc = require('picocolors');
+const { spawn, execSync } = require('child_process');
 
 let logIndentLevel = 0;
 
@@ -33,23 +34,31 @@ const c = {
     progress: (text, total) => {
         let lastLineLength = 0;
         let lastTotal = total;
+        let lastProgress = 0;
         const getCurrPadded = (c, t) => String(c).padStart(String(t ?? lastTotal ?? 0).length, ' ');
         const write = (text) => {
             const textToWrite = text.padEnd(lastLineLength, ' ');
             lastLineLength = text.length;
-            process.stdout.cursorTo(0);
-            process.stdout.write(...addPref(textToWrite));
+            if (!debug) {
+                process.stdout.cursorTo(0);
+                process.stdout.write(...addPref(textToWrite));
+            } else {
+                c.log(...addPref(textToWrite));
+            }
         }
-        write(`${text}... (${getCurrPadded(0)}/${total})`);
+        write(`${text}... ${getCurrPadded(0)}/${total}`);
 
         return {
             update: (current, total) => {
                 lastTotal = total;
+                lastProgress = current;
                 write(`${text}... ${getCurrPadded(current, total)}/${total}`);
             },
-            finish: () => {
-                write(`${text}... ${lastTotal}/${lastTotal} - Done`);
-                process.stdout.write('\n');
+            finish: (customMessage) => {
+                write(`${text}... ${lastProgress}/${lastTotal} - ${customMessage ?? 'Done'}`);
+                if (!debug) {
+                    process.stdout.write('\n');
+                }
             }
         }
     }
@@ -72,6 +81,7 @@ let mods;
 const args = process.argv.slice(2);
 // if --report is passed, generate report and exit
 const reportOnly = args.includes('--report');
+const debug = args.includes('--debug');
 
 const ignoredDeps = [
     'java',
@@ -675,6 +685,16 @@ async function generateReport() {
     fs.writeFileSync(reportPath, reportText);
 }
 
+const isServerRunning = () => {
+    // check if server is currently running
+    const serverPidFile = path.join(serverFolder, 'server.pid');
+    if (!fs.existsSync(serverPidFile)) {
+        return undefined;
+    }
+
+    return Number(fs.readFileSync(serverPidFile, 'utf8').trim());
+}
+
 const commands = {
     toggleMod: async (modId, enabled) => {
         const mod = mods.find(m => m.modId === modId);
@@ -828,6 +848,101 @@ const commands = {
         }
         progress.finish();
     },
+    runServer: async () => {
+        let pid = isServerRunning();
+
+        if (pid) {
+            c.warn(`Server is already running with PID ${pid}.`);
+            return;
+        }
+
+        const child = spawn('bash', [
+            '-c',
+            'screen -d -m -S mc-server ./run.sh'
+        ], {
+            detached: true,
+            stdio: 'ignore',
+            cwd: serverFolder
+        });
+
+        child.unref();
+
+        while (!(pid = isServerRunning())) {
+            await new Promise(resolve => setTimeout(resolve, 100));
+        }
+
+        c.log(`Server started in a screen named "mc-server". (PID: ${pid})`);
+    },
+    stopServer: async () => {
+        let pid = isServerRunning();
+
+        if (!pid) {
+            c.warn('Server is not running. (No PID)');
+        }
+
+        // list screen, find mc-server
+
+        const listScreensCommand = 'screen -list';
+        const screens = execSync(listScreensCommand, { cwd: serverFolder, stdout: 'pipe' }).toString();
+        const mcServerScreen = screens.split('\n').find(line => line.includes('mc-server'));
+
+        if (mcServerScreen) {
+            const screenId = mcServerScreen.split('.')[0];
+            execSync(`screen -S ${screenId} -X stuff stop^M`);
+
+            const maxWait = 15;
+            const progress = c.progress('Waiting for server to stop', maxWait);
+            let secondsPassed = 0;
+            let failedToStop = false;
+
+            do {
+                progress.update(secondsPassed, maxWait);
+
+                await new Promise(resolve => setTimeout(resolve, 1000));
+                secondsPassed++;
+
+                if (secondsPassed >= maxWait) {
+                    failedToStop = true;
+                    progress.update(maxWait, maxWait);
+                    progress.finish('Failed');
+                    break;
+                }
+            } while (pid = isServerRunning());
+
+            if (!failedToStop) {
+                progress.update(secondsPassed, maxWait);
+                progress.finish();
+                c.log('Server stopped.');
+                return;
+            }
+
+            c.warn('Failed to stop server gracefully. Killing PID.');
+        } else {
+            c.warn('Server is not on a screen.');
+        }
+
+        if (pid) {
+            // get java process PID from bash PID
+            c.log(`From Bash PID ${pid}, finding Java PID`);
+            const psOutput = execSync(`ps --ppid ${pid} -o pid,cmd`, { stdout: 'pipe' }).toString();
+            const javaLine = psOutput.split('\n').find(line => line.includes('java')).trim();
+            const javaPid = Number(javaLine ? Number(javaLine.split(' ')[0]) : null);
+
+            c.log(`Found Java PID: ${javaPid}`);
+
+            process.kill(javaPid);
+
+            await new Promise(resolve => setTimeout(resolve, 1000));
+
+            if (pid = isServerRunning()) {
+                c.warn('Server is still running after kill signal.');
+            } else {
+                c.warn('Server stopped forcefully.');
+            }
+        } else {
+            c.warn("No PID? Can't kill server.");
+        }
+    },
     autofix: async () => {
         c.log('Auto-fixing config files...');
 
@@ -965,7 +1080,7 @@ async function main() {
     await generateReport();
     c.log('Report generated.');
 
-    while (!reportOnly) {
+    while (!reportOnly && !debug) {
         const command = prompt('Type command: ');
 
         // get first word, safely
@@ -1105,6 +1220,12 @@ async function main() {
                 c.log('Server generated.');
                 break;
 
+            case 'runserver':
+                await commands.runServer();
+                break;
+            case 'stopserver':
+                await commands.stopServer();
+                break;
             case 'autofix':
                 await commands.autofix();
                 c.log('Autofix applied.');
@@ -1119,6 +1240,10 @@ async function main() {
         }
         c.remLevel();
         c.log('');
+    }
+
+    if (debug) {
+        c.log('Debug mode is enabled. Exiting without asking for command.');
     }
 }
 
