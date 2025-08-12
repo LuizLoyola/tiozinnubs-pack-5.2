@@ -17,7 +17,7 @@
 		#
 		#Find more on: https://github.com/Lounode/Extrabotany
 		#If you prefer not to participate, set the option below to false
-		enableTelemetry = true
+		enableTelemetry = false
 		#遥测数据UUID
 		#The UUID of the telemetry data
 		telemetryUUID = "0062dfbc-e4ae-46fa-b971-06bfe28a1e01"
