@@ -974,7 +974,7 @@ const commands = {
             const curios = JSON.parse(fs.readFileSync(curiosJsonPath, 'utf8'));
 
             // sort
-            // const keys = Object.keys(curios).sort(); // not sorting temporarily to see the default order
+            const keys = Object.keys(curios).sort(); // not sorting temporarily to see the default order
             const newCurios = {};
             keys.forEach((key) => {
                 newCurios[key] = curios[key];
@@ -1127,15 +1127,25 @@ async function main() {
                 break;
 
             case 'category':
+                const categories = [...new Set(mods.map(m => m.category))].filter(c => c);
+
+                if (split.length == 2 && split[1] === 'list') {
+                    c.log(`Available categories:`);
+                    c.addLevel();
+                    categories.forEach((cat) => {
+                        c.log(cat);
+                    });
+                    c.remLevel();
+                    break;
+                }
+
                 if (split.length < 3 || !['list', 'enable', 'disable'].includes(split[2])) {
-                    c.warn('Usage: category <name> <list|enable|disable>');
+                    c.warn('Usage: category <name> <list|enable|disable> OR category list');
                     break;
                 }
 
                 const categoryName = split[1];
                 const categoryAction = split[2];
-
-                const categories = [...new Set(mods.map(m => m.category))].filter(c => c);
 
                 if (!categories.includes(categoryName)) {
                     c.warn(`Category "${categoryName}" not found.`);
