@@ -25,7 +25,7 @@
     "shaderpackTint": true,
     "yLevelWindAdjustment": true,
     "syncRegistries": true,
-    "crossBiomeBorder": false,
+    "crossBiomeBorder": true,
     "useHeightmapTemp": true,
     "canSpawnAboveClouds": true
   },
