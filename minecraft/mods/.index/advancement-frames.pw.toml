@@ -1,0 +1,16 @@
+filename = 'advancementframes-1.20-2.2.8.jar'
+name = 'Advancement Frames'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e099a7142479de1a60ea46d9eeaf6d6979f11c65b152248fc18185993c6de2db79f555977cca58bc30ff8af53e8f501b0f084116186a827b91ccb112ae712805'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zUBn5hHr/versions/EsNhY5lO/advancementframes-1.20-2.2.8.jar'
+
+[update.modrinth]
+mod-id = 'zUBn5hHr'
+version = 'EsNhY5lO'

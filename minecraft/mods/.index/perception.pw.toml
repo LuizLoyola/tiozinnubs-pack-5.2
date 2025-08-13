@@ -1,0 +1,16 @@
+filename = 'Perception-FORGE-0.1.4+1.20.1.jar'
+name = 'Perception'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '76b15443b3c2d6d63f19b7def90d85da172864dc86728d900aaa233207eefddf0500609f7dd2827b0bf919e8cb8c15d3e00822e3fbde1e1285c61ac3c5783c39'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/P8STLvzB/versions/CucvhaTX/Perception-FORGE-0.1.4%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'P8STLvzB'
+version = 'CucvhaTX'
