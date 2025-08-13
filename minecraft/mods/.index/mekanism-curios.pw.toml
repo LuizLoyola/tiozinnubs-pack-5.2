@@ -1,0 +1,16 @@
+filename = 'mekanismcurios-1.20.1-1.2.1.jar'
+name = 'Mekanism Curios'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2278dd3fc6ea5f58769840668a1e57cb0a20d26b077e8e5d19bf24cc2665a5c0f4921e754be1b18c111ae40afec0ca3382b13c9f17306593e5db796834429b64'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uKJX4EfN/versions/xib8LyoE/mekanismcurios-1.20.1-1.2.1.jar'
+
+[update.modrinth]
+mod-id = 'uKJX4EfN'
+version = 'xib8LyoE'

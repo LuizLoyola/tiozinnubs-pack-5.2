@@ -125,9 +125,23 @@
     "halign": "LEFT",
     "valign": "TOP"
   },
+  "magnetizer": {
+    "x": 0,
+    "y": 140,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
   "necklace": {
     "x": 0,
     "y": 40,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "qio": {
+    "x": 0,
+    "y": 480,
     "enabled": false,
     "halign": "LEFT",
     "valign": "TOP"
@@ -156,6 +170,13 @@
   "shoes": {
     "x": 0,
     "y": 240,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "teleporter": {
+    "x": 0,
+    "y": 520,
     "enabled": false,
     "halign": "LEFT",
     "valign": "TOP"

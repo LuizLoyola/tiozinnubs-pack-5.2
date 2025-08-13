@@ -1,0 +1,16 @@
+filename = 'mekanism_turrets-1.2.1.jar'
+name = 'Mekanism Turrets'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9e5c82f28ec5379108a776a2821a1e3a0ce346487f36c0961cb92c70ca6228a6342343e472d337a28d8bb579065ae88a73d25c9e58e2dd957d42f190b861682b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WXVvYlIb/versions/iJAO5FoF/mekanism_turrets-1.2.1.jar'
+
+[update.modrinth]
+mod-id = 'WXVvYlIb'
+version = 'iJAO5FoF'

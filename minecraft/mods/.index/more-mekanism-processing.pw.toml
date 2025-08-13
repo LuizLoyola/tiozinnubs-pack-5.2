@@ -1,0 +1,16 @@
+filename = 'MoreMekanismProcessing-1.20.1-4.2.jar'
+name = 'More Mekanism Processing'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1a21fabc92dd6c385a2d7db4c81fa290d06cfc12301e1e9c8bde32cbc325f710a123b0272f1c7c97560124ad7655bf0083a33f03d1280f0998c6538132878e0c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fVa04tKz/versions/dWH2loYd/MoreMekanismProcessing-1.20.1-4.2.jar'
+
+[update.modrinth]
+mod-id = 'fVa04tKz'
+version = 'dWH2loYd'
