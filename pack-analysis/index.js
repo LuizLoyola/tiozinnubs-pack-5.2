@@ -30,7 +30,13 @@ const c = {
     error: (...args) => console.log(pc.red(...addPref(...args))),
     clear: () => console.clear(),
     addLevel: () => logIndentLevel++,
-    remLevel: () => logIndentLevel > 0 ? logIndentLevel-- : 0,
+    remLevel: (finishText) => {
+        logIndentLevel > 0 ? logIndentLevel-- : 0;
+
+        if (finishText) {
+            c.log(`'- ${finishText}`);
+        }
+    },
     progress: (text, total) => {
         let lastLineLength = 0;
         let lastTotal = total;
@@ -59,6 +65,33 @@ const c = {
                 if (!debug) {
                     process.stdout.write('\n');
                 }
+            }
+        }
+    },
+    wrapFunction: (title, fun) => {
+        return (params) => {
+            c.log(title);
+            c.addLevel();
+            try {
+                fun(params);
+            } catch (e) {
+                c.error('Error occurred while executing this function!');
+                throw e;
+            } finally {
+                c.remLevel();
+            }
+        }
+    },
+    wrapFunctionAsync: (title, asyncFun) => {
+        return async (params) => {
+            c.log(title);
+            c.addLevel();
+            try {
+                await asyncFun(params);
+                c.remLevel('Done!');
+            } catch (e) {
+                c.remLevel('Error occurred while executing this function!');
+                throw e;
             }
         }
     }
@@ -103,7 +136,7 @@ const equivalentMods = [
 
 const ignoredOptDeps = fs.existsSync(ignoredOptDepsPath) ? [...new Set(fs.readFileSync(ignoredOptDepsPath, 'utf8').split('\n').map(l => l.trim()).filter(l => l))] : [];
 
-async function generateReport() {
+const generateReport = c.wrapFunctionAsync('Generating report', async () => {
     // filter files only
     modFiles = fs.readdirSync(modsFolder).filter((file) => fs.statSync(path.join(modsFolder, file)).isFile() && ['.jar', '.jar.disabled'].some(ext => file.endsWith(ext)));
 
@@ -684,7 +717,7 @@ async function generateReport() {
 
     // write report
     fs.writeFileSync(reportPath, reportText);
-}
+});
 
 const isServerRunning = () => {
     // check if server is currently running
@@ -697,7 +730,7 @@ const isServerRunning = () => {
 }
 
 const commands = {
-    toggleMod: async (modId, enabled) => {
+    toggleMod: c.wrapFunctionAsync('Toggling mod...', async (modId, enabled) => {
         const mod = mods.find(m => m.modId === modId);
 
         if (!mod) {
@@ -793,8 +826,8 @@ const commands = {
         }
 
         c.log(`Mod "${mod.name}" ${enabled ? 'enabled' : 'disabled'}.`);
-    },
-    server: async () => {
+    }),
+    server: c.wrapFunctionAsync('Generating server files...', async () => {
         if (isServerRunning()) {
             c.warn("Server is running. Can't generate server.");
             return;
@@ -853,8 +886,8 @@ const commands = {
             progress.update(id + 1, operations.length);
         }
         progress.finish();
-    },
-    runServer: async () => {
+    }),
+    runServer: c.wrapFunctionAsync('Running server...', async () => {
         let pid = isServerRunning();
 
         if (pid) {
@@ -878,8 +911,8 @@ const commands = {
         }
 
         c.log(`Server started in a screen named "mc-server". (PID: ${pid})`);
-    },
-    stopServer: async () => {
+    }),
+    stopServer: c.wrapFunctionAsync('Stopping server...', async () => {
         let pid = isServerRunning();
 
         if (!pid) {
@@ -930,12 +963,17 @@ const commands = {
         if (pid) {
             // get java process PID from bash PID
             c.log(`From Bash PID ${pid}, finding Java PID`);
+            let psOutput = '';
             try {
-                const psOutput = execSync(`ps --ppid ${pid} -o pid,cmd`, { stdout: 'pipe' }).toString();
+                psOutput = execSync(`ps --ppid ${pid} -o pid,cmd`, { stdout: 'pipe' }).toString();
             } catch {
                 c.error(`Failed to get children of process ${pid}.`);
+
+                // just kill the screen
+                execSync(`screen -S ${screenId} -X quit`);
                 return;
             }
+
             const javaLine = psOutput.split('\n').find(line => line.includes('java')).trim();
             const javaPid = Number(javaLine ? Number(javaLine.split(' ')[0]) : null);
 
@@ -953,8 +991,8 @@ const commands = {
         } else {
             c.warn("No PID? Can't kill server.");
         }
-    },
-    autofix: async () => {
+    }),
+    autofix: c.wrapFunctionAsync('Auto-fixing...', async () => {
         c.log('Auto-fixing config files...');
 
         // attributefix.json: sort all attributes
@@ -1103,7 +1141,7 @@ const commands = {
             fs.writeFileSync(optionsTxtPath, [...pre, ...keybinds.sort(), ...post].join('\n'));
             c.log(`Fixed options.txt.`);
         }
-    }
+    })
 }
 
 async function main() {
@@ -1126,7 +1164,6 @@ async function main() {
         switch (commandName) {
             case 'report':
                 await generateReport();
-                c.log('Report generated.');
                 break;
             case 'disable':
                 if (split.length < 2) {
@@ -1270,9 +1307,26 @@ async function main() {
                 break;
             case 'autofix':
                 await commands.autofix();
-                c.log('Autofix applied.');
                 break;
 
+            case 'refresh':
+                c.log('Automatically refreshing everything...');
+
+                // re-generate report
+                await generateReport();
+                c.log('');
+
+                // auto-fix
+                await commands.autofix();
+                c.log('');
+                await commands.stopServer();
+                c.log('');
+                await commands.server();
+                c.log('');
+                await commands.runServer();
+
+                c.log('Everything refreshed successfully.');
+                break;
             case 'exit':
                 return;
 
