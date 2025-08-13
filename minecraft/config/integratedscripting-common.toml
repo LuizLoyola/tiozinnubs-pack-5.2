@@ -51,5 +51,5 @@
 
 	[core.general]
 		#If the version checker should be enabled.
-		versionChecker = true
+		versionChecker = false
 
