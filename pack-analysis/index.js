@@ -984,7 +984,7 @@ const commands = {
             await new Promise(resolve => setTimeout(resolve, 1000));
 
             if (pid = isServerRunning()) {
-                c.warn('Server is still running after kill signal.');
+                c.error('Server is still running after kill signal.');
             } else {
                 c.warn('Server stopped forcefully.');
             }
@@ -1140,6 +1140,17 @@ const commands = {
 
             fs.writeFileSync(optionsTxtPath, [...pre, ...keybinds.sort(), ...post].join('\n'));
             c.log(`Fixed options.txt.`);
+        }
+
+        // jaopca bak files: remove
+        const jaopcaConfigPath = path.join(minecraftFolder, 'config', 'jaopca', 'materials');
+        if (fs.existsSync(jaopcaConfigPath)) {
+            // remove all .bak files in this folder
+            const bakFiles = fs.readdirSync(jaopcaConfigPath).filter(file => file.endsWith('.bak'));
+            bakFiles.forEach(file => {
+                fs.rmSync(path.join(jaopcaConfigPath, file), { force: true });
+            });
+            c.log(`Removed JAOPCA .bak files.`);
         }
     })
 }
