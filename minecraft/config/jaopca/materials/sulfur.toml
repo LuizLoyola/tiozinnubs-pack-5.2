@@ -13,7 +13,7 @@
 	#The model type of the material.
 	modelType = "dust"
 	#The color of this material.
-	color = 0xC6B242
+	color = 13021762
 
 [create]
 	#The default byproduct material to output in Create's crushing.

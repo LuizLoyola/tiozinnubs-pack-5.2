@@ -338,6 +338,16 @@ key_key.personality.sit:key.keyboard.unknown
 key_key.pickItem:key.mouse.middle
 key_key.playerlist:key.keyboard.tab
 key_key.push_to_talk:key.keyboard.unknown
+key_key.railcraft.change_aura:key.keyboard.g
+key_key.rebornstorage.openWirelessCraftingGrid:key.keyboard.g:CONTROL
+key_key.rebornstorage.switchModeWirelessCraftingGrid:key.keyboard.g:CONTROL
+key_key.refinedstorage.clearGridCraftingMatrix:key.keyboard.x:CONTROL
+key_key.refinedstorage.focusSearchBar:key.keyboard.tab
+key_key.refinedstorage.openPortableGrid:key.keyboard.unknown
+key_key.refinedstorage.openWirelessCraftingMonitor:key.keyboard.unknown
+key_key.refinedstorage.openWirelessFluidGrid:key.keyboard.unknown
+key_key.refinedstorage.openWirelessGrid:key.keyboard.unknown
+key_key.refinedstorageaddons.openWirelessCraftingGrid:key.keyboard.g:CONTROL
 key_key.relics.ability_list:key.keyboard.left.alt
 key_key.right:key.keyboard.d
 key_key.saveToolbarActivator:key.keyboard.c

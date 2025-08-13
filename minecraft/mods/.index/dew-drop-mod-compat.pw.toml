@@ -1,0 +1,16 @@
+filename = 'dew-drop-mod-compat-1.1.jar'
+name = 'Dew Drop Mod Compat'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1b9928fca3fa5640b8d1e502f98cdcaf0774c33197f10898212cf6cde36b323445a738ef1178b059167392bb9a3bb2c83919daa10e169cf2a5596f2acab11b5b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GljZYEtt/versions/Br4AmDOP/dew-drop-mod-compat-1.1.jar'
+
+[update.modrinth]
+mod-id = 'GljZYEtt'
+version = 'Br4AmDOP'

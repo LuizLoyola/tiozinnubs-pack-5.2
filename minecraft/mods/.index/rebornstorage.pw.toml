@@ -1,0 +1,16 @@
+filename = 'rebornstorage-1.20.1-5.0.7.jar'
+name = 'Reborn Storage'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '882772f5e53a4faefc319550eb931150296c322437e3f017242bb6171c9984a520a035fddb0d78f4154a5b92d9e31f62da7ce3dbfea84060b194c87065e26aef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NwazYrVH/versions/ArcZUHSv/rebornstorage-1.20.1-5.0.7.jar'
+
+[update.modrinth]
+mod-id = 'NwazYrVH'
+version = 'ArcZUHSv'

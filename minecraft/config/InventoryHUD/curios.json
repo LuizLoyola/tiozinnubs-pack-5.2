@@ -104,6 +104,13 @@
     "halign": "LEFT",
     "valign": "TOP"
   },
+  "grid": {
+    "x": 0,
+    "y": 360,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
   "hands": {
     "x": 0,
     "y": 80,

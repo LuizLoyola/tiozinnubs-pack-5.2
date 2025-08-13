@@ -1,0 +1,16 @@
+filename = 'dew_drop_watering_cans-1.0.2.jar'
+name = 'Watering Cans [Dew Drop]'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2fed9eec1767c71019e00836584993789f511b3cb2376e9576cb8bc0fc5fbb9fe15cb49aa7eb4ae8a890d9e4a6ff7c68cd536164465e4495d8b9eb7cc9beecc0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Jal3lwVg/versions/7e8NWI5O/dew_drop_watering_cans-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'Jal3lwVg'
+version = '7e8NWI5O'

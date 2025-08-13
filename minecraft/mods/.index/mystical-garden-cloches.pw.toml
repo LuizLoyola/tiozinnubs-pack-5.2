@@ -1,0 +1,37 @@
+filename = 'Mystical-Garden-Cloches-1.0.0.jar'
+name = 'Mystical Garden Cloches'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1',
+    '1.21.2',
+    '1.21.3',
+    '1.21.4'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '50bc8914871dcb4f97e58f0720ab2a094b722004a2ee9c9591d6a9b6fd58e41a667fb47d0a308dcc009863bee7041d3895da687ce8af692783310870e9557e76'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/rXx8Y8Aw/versions/V05SRI2n/Mystical-Garden-Cloches-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'rXx8Y8Aw'
+version = 'V05SRI2n'

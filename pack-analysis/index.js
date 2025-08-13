@@ -922,7 +922,13 @@ const commands = {
         // list screen, find mc-server
 
         const listScreensCommand = 'screen -list';
-        const screens = execSync(listScreensCommand, { cwd: serverFolder, stdout: 'pipe' }).toString();
+        let screens = ''
+        try {
+            screens = execSync(listScreensCommand, { cwd: serverFolder, stdout: 'pipe' }).toString();
+        } catch {
+            // Failed to list screens, assume none available.
+        }
+
         const mcServerScreen = screens.split('\n').find(line => line.includes('mc-server'));
 
         if (mcServerScreen) {

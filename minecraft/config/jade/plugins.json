@@ -158,6 +158,24 @@
   "mekanismcovers": {
     "cover_component": true
   },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
+  },
+  "railcraft": {
+    "signals": true,
+    "track_component": true,
+    "locomotive": true,
+    "switch_track": true
+  },
+  "refinedcooking": {
+    "kitchen_access_point": true,
+    "kitchen_station": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
