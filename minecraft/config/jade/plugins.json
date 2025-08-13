@@ -98,6 +98,14 @@
   "immersiveengineering": {
     "multiblock_icon": true
   },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

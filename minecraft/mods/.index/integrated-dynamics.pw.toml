@@ -1,0 +1,16 @@
+filename = 'IntegratedDynamics-1.20.1-1.27.6.jar'
+name = 'Integrated Dynamics'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '051189db59f2a60b4ed9433a9d27828a9b57a8c074f73d2a3eedc6e15e498a2d8d82f73d6f1518c58ffdb514598b29b8005b40e2efff98b8778a568368bb4471'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yYzdQHJI/versions/Ed8tveL2/IntegratedDynamics-1.20.1-1.27.6.jar'
+
+[update.modrinth]
+mod-id = 'yYzdQHJI'
+version = 'Ed8tveL2'

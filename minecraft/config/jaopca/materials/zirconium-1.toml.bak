@@ -12,12 +12,6 @@
 	hasEffect = false
 	#The model type of the material.
 	modelType = "crystal"
-
-[create]
-	#The default byproduct material to output in Create's crushing.
-	byproduct = "minecraft:cobblestone"
-
-[molten]
-	#The temperature of this molten fluid.
-	temperature = 1000
+	#The color of this material.
+	color = 0xEABACC
 

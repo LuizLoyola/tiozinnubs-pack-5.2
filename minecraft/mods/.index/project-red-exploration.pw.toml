@@ -1,0 +1,16 @@
+filename = 'ProjectRed-1.20.1-4.21.0-exploration.jar'
+name = 'Project Red Exploration'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fa2870955a136997348ee59b4d8cece5d15f0965e3e2ec1c55e0aacbc497a4c819c8fa0559c43cfe23f61a66b942a81a475537639c4da29af38d3b20a97c0437'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TVQMH6pX/versions/piADj6R5/ProjectRed-1.20.1-4.21.0-exploration.jar'
+
+[update.modrinth]
+mod-id = 'TVQMH6pX'
+version = 'piADj6R5'

@@ -1,0 +1,16 @@
+filename = 'ProjectRed-1.20.1-4.21.0-expansion.jar'
+name = 'Project Red Expansion'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2bd9aef814f90d3576fe55ecb62848f917bca03d2968955194f1cfe9d134c5efa38d350fd813eab2d3a27909b9bb7ab3d90a192eebafa4333caff9a56df366e2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fn5zBLFv/versions/mUZSrnRK/ProjectRed-1.20.1-4.21.0-expansion.jar'
+
+[update.modrinth]
+mod-id = 'fn5zBLFv'
+version = 'mUZSrnRK'
