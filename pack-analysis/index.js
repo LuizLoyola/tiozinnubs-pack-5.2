@@ -1081,6 +1081,22 @@ const commands = {
             fs.writeFileSync(jadePluginsJsonPath, JSON.stringify(newPlugins, null, 2));
             c.log(`Fixed Jade Plugins order.`);
         }
+
+        // options.txt: sort keybinds
+        const optionsTxtPath = path.join(minecraftFolder, 'options.txt');
+        if (fs.existsSync(optionsTxtPath)) {
+            const options = fs.readFileSync(optionsTxtPath, 'utf8').split('\n');
+            // lines before the first line starting with "key_key"
+            const firstKeybindIdx = options.findIndex(line => line.startsWith('key_'));
+            const lastKeybindIdx = options.findLastIndex(line => line.startsWith('key_'));
+            const pre = options.slice(0, firstKeybindIdx);
+            // lines up until the last line starting with "key_key"
+            const keybinds = options.slice(firstKeybindIdx, lastKeybindIdx + 1);
+            const post = options.slice(lastKeybindIdx + 1);
+
+            fs.writeFileSync(optionsTxtPath, [...pre, ...keybinds.sort(), ...post].join('\n'));
+            c.log(`Fixed options.txt.`);
+        }
     }
 }
 
