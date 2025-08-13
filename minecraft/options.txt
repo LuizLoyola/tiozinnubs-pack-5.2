@@ -167,6 +167,8 @@ key_key.chat:key.keyboard.t
 key_key.clienttweaks.disableLogStripping:key.keyboard.unknown
 key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
+key_key.cofh.mode_change_decrement:key.keyboard.b
+key_key.cofh.mode_change_increment:key.keyboard.v
 key_key.command:key.keyboard.slash
 key_key.configured.open_mod_list:key.keyboard.unknown
 key_key.control:key.keyboard.left.control

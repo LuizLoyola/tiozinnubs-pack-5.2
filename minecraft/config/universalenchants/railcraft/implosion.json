@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:railway_tool"
+  ],
+  "incompatible": [
+    "deeperdarker:sculk_smite",
+    "minecraft:smite",
+    "minecraft:sharpness",
+    "railcraft:wrecking",
+    "minecraft:bane_of_arthropods"
+  ]
+}
