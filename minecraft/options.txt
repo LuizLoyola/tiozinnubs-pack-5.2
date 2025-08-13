@@ -124,7 +124,7 @@ key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
 key_info.structure_gel.building_tool.redo:key.keyboard.y:CONTROL
 key_info.structure_gel.building_tool.undo:key.keyboard.z:CONTROL
-key_iris.keybind.reload:key.keyboard.r:CONTROL
+key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_key.advancements:key.keyboard.l
