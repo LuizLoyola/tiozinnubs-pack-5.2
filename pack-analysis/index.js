@@ -97,7 +97,8 @@ const equivalentMods = [
     ['fabric-api', 'fabric_api', 'fabric-api-base', 'fabric-resource-loader-v0', 'fabric-rendering-v1'],
     ['owo', 'owo-lib'],
     ['xaeroworldmap', 'xaerosworldmap'],
-    ['thermal_expansion', 'thermal']
+    ['thermal_expansion', 'thermal'],
+    ['simpleclouds', 'crackerslib']
 ]
 
 const ignoredOptDeps = fs.existsSync(ignoredOptDepsPath) ? [...new Set(fs.readFileSync(ignoredOptDepsPath, 'utf8').split('\n').map(l => l.trim()).filter(l => l))] : [];
@@ -929,7 +930,12 @@ const commands = {
         if (pid) {
             // get java process PID from bash PID
             c.log(`From Bash PID ${pid}, finding Java PID`);
-            const psOutput = execSync(`ps --ppid ${pid} -o pid,cmd`, { stdout: 'pipe' }).toString();
+            try {
+                const psOutput = execSync(`ps --ppid ${pid} -o pid,cmd`, { stdout: 'pipe' }).toString();
+            } catch {
+                c.error(`Failed to get children of process ${pid}.`);
+                return;
+            }
             const javaLine = psOutput.split('\n').find(line => line.includes('java')).trim();
             const javaPid = Number(javaLine ? Number(javaLine.split(' ')[0]) : null);
 

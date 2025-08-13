@@ -15,6 +15,7 @@ minecraft/config/chunky/tasks/
 minecraft/config/embeddium-fingerprint.json
 minecraft/config/fabric/indigo-renderer.properties
 minecraft/config/inventoryprofilesnext/
+minecraft/config/jaopca/materials/*.bak
 minecraft/config/oculus.properties
 minecraft/config/sound_physics_remastered/allowed_sounds.properties
 minecraft/config/spark/activity.json
