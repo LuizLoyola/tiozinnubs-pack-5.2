@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const StreamZip = require('node-stream-zip');
-const toml = require('toml');
+const toml = require('js-toml');
 const moment = require('moment');
 const prompt = require('prompt-sync')();
 const pc = require('picocolors');
@@ -145,7 +145,7 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
     });
 
     const modMetadata = modIndexFiles.map((file) => {
-        return toml.parse(fs.readFileSync(path.join(modIndexFolder, file), 'utf8'));
+        return toml.load(fs.readFileSync(path.join(modIndexFolder, file), 'utf8'));
     });
 
     c.log(`There are ${modFiles.length} mod files.`);
@@ -264,17 +264,8 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
                     if (fileMod.hasModToml) {
                         let modsTomlStr = zip.entryDataSync(modToml).toString('utf8');
 
-                        // fix bug for supplementaries mod, toml key contains dots which is not supported
-                        const modsTomlLines = modsTomlStr.split('\n');
-                        const fixedModsTomlLines = modsTomlLines.map(line => {
-                            if (line.includes('mixin.'))
-                                return line.replaceAll('.', '_');
-                            return line;
-                        });
-                        modsTomlStr = fixedModsTomlLines.join('\n');
-
                         try {
-                            const modsToml = toml.parse(modsTomlStr);
+                            const modsToml = toml.load(modsTomlStr);
 
                             modsToml.mods.forEach((mod) => {
                                 const modName = mod.displayName || fileMod.name;
