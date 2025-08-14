@@ -1,0 +1,16 @@
+filename = 'PackagedAvaritia-Re-1.20.1-2.2.2.12.jar'
+name = 'PackagedAvaritia'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '5771b9eda279a42616a0d321e376903b488d7f91f9edf22a8f185ead8a27704ccffde66cda96b02b61eab11e792fa9aea8ecedfc4ea1f2eb65724cbecc01b353'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aA94MQL4/versions/FyKsffur/PackagedAvaritia-Re-1.20.1-2.2.2.12.jar'
+
+[update.modrinth]
+mod-id = 'aA94MQL4'
+version = 'FyKsffur'
