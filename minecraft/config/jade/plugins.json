@@ -69,6 +69,11 @@
   "ars_nouveau": {
     "mob_jar": true
   },
+  "avaritia": {
+    "extreme_smithing": true,
+    "crafting_table": true,
+    "compressor": true
+  },
   "balm": {
     "jade": true
   },

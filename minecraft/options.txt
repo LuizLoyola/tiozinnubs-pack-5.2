@@ -156,6 +156,8 @@ key_key.ars_nouveau.qc8:key.keyboard.unknown
 key_key.ars_nouveau.qc9:key.keyboard.unknown
 key_key.ars_nouveau.selection_hud:key.keyboard.v
 key_key.attack:key.mouse.left
+key_key.avaritia.filter:key.keyboard.h
+key_key.avaritia.neutron_ring:key.keyboard.n
 key_key.back:key.keyboard.s
 key_key.botania_corporea_request:key.keyboard.c
 key_key.cadmus.open_claim_map:key.keyboard.unknown
