@@ -720,6 +720,24 @@ const isServerRunning = () => {
     return Number(fs.readFileSync(serverPidFile, 'utf8').trim());
 }
 
+const fullySortObject = (obj) => {
+    // recursively sort an object by its keys
+    if (typeof obj !== 'object' || obj === null) return obj;
+
+    if (Array.isArray(obj)) {
+        const sorted = obj.map(item => fullySortObject(item));
+        sorted.sort();
+        return sorted;
+    } else {
+        const sorted = {};
+        const keys = Object.keys(obj).sort();
+        for (const key of keys) {
+            sorted[key] = fullySortObject(obj[key]);
+        }
+        return sorted;
+    }
+}
+
 const commands = {
     toggleMod: c.wrapFunctionAsync('Toggling mod...', async (modId, enabled) => {
         const mod = mods.find(m => m.modId === modId);
@@ -1148,6 +1166,20 @@ const commands = {
                 fs.rmSync(path.join(jaopcaConfigPath, file), { force: true });
             });
             c.log(`Removed JAOPCA .bak files.`);
+        }
+
+        // all hammerlib files
+        const hammerlibConfigPath = path.join(minecraftFolder, 'config', 'hammerlib');
+        if (fs.existsSync(hammerlibConfigPath)) {
+            const allFiles = fs.readdirSync(hammerlibConfigPath, { recursive: true }).filter(file => file.endsWith('.json'));
+            allFiles.forEach(file => {
+                const filePath = path.join(hammerlibConfigPath, file);
+                const content = fs.readFileSync(filePath, 'utf8');
+                const json = JSON.parse(content);
+                const sorted = fullySortObject(json);
+                fs.writeFileSync(filePath, JSON.stringify(sorted, null, 2));
+            });
+            c.log(`Fixed HammerLib JSON files.`);
         }
     })
 }
