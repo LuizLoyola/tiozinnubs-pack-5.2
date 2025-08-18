@@ -61,7 +61,7 @@ showVivecraftNotice = true
 	shadedClouds = true
 	#Specifies if transparent cubes should be generated for supported cloud types. May cause performance drops.
 	#Default: true
-	transparency = true
+	transparency = false
 	#Specifies if a purely visual 2D atmospheric cloud layer should render.
 	#Default: true
 	atmosphericClouds = true

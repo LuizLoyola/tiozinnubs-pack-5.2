@@ -202,7 +202,7 @@ key_key.draconicevolution.dislocator_up:key.keyboard.unknown
 key_key.draconicevolution.place_item:key.keyboard.p
 key_key.draconicevolution.toggle_flight:key.keyboard.unknown
 key_key.draconicevolution.toggle_magnet:key.keyboard.unknown
-key_key.draconicevolution.tool_config:key.keyboard.c
+key_key.draconicevolution.tool_config:key.keyboard.unknown
 key_key.draconicevolution.tool_modules:key.keyboard.c:SHIFT
 key_key.dragon_change_view:key.keyboard.f7
 key_key.dragon_down:key.keyboard.x
@@ -436,7 +436,6 @@ key_quark.keybind.variant_selector:key.keyboard.r
 key_servertabinfo.keys.show:key.keyboard.tab:CONTROL
 key_simpleclouds.key.openGenPreviewer:key.keyboard.f12
 key_supplementaries.keybind.quiver:key.keyboard.v
-key_tcdcommons.key.refresh_current_screen:key.keyboard.unknown
 key_tfmg.keyinfo.custom_button:key.keyboard.b
 key_tfmg.keyinfo.engine_start:key.keyboard.i
 key_tfmg.keyinfo.transmission_shift_down:key.keyboard.c
