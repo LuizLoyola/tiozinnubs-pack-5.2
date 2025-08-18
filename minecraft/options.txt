@@ -434,7 +434,6 @@ key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.variant_selector:key.keyboard.r
 key_servertabinfo.keys.show:key.keyboard.tab:CONTROL
-key_simpleclouds.key.openGenPreviewer:key.keyboard.f12
 key_supplementaries.keybind.quiver:key.keyboard.v
 key_tfmg.keyinfo.custom_button:key.keyboard.b
 key_tfmg.keyinfo.engine_start:key.keyboard.i
