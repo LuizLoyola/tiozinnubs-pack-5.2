@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "archiver": "^7.0.1",
     "js-toml": "^1.0.2",
     "moment": "^2.30.1",
     "node-stream-zip": "^1.15.0",

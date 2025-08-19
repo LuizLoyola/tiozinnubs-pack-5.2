@@ -6,6 +6,7 @@ const moment = require('moment');
 const prompt = require('prompt-sync')();
 const pc = require('picocolors');
 const { spawn, execSync } = require('child_process');
+const archiver = require('archiver');
 
 let logIndentLevel = 0;
 
@@ -102,11 +103,14 @@ const minecraftFolder = path.join(rootFolder, 'minecraft');
 const modsFolder = path.join(minecraftFolder, 'mods');
 const modIndexFolder = path.join(modsFolder, '.index');
 const tempJarsFolder = path.join(rootFolder, 'temp-jars');
+const tempPackFolder = path.join(rootFolder, 'temp-pack');
+const packsFolder = path.join(rootFolder, 'packs');
 const serverFolder = path.join(rootFolder, 'server');
 const serverBaseFolder = path.join(rootFolder, 'server-base');
 
 const reportPath = path.join(rootFolder, 'mods.md');
 const ignoredOptDepsPath = path.join(rootFolder, 'ignoredOptDeps.txt');
+const packInfoPath = path.join(rootFolder, 'packInfo.json');
 
 let modFiles;
 let mods;
@@ -135,6 +139,12 @@ const equivalentMods = [
 ]
 
 const ignoredOptDeps = fs.existsSync(ignoredOptDepsPath) ? [...new Set(fs.readFileSync(ignoredOptDepsPath, 'utf8').split('\n').map(l => l.trim()).filter(l => l))] : [];
+
+const getPackInfo = () => {
+    return fs.existsSync(packInfoPath) ? JSON.parse(fs.readFileSync(packInfoPath, 'utf8')) : (() => { throw new Error(`Could not find ${packInfoPath}.`); })();
+}
+
+let info = getPackInfo();
 
 const generateReport = c.wrapFunctionAsync('Generating report', async () => {
     // filter files only
@@ -191,6 +201,8 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
             warn(`Skipping ${modFile} because is not a .jar file.`);
         }
 
+        const source = metadata?.update?.curseforge ? 'curseforge' : metadata?.update?.modrinth ? 'modrinth' : insideMod ? 'embedded' : 'unknown';
+
         const fileMod = {
             name: (metadata ? metadata.name : modFile).trim(),
             link: metadata?.update?.curseforge?.['project-id'] ? `https://www.curseforge.com/projects/${metadata.update.curseforge['project-id']}`
@@ -200,6 +212,7 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
             file: modFile,
             metadata,
             parent: insideMod,
+            source,
         }
 
         logName = fileMod.name;
@@ -591,10 +604,13 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
 
     // set side if not set
     mods.filter(mod => !mod.side).forEach((mod) => {
-        if (mod.parent)
+        if (mod.parent) {
             mod.side = 'N/A';
-        else if (mod.metadata?.side)
+            mod.source = 'embedded';
+        }
+        else if (mod.metadata?.side) {
             mod.side = mod.metadata.side + '?';
+        }
     });
 
     const modsMissingSide = mods.filter(m => !m.side && !m.isGone).length;
@@ -632,7 +648,7 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
     const modsWithNoCategory = mods.filter(m => !m.category).length;
 
     const reportHeaderLines = [
-        "# TiozinNub's Pack 5.2",
+        `# ${info.name} ${info.version}`,
         "> Auto-generated at " + moment().format('YYYY-MM-DD HH:mm:ss'),
         `\`${mods.length}\` mods (\`${mods.filter(m => m.isDisabled).length}\` disabled, \`${mods.filter(m => m.isGone).length}\` gone)`,
         modsWithNoCategory > 0 ? `\`${mods.filter(m => !m.category).length}\` mods have no category (\`${autoCategorized}\` were auto-categorized)` : undefined,
@@ -736,6 +752,24 @@ const fullySortObject = (obj) => {
         }
         return sorted;
     }
+}
+
+const getFileHash = (file, hashFormat) => {
+    // use linux commands to get file hash
+    const command = `${hashFormat}sum "${file}"`;
+    const output = execSync(command, { stdout: 'pipe' });
+    return output.toString().split(' ')[0];
+}
+
+const sensitiveCompare = (a, b) => {
+    for (let i = 0; i < a.length; i++) {
+        if (i >= b.length) return 1;
+
+        if (a.charCodeAt(i) !== b.charCodeAt(i)) {
+            return a.charCodeAt(i) - b.charCodeAt(i);
+        }
+    }
+    return 0;
 }
 
 const commands = {
@@ -1181,12 +1215,245 @@ const commands = {
             });
             c.log(`Fixed HammerLib JSON files.`);
         }
+    }),
+    incrVersion: c.wrapFunction('Calculating version...', (isDev) => {
+        const versionParts = info.version.split('.');
+        let [major, minor, patch] = versionParts;
+        let wasDev = false;
+        if (patch.includes('-')) {
+            patch = patch.split('-')[0];
+            wasDev = true;
+        }
+
+        if (!wasDev) {
+            patch = parseInt(patch) + 1;
+        }
+
+        let ident = '';
+        if (isDev) {
+            // yyyyMMdd-HHmmss
+            const time = new Date().toISOString().replace(/[-:]/g, '').slice(0, 15).replace('T', '-');
+            ident = `-dev${time}`;
+        }
+
+        info.mainVersion = [major, minor].join('.');
+        let newVersion = [major, minor, patch].join('.') + ident;
+
+        let text = '';
+
+        if (wasDev) {
+            if (isDev) {
+                text = 'New DEV, same patch';
+            } else {
+                text = 'Releasing version';
+            }
+        } else {
+            if (isDev) {
+                text = 'New patch, DEV version';
+            } else {
+                text = 'New release without DEV versions inbetween';
+            }
+        }
+
+        text += ':';
+        let firstText = 'Currently at:';
+        let maxLen = Math.max(firstText.length, text.length);
+        c.log(`${firstText.padEnd(maxLen)} ${info.version}`);
+        c.log(`${text.padEnd(maxLen)} ${newVersion}`);
+
+        info.version = newVersion;
+
+        fs.writeFileSync(packInfoPath, JSON.stringify(info, null, 2));
+    }),
+    pack: c.wrapFunctionAsync('Packing mods...', async (isDev) => {
+        commands.incrVersion(isDev);
+
+        c.log(`Generating mmcPack.json`);
+        // Pack mods into a mrpack file
+
+        const modrinthMods = mods.filter(m => !m.isDisabled && !m.isGone && m.source === 'modrinth');
+
+        // get mmcpack data
+        const mmcPackPath = path.join(rootFolder, 'mmc-pack.json');
+        const mmcPack = JSON.parse(fs.readFileSync(mmcPackPath, 'utf8'));
+
+        const files = modrinthMods.map(m => {
+            let url = m.metadata.download.url;
+
+            // encodeURI doesn´t work...
+            url = url
+                .replace(/ /g, '%20')
+                .replace(/\+/g, '%2B');
+
+            return ({
+                downloads: [url],
+                env: {
+                    client: 'required',
+                    server: m.metadata.side === 'client' ? 'unsupported' : 'required',
+                },
+                fileSize: 1,
+                hashes: {
+                    sha1: '',
+                    sha512: '',
+                },
+                path: `mods/${m.file}`
+            });
+        });
+
+        // Hash all files
+        let p = c.progress('Hashing Modrinth mods files...', files.length)
+        for (let i = 0; i < files.length; i++) {
+            const file = files[i];
+            const modrinthMod = modrinthMods[i];
+
+            const fullPath = path.join(minecraftFolder, file.path);
+
+            const { hash, 'hash-format': hashFormat } = modrinthMod.metadata.download;
+
+            const currentSha1 = hashFormat === 'sha1' ? hash : '';
+            const currentSha512 = hashFormat === 'sha512' ? hash : '';
+
+            let newSha1 = '';
+            let newSha512 = '';
+
+            let confirmed = false;
+            let cantConfirm = false;
+
+            if (!currentSha1 && !currentSha512) {
+                cantConfirm = true;
+            } else {
+                if (currentSha1) {
+                    newSha1 = getFileHash(fullPath, 'sha1');
+
+                    if (currentSha1 !== newSha1) {
+                        c.warn(`SHA1 mismatch for ${file.path}: ${currentSha1} != ${newSha1}`);
+                    } else {
+                        confirmed = true;
+                    }
+                } else if (currentSha512) {
+                    newSha512 = getFileHash(fullPath, 'sha512');
+
+                    if (currentSha512 !== newSha512) {
+                        c.warn(`SHA512 mismatch for ${file.path}: ${currentSha512} != ${newSha512}`);
+                    } else {
+                        confirmed = true;
+                    }
+                }
+            }
+
+            if (!cantConfirm && !confirmed) {
+                c.warn(`Could not confirm hashes for ${file.path}`);
+            }
+
+            if (!newSha1) {
+                newSha1 = getFileHash(fullPath, 'sha1');
+            }
+
+            if (!newSha512) {
+                newSha512 = getFileHash(fullPath, 'sha512');
+            }
+
+            file.hashes.sha1 = newSha1;
+            file.hashes.sha512 = newSha512;
+            const size = fs.statSync(fullPath).size;
+            file.fileSize = size;
+            p.update(i + 1, files.length);
+        }
+        p.finish();
+
+        // Sort by path, case sensitive
+        files.sort((a, b) => {
+            return sensitiveCompare(a.path, b.path);
+        });
+
+        const modrinthIndex = {
+            dependencies: {
+                forge: mmcPack.components.find(c => c.uid == "net.minecraftforge").version,
+                minecraft: mmcPack.components.find(c => c.uid == "net.minecraft").version,
+            },
+            files,
+            formatVersion: 1,
+            game: "minecraft",
+            name: `${info.name} ${info.mainVersion}`,
+            versionId: info.version,
+        };
+
+        if (fs.existsSync(tempPackFolder)) {
+            fs.rmSync(tempPackFolder, { recursive: true, force: true });
+        }
+
+        fs.mkdirSync(tempPackFolder);
+        fs.writeFileSync(path.join(tempPackFolder, 'modrinth.index.json'), JSON.stringify(modrinthIndex, null, 4));
+
+        const overridesFolder = path.join(tempPackFolder, 'overrides');
+
+        // move all overrides
+        c.log(`Copying configs...`);
+        fs.cpSync(path.join(minecraftFolder, 'config'), path.join(overridesFolder, 'config'), { recursive: true });
+
+        // move all non modrinth mods
+        const nonModrinthMods = mods.filter(m => !m.isDisabled && !m.isGone && !['modrinth', 'embedded'].includes(m.source));
+        p = c.progress('Copying non-Modrinth mods...', nonModrinthMods.length);
+        fs.mkdirSync(path.join(overridesFolder, 'mods'), { recursive: true });
+        for (let i = 0; i < nonModrinthMods.length; i++) {
+            const mod = nonModrinthMods[i];
+            fs.cpSync(path.join(modsFolder, mod.file), path.join(overridesFolder, 'mods', mod.file), { recursive: true });
+            p.update(i + 1, nonModrinthMods.length);
+        }
+        p.finish();
+
+        // move extra files
+        const extraFiles = [
+            'options.txt',
+            'servers.dat',
+            'icon.png',
+        ];
+
+        p = c.progress('Copying extra files...', extraFiles.length);
+        for (let i = 0; i < extraFiles.length; i++) {
+            const file = extraFiles[i];
+            fs.cpSync(path.join(minecraftFolder, file), path.join(overridesFolder, file), { recursive: true });
+            p.update(i + 1, extraFiles.length);
+        }
+        p.finish();
+
+        const packPath = path.join(packsFolder, `${info.name} ${info.version}.mrpack`);
+
+        if (!fs.existsSync(packsFolder)) {
+            fs.mkdirSync(packsFolder);
+        } else {
+            if (fs.existsSync(packPath)) {
+                fs.rmSync(packPath, { recursive: true, force: true });
+            }
+        }
+
+        c.log(`Compressing into mrpack`);
+
+        // compress contents of tempPackFolder into packFilename
+        const archive = archiver('zip', { zlib: { level: 9 } });
+        const stream = fs.createWriteStream(packPath);
+
+        await new Promise((resolve, reject) => {
+            archive
+                .directory(tempPackFolder, false)
+                .on('error', (err) => reject(err))
+                .pipe(stream)
+                .on('close', () => resolve());
+
+            archive.finalize();
+        });
+
+        // delete after everything
+        c.log(`Cleaning up...`);
+        if (fs.existsSync(tempPackFolder)) {
+            fs.rmSync(tempPackFolder, { recursive: true, force: true });
+        }
     })
 }
 
 async function main() {
     c.clear();
-    c.log("TiozinNub's Pack 5.2 - Tools");
+    c.log(`${info.name} ${info.mainVersion} - Tools`);
 
     await generateReport();
     c.log('Report generated.');
@@ -1214,7 +1481,6 @@ async function main() {
                 await commands.toggleMod(split[1], false)
 
                 break;
-
             case 'enable':
                 if (split.length < 2) {
                     c.warn('Usage: enable <modId>');
@@ -1224,7 +1490,6 @@ async function main() {
                 await commands.toggleMod(split[1], true)
 
                 break;
-
             case 'category':
                 const categories = [...new Set(mods.map(m => m.category))].filter(c => c);
 
@@ -1300,7 +1565,6 @@ async function main() {
                 });
 
                 break;
-
             case 'ignore':
                 if (split.length < 2) {
                     c.warn('Usage: ignore <modId>');
@@ -1322,7 +1586,6 @@ async function main() {
                 c.log(`Mod "${modId}" ignored.`);
 
                 break;
-
             case 'optional':
                 // list all recommended deps
                 const optionalDeps = [...new Set(mods.flatMap(m => m.optionalDependencies.map(dep => dep.modId.replace('!', '').replace('?', ''))))];
@@ -1334,11 +1597,9 @@ async function main() {
                     c.log(`- ${dep}`);
                 });
                 break;
-
             case 'server':
                 await commands.server();
                 break;
-
             case 'runserver':
                 await commands.runServer();
                 break;
@@ -1348,7 +1609,6 @@ async function main() {
             case 'autofix':
                 await commands.autofix();
                 break;
-
             case 'refresh':
                 c.log('Automatically refreshing everything...');
 
@@ -1367,9 +1627,17 @@ async function main() {
 
                 c.log('Everything refreshed successfully.');
                 break;
+            case 'version':
+                c.log(`${info.name} ${info.version}`);
+                break;
+            case 'pack':
+                await commands.pack(true);
+                break;
+            case 'release':
+                await commands.pack(false);
+                break;
             case 'exit':
                 return;
-
             default:
                 c.warn('Unknown command.');
                 break;

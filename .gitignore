@@ -39,5 +39,7 @@ minecraft/usercache.json
 minecraft/usernamecache.json
 minecraft/xaero/minimap/
 minecraft/xaero/world-map/
+packs/
 server/
 temp-jars/
+temp-pack/
