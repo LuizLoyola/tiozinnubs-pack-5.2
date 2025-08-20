@@ -1,0 +1,16 @@
+filename = 'create_tinkers_compat-2-forge-1.20.1.jar'
+name = "Create: Tinker's Compat"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f4b5301e6a597e033612bd3707d75765657ec08f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6445835
+project-id = 1212694

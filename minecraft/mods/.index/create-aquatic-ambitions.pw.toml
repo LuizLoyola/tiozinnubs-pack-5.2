@@ -1,0 +1,16 @@
+filename = 'create_aquatic_ambitions-1.20.1-2.0.1.jar'
+name = 'Create: Aquatic Ambitions'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bf43c958073cb0f1ebe40506ae02f74c52258a55588f0b4ffa913841a09ce288d05e3adc930d2a70891af6f273a91aa1be6018e8414638df31634742007afabb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9SyaPzp7/versions/DY9UeRPH/create_aquatic_ambitions-1.20.1-2.0.1.jar'
+
+[update.modrinth]
+mod-id = '9SyaPzp7'
+version = 'DY9UeRPH'

@@ -1,0 +1,16 @@
+filename = 'DarkUtilities-Forge-1.20.1-17.0.5.jar'
+name = 'Dark Utilities'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e2ebff0d8f1bcbfd64d95d4b31dd08a7a53c57024bc2c5f659b4487645969cfb373b9224754be9353c0d0de1e6ebf253bbd69aa922d3b5c2ac609d2682b15446'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/CkqTAIaP/versions/R84O6j1g/DarkUtilities-Forge-1.20.1-17.0.5.jar'
+
+[update.modrinth]
+mod-id = 'CkqTAIaP'
+version = 'R84O6j1g'
