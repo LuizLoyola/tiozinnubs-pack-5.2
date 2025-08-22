@@ -1,0 +1,16 @@
+filename = 'create-food-1.20.1-1.1.11-forge.jar'
+name = 'Create: Food'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cd39c4b6c9462bd50117da66865187e80db09a095e548e8071f9978871bb4f308a488a9c1fb6aba3a974841548b3964a446fb35742abf094a691ca97283501f6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4HnO3el1/versions/nGxXnnas/create-food-1.20.1-1.1.11-forge.jar'
+
+[update.modrinth]
+mod-id = '4HnO3el1'
+version = 'nGxXnnas'

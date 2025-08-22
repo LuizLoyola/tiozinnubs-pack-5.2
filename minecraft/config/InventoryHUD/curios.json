@@ -132,6 +132,13 @@
     "halign": "LEFT",
     "valign": "TOP"
   },
+  "head_2": {
+    "x": 0,
+    "y": 180,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
   "magnetizer": {
     "x": 0,
     "y": 140,

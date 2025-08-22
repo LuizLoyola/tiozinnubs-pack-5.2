@@ -452,3 +452,4 @@
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
 				creative_cogwheel = 16384.0
+
