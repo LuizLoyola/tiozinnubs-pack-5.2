@@ -689,9 +689,10 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
                 if (mod.optionalDependencies.length === 0) return '';
                 const optDeps = mod.optionalDependencies
                     .filter(dep => !mods.find(m => m.modId === dep.modId.replace('!', '').replace('?', '')));
-                const firstTen = optDeps.slice(0, 10).map(d => d.modId).map(d => `\`${d}\``).join(', ');
-                const hasMore = optDeps.length > 10;
-                const unsatisfiedText = ` (\`${optDeps.length}\` uns.: ${firstTen}${hasMore ? '...' : ''})`;
+                const maxUns = 5;
+                const firstN = optDeps.slice(0, maxUns).map(d => d.modId).map(d => `\`${d}\``).join(', ');
+                const hasMore = optDeps.length > maxUns;
+                const unsatisfiedText = ` (\`${optDeps.length}\` uns.: ${firstN}${hasMore ? '...' : ''})`;
                 return `\`${mod.optionalDependencies.length}\`${optDeps.length > 0 ? unsatisfiedText : ' satisfied'}`;
             }
         },

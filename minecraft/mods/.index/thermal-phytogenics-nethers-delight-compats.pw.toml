@@ -1,0 +1,16 @@
+filename = 'Thermal Phytogenics - Nethers Delight Compats - 1.20 - 0.1.0.jar'
+name = 'Thermal Phytogenics - Nethers Delight Compats'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b42381f29d3853f5c32269fe8bab739cff00b490'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5405440
+project-id = 1032308
