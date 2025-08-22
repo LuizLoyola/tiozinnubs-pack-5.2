@@ -1,0 +1,10 @@
+
+#General settings for airflow system
+[airflow]
+	#How much airflow decays per duct block (default: 0 - output flow is weaker by 0 blocks )
+	#Range: 0.0 ~ 1.0
+	airflowDecayPerBlock = 0.0
+	#How much airflow decays per splitter output face (default: 100 - each output flow is 100% as strong as input)
+	#Range: 50 ~ 100
+	airflowDecayPerSide = 100
+

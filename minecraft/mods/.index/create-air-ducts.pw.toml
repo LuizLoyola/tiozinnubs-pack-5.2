@@ -1,0 +1,16 @@
+filename = 'create_airducts-1.20.1-1.0.4.jar'
+name = 'Create: Air Ducts'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd2187922ac4f1f8afd2e7a478ce21d29780d37f8f06334c96da5665a1c42459c57b3ffc81aca5ad49f4e1cfc5c9a0ff25b5f64509224429cf9ec3d08fdd947ae'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9XPqZpTX/versions/GgJrOujJ/create_airducts-1.20.1-1.0.4.jar'
+
+[update.modrinth]
+mod-id = '9XPqZpTX'
+version = 'GgJrOujJ'

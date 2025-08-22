@@ -1,0 +1,16 @@
+filename = 'create_enchantment_industry_plus-1.20.1-1.1.0.jar'
+name = 'Create Enchantment Industry Plus'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a858bb78c7fdcea2f32b82077255cebceba6b81ff1e9a6a4898ba88fa93b50bcc3f39977614b91049f517b06bdc1386b35855c1417f0b8f2d0cc604c8be1074e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dT8lKjaP/versions/n1LgQPN1/create_enchantment_industry_plus-1.20.1-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'dT8lKjaP'
+version = 'n1LgQPN1'
