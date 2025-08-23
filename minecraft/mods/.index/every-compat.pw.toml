@@ -1,0 +1,16 @@
+filename = 'everycomp-1.20-2.9.0-forge.jar'
+name = 'Every Compat (Wood Good)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e9677f60675a83f0d645c95503bdcede921d7a5b0ce513766b051b785519bb7191165381deaae1837c716de12458e2f13ef59820a72af2d36788e9ed1f5fca9a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/eiktJyw1/versions/QeAScqwj/everycomp-1.20-2.9.0-forge.jar'
+
+[update.modrinth]
+mod-id = 'eiktJyw1'
+version = 'QeAScqwj'
