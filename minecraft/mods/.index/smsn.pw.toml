@@ -1,4 +1,4 @@
-filename = 'smsn-forge-1.20.1-1.2.7.jar'
+filename = 'smsn-forge-1.20.1-1.2.8-hotfix1.jar'
 name = 'Save My Shit Network'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '4cf8f509957de637b4145ea195840fe6e968ffe924327cec814217827eff230938dccb14ca8766b6e0746207785793885bb9930160815080e56dab5648f0857a'
+hash = '2b9271c4b5a470b304fb7f6f0d2fbb8b8cc9550e23e614908049801beab09d5a86339c81826582e0b663b162ec3add61aa477167eb0eb38ec0ddd8287d22e419'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/oXzIQwRj/versions/3KpzhovE/smsn-forge-1.20.1-1.2.7.jar'
+url = 'https://cdn.modrinth.com/data/oXzIQwRj/versions/MtDYRwQa/smsn-forge-1.20.1-1.2.8-hotfix1.jar'
 
 [update.modrinth]
 mod-id = 'oXzIQwRj'
-version = '3KpzhovE'
+version = 'MtDYRwQa'

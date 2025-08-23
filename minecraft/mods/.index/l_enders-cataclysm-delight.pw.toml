@@ -1,16 +1,16 @@
-filename = 'lendersdelight-1.20.1-1.0.9.jar'
-name = "L_Ender 's Cataclysm Delight"
+filename = 'lendersdelight-1.20.1-1.0.10.jar'
+name = "L_Ender 's Delight"
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '3001955c0b4dd6206703164061089e83c022790cf8ed49de96f4419a36f9bcee21f6d3eb271a554e49334ee760676aadba623fdebcf7c62de5cbb5a76e788419'
+hash = 'fa77e97ea3246c416b7f801b1b632a8bf56fab63463d05b870ee55e0f9a7cceb19636b163f61557b8be26cc2349205442fd9197781e3e5c98085cc9a23a8390b'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/a48R8AGk/versions/PTvnKvC4/lendersdelight-1.20.1-1.0.9.jar'
+url = 'https://cdn.modrinth.com/data/a48R8AGk/versions/t63yXPaz/lendersdelight-1.20.1-1.0.10.jar'
 
 [update.modrinth]
 mod-id = 'a48R8AGk'
-version = 'PTvnKvC4'
+version = 't63yXPaz'

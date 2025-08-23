@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '63ae35f5cc96bd1699281c6d97829845697043b2668d5c5425ba41b0e70cd148f3ace020afd5ef828de42d112fc2388cbed334038dca3830ba678d5418af1049'
+hash = 'fc932b9124f86985a563468ade206d211bf1176cca10139dce72f1ebdbecd2d0404f76965fd6a60e7db8cec9a8c9ff3e7eb9c919ec0ea965ff5e192a414bf8d8'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/NBb3xMaq/versions/pR2YFADn/Compat_AlexsMobs-Neapolitan.jar'
+url = 'https://cdn.modrinth.com/data/NBb3xMaq/versions/dTly6UlC/Compat_AlexsMobs-Neapolitan.jar'
 
 [update.modrinth]
 mod-id = 'NBb3xMaq'
-version = 'pR2YFADn'
+version = 'dTly6UlC'

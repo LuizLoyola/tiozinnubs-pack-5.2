@@ -1,16 +1,16 @@
 filename = 'Compat_AlexsCaves-Enlightend.jar'
-name = "Alex's Caves - Enlightend Compat"
+name = "Alex's Caves - Enlightened Compat"
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'ce0344701f8b1bc0325f5a344ffe97a569d600293182e22f23f86d73073bdd38b84e5b654dfecb1442a15872543270d34b7024939438a9f6d67c278498803ed6'
+hash = '9708fe5f29663c9ddc3f42279069582b02c1a2d20a5f8cbd2296fd7fcd0fcca35f3ec91a069ef56ec773128565ff38271f4b538e9df8a17dfcb4217e962a41ec'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/AV0KDqHH/versions/JBkBvR4v/Compat_AlexsCaves-Enlightend.jar'
+url = 'https://cdn.modrinth.com/data/AV0KDqHH/versions/qqyR6vt1/Compat_AlexsCaves-Enlightend.jar'
 
 [update.modrinth]
 mod-id = 'AV0KDqHH'
-version = 'JBkBvR4v'
+version = 'qqyR6vt1'

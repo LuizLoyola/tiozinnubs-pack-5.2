@@ -1,4 +1,4 @@
-filename = 'PackagedMekemicals-1.20.1-1.2.2.11.jar'
+filename = 'PackagedMekemicals-1.20.1-1.2.2.12.jar'
 name = 'PackagedMekemicals'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '6dd5984c3f83950e02a0839ed9586857c0c40595849a92fcee72e56d47e3cba00044e7051fa73e09a6eb00b76ff1d85ec1898e11e7d7ea9b86f0a0730c8c7827'
+hash = 'd53c9db00273284f937c68c3e57aa24276369b299a7b1cb81712b5d374b31dbd5538aaffd6bb3a6b242cf8d99db10ebe7eb2b302bfda043614f949df2bf21538'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/zqykyLyX/versions/prpstPhx/PackagedMekemicals-1.20.1-1.2.2.11.jar'
+url = 'https://cdn.modrinth.com/data/zqykyLyX/versions/rSTxjUPt/PackagedMekemicals-1.20.1-1.2.2.12.jar'
 
 [update.modrinth]
 mod-id = 'zqykyLyX'
-version = 'prpstPhx'
+version = 'rSTxjUPt'

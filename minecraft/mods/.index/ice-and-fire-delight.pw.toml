@@ -1,4 +1,4 @@
-filename = 'ice_and_fire_delight-forge-1.20.1-0.2.3.jar'
+filename = 'ice_and_fire_delight-forge-1.20.1-0.2.4.jar'
 name = 'Ice and Fire Delight'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '0cc907464517ef20eb82dfc4a8f3699bbca76748662492709c61ca60e83eb84f54a89c3976492dc908d249b87358be1da5b200efeb884e9262f1edc04c428e9e'
+hash = 'cd68e89891568ede211028bb0318e321171d158ffd1981a732101fbcfd5da015b45e0dea28adae5bc485663324747386178785a7d28cce1f245d1dce3608f46c'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/mGwAPysv/versions/txhZi6Eb/ice_and_fire_delight-forge-1.20.1-0.2.3.jar'
+url = 'https://cdn.modrinth.com/data/mGwAPysv/versions/XDC4hPEz/ice_and_fire_delight-forge-1.20.1-0.2.4.jar'
 
 [update.modrinth]
 mod-id = 'mGwAPysv'
-version = 'txhZi6Eb'
+version = 'XDC4hPEz'

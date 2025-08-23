@@ -1,4 +1,4 @@
-filename = 'supplementaries-1.20-3.1.36.jar'
+filename = 'supplementaries-1.20-3.1.37.jar'
 name = 'Supplementaries'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '9f35db45279fa0fdbb9bf7e0020832991849a7c8d1de3da00e9d3098a5791230e544611fa36689f7edae768d093eb6a366ef955066e54f867e307d2c4236828d'
+hash = '664eded3f25c1264004e98979afe1817e750ff8d33d549b3303d126cbe64a1e269de6486abf03c2ccbc8890bada483ab63d0bc3b7f2462b8567236c16a7e5f97'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/fFEIiSDQ/versions/gY8LSKD4/supplementaries-1.20-3.1.36.jar'
+url = 'https://cdn.modrinth.com/data/fFEIiSDQ/versions/FIy84Umq/supplementaries-1.20-3.1.37.jar'
 
 [update.modrinth]
 mod-id = 'fFEIiSDQ'
-version = 'gY8LSKD4'
+version = 'FIy84Umq'

@@ -136,7 +136,8 @@ const equivalentMods = [
     ['xaeroworldmap', 'xaerosworldmap'],
     ['thermal_expansion', 'thermal'],
     ['simpleclouds', 'crackerslib'],
-    ['createrailwaysnavigator', 'dragonlib']
+    ['createrailwaysnavigator', 'dragonlib'],
+    ['rebind_narrator', 'modder_name_lib']
 ]
 
 const ignoredOptDeps = fs.existsSync(ignoredOptDepsPath) ? [...new Set(fs.readFileSync(ignoredOptDepsPath, 'utf8').split('\n').map(l => l.trim()).filter(l => l))] : [];

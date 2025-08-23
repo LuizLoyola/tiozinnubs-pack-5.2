@@ -1,16 +1,16 @@
-filename = 'almostunified-forge-1.20.1-0.10.0.jar'
-name = 'Almost Unified'
-side = 'server'
+filename = 'almostunified-forge-1.20.1-0.10.1.jar'
+name = 'AlmostUnified'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '186887efa62c34589f5925d38a4209dea5c81da61c8fe1d574224d7e4acaa37bd7f71733adcab3f0c7a455137c5fc18c71c7d843a4bfc692e5843d70886f5815'
+hash = '2274052de29fd1f93ee34362d2308c1688736987ca5dacebe37c2a96b7825cfc3fda08c56cb3d97e6ad3c930dc1b84e1069947eb9ecf96ed7aa8ab4bb4bd8d86'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/sdaSaQEz/versions/1OakfHy9/almostunified-forge-1.20.1-0.10.0.jar'
+url = 'https://cdn.modrinth.com/data/sdaSaQEz/versions/803fRd97/almostunified-forge-1.20.1-0.10.1.jar'
 
 [update.modrinth]
 mod-id = 'sdaSaQEz'
-version = '1OakfHy9'
+version = '803fRd97'

@@ -1,4 +1,4 @@
-filename = 'RunicLib-forge-1.20.1-4.3.2.jar'
+filename = 'RunicLib-forge-1.20.1-4.3.4.jar'
 name = 'RunicLib'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'a8a2756f2b075c46e448cfa6b01ba07018e72f6125ab45efc9dbaa3818fd94abbda2904ef3607bb0d5c786b819906dbfee6fd4988db9226f54eadb136e721f14'
+hash = '41f31aa6fc3fdd48a43e753c22ea2bf718b8d00a901fd8fa5a1425c9ffd865888bf905a68522e48161ae608851a3dd3e60fcc77f241f05af452234af01b3fadd'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/mk0Htq87/versions/ctmYY1Aj/RunicLib-forge-1.20.1-4.3.2.jar'
+url = 'https://cdn.modrinth.com/data/mk0Htq87/versions/MakdZj16/RunicLib-forge-1.20.1-4.3.4.jar'
 
 [update.modrinth]
 mod-id = 'mk0Htq87'
-version = 'ctmYY1Aj'
+version = 'MakdZj16'
