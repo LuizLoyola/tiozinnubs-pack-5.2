@@ -1019,10 +1019,8 @@ const commands = {
             try {
                 psOutput = execSync(`ps --ppid ${pid} -o pid,cmd`, { stdout: 'pipe' }).toString();
             } catch {
-                c.error(`Failed to get children of process ${pid}.`);
-
-                // just kill the screen
-                execSync(`screen -S ${screenId} -X quit`);
+                c.error(`Failed to get children of process ${pid}. Assuming it's already stopped.`);
+                fs.unlinkSync(path.join(serverFolder, 'server.pid'));
                 return;
             }
 
