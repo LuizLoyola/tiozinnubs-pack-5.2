@@ -1,0 +1,16 @@
+filename = 'create_ironworks-3.5.0-forge-1.20.1.jar'
+name = 'Create: Ironworks [Forge/Fabric/NeoForge]'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fc2e15d8d3a5d9b14371a6fd717d3d764be1fe5ad3c202b4388357271356b41a8d66e50e97a4cac5b3dd177412666e94d700a1f14e4ca4e17251c22ea0edeb08'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/FZb6dmQf/versions/zLpNbuh9/create_ironworks-3.5.0-forge-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'FZb6dmQf'
+version = 'zLpNbuh9'

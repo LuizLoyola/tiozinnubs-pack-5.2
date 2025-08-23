@@ -1,0 +1,16 @@
+filename = 'createenchantablemachinery-3.4.1+mc1.20.1-forge.jar'
+name = 'Create: Enchantable Machinery'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c8492e85a0756a165e291ac896aab5b3276de182dac5a177d7fcd6c31b58606a5aa845be013055c00a5dfba64f68d89e97ee38e3188a248918f1a15e61869399'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/eqrvp4NK/versions/hHW0Bm2r/createenchantablemachinery-3.4.1%2Bmc1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'eqrvp4NK'
+version = 'hHW0Bm2r'

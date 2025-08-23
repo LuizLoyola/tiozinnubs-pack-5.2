@@ -1,0 +1,16 @@
+filename = 'mechanical_botany-1.0.5+1.20.1-neoforged.jar'
+name = 'Create: Mechanical Botany'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8b400e77235c4666941759da36fa3097dda84bc884036dec4438547294942f5c651620ef54fb8e1d6ad8393318d3465e478004e4da538b3dd1a646eea71f9ec0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZDmMjKj7/versions/SuwwCTzv/mechanical_botany-1.0.5%2B1.20.1-neoforged.jar'
+
+[update.modrinth]
+mod-id = 'ZDmMjKj7'
+version = 'SuwwCTzv'

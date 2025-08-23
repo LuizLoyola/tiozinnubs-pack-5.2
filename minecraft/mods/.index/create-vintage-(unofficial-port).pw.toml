@@ -1,0 +1,16 @@
+filename = 'vintage-1.20.1-1.3.0.jar'
+name = 'Create: Vintage'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7050c7ba55961c383882f1f6f9cfa2a9e887f7feec9a74ddcff12b24da76b06105b5e85839af3c42e6747b2b65dc60009ed0d8345174e3a405194ba005a48ef3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qVZh767G/versions/rvNJBK2H/vintage-1.20.1-1.3.0.jar'
+
+[update.modrinth]
+mod-id = 'qVZh767G'
+version = 'rvNJBK2H'

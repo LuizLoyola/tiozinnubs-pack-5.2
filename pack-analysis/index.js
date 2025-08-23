@@ -135,7 +135,8 @@ const equivalentMods = [
     ['owo', 'owo-lib'],
     ['xaeroworldmap', 'xaerosworldmap'],
     ['thermal_expansion', 'thermal'],
-    ['simpleclouds', 'crackerslib']
+    ['simpleclouds', 'crackerslib'],
+    ['createrailwaysnavigator', 'dragonlib']
 ]
 
 const ignoredOptDeps = fs.existsSync(ignoredOptDepsPath) ? [...new Set(fs.readFileSync(ignoredOptDepsPath, 'utf8').split('\n').map(l => l.trim()).filter(l => l))] : [];
