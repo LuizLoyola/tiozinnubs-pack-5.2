@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "ae2:annihilation_plane",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "the_bumblezone:carpenter_bee_boots_1",
+    "the_bumblezone:carpenter_bee_boots_2",
+    "twilightforest:block_and_chain",
+    "create:mechanical_drill",
+    "create:mechanical_saw",
+    "create:mechanical_harvester",
+    "create:mechanical_plough"
+  ],
+  "incompatible": [
+    "garnished:quick_step"
+  ]
+}
