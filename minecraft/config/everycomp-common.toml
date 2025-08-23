@@ -19,5 +19,5 @@
 		#Enabled tooltips showing which block type an EC item is made from
 		block_type_enabled = true
 		#Only show on advanced settings
-		show_on_advanced_tooltips = false
+		show_on_advanced_tooltips = true
 
