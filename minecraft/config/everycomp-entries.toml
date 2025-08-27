@@ -213,6 +213,9 @@
 			nickel = true
 			lithium = true
 
+		[types.metal_type.aquaculture]
+			neptunium = true
+
 	[types.gem_type]
 
 		[types.gem_type.enlightened_end]
