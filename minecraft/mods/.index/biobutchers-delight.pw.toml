@@ -1,0 +1,16 @@
+filename = 'biobutchers-delight-2.10(DP).jar'
+name = "BioButcher's Mania"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fe35c2f8268f662ff3106985925bf8fe41435b715c2d7af0197154820e76e6420eddbd97d116b63fe01c42ce0828f311cc149bd358486638747505df9b2b847c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tbxlThC8/versions/v0eLv3JD/biobutchers-delight-2.10%28DP%29.jar'
+
+[update.modrinth]
+mod-id = 'tbxlThC8'
+version = 'v0eLv3JD'
