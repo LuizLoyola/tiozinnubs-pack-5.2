@@ -112,6 +112,21 @@
     "advanced_auto_table": true,
     "compressor": true
   },
+  "goety": {
+    "block_owner": true,
+    "soul_energy": true,
+    "raider_leader": true,
+    "servant_mode": true,
+    "zombie_villager": true,
+    "villager_profession": true,
+    "train_to": true,
+    "summon_lifespan": true,
+    "trainable": true
+  },
+  "goety_revelation": {
+    "rune_reactor_id": true,
+    "runestone_id": true
+  },
   "hammerlib": {
     "root": true
   },

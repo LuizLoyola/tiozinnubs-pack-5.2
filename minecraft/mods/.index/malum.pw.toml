@@ -1,0 +1,16 @@
+filename = 'malum-1.20.1-1.6.7.jar'
+name = 'Malum'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '76b3a9d6fad5a4f0e1a24dd4ff40b3215b78319373f5b3ed7261570f2ae22c3601dd873907356476a03e10104669194c9fdb693ef7643edccd6062c97083cd2b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jgzwYsAN/versions/U88VbrNU/malum-1.20.1-1.6.7.jar'
+
+[update.modrinth]
+mod-id = 'jgzwYsAN'
+version = 'U88VbrNU'

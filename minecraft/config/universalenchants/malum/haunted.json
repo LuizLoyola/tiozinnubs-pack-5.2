@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:malum_magic_capable_weapon"
+  ],
+  "incompatible": [
+    "malum:animated"
+  ]
+}

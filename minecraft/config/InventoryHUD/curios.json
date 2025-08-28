@@ -41,6 +41,13 @@
     "halign": "LEFT",
     "valign": "TOP"
   },
+  "brooch": {
+    "x": 0,
+    "y": 540,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
   "bundle": {
     "x": 0,
     "y": 80,
@@ -72,6 +79,13 @@
   "charm_4": {
     "x": 0,
     "y": 440,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "charm_5": {
+    "x": 0,
+    "y": 520,
     "enabled": false,
     "halign": "LEFT",
     "valign": "TOP"

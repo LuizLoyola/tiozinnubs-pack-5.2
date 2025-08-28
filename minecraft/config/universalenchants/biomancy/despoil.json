@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:biomancy_weapon",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "aiotbotania:livingwood_aiot",
+    "aiotbotania:livingrock_aiot",
+    "aiotbotania:manasteel_aiot",
+    "aiotbotania:elementium_aiot",
+    "aiotbotania:terra_aiot",
+    "aiotbotania:alfsteel_aiot",
+    "twilightforest:block_and_chain"
+  ],
+  "incompatible": [
+    "minecraft:silk_touch"
+  ]
+}

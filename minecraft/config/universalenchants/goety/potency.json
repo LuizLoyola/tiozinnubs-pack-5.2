@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:focus",
+    "goety:infernal_tome",
+    "goety:sculk_converter",
+    "goety:sculk_grower"
+  ],
+  "incompatible": [
+    "goety:absorb"
+  ]
+}

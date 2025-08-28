@@ -1,0 +1,16 @@
+filename = 'gamediscs-0.3.2-forge.jar'
+name = 'Game Discs'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c5eed03b992945eb677a3c060b1bd5f0ec18b90ca116d253def54a142d3cc870b74d8bd55d344169fa3a56c32f57862585028a4c1a73e353d6ea44b1db47442b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AgqoIu86/versions/gvMBSvC4/gamediscs-0.3.2-forge.jar'
+
+[update.modrinth]
+mod-id = 'AgqoIu86'
+version = 'gvMBSvC4'

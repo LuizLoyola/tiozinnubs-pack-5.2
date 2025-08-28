@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:focus",
+    "goety:great_hammer",
+    "goety:bonehead_hammer",
+    "goety:stormlander",
+    "goety:sculk_devourer",
+    "goety:sculk_grower"
+  ],
+  "incompatible": []
+}

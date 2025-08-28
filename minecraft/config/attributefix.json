@@ -187,6 +187,292 @@
         "value": 1024
       }
     },
+    "goety_revelation:abyss_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:armor_penetration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
+    "goety_revelation:cast_duration": {
+      "enabled": false,
+      "min": {
+        "default": -5,
+        "value": -5
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:enchantment_piercing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
+    "goety_revelation:frost_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:geomancy_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:ill_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:necromancy_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:nether_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:none_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
+    "goety_revelation:soul_decrease_reduction": {
+      "enabled": false,
+      "min": {
+        "default": -32767,
+        "value": -32767
+      },
+      "max": {
+        "default": 2,
+        "value": 2
+      }
+    },
+    "goety_revelation:soul_increase_efficiency": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:soul_stealing": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
+      }
+    },
+    "goety_revelation:spell_burning_value": {
+      "enabled": false,
+      "min": {
+        "default": -1000000,
+        "value": -1000000
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
+      }
+    },
+    "goety_revelation:spell_cooldown": {
+      "enabled": false,
+      "min": {
+        "default": -5,
+        "value": -5
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:spell_duration": {
+      "enabled": false,
+      "min": {
+        "default": -1000000,
+        "value": -1000000
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -32767,
+        "value": -32767
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:spell_power_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:spell_radius": {
+      "enabled": false,
+      "min": {
+        "default": -1000000,
+        "value": -1000000
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
+      }
+    },
+    "goety_revelation:spell_range": {
+      "enabled": false,
+      "min": {
+        "default": -1000000,
+        "value": -1000000
+      },
+      "max": {
+        "default": 1000000,
+        "value": 1000000
+      }
+    },
+    "goety_revelation:spell_velocity": {
+      "enabled": false,
+      "min": {
+        "default": -1000000,
+        "value": -1000000
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:storm_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:void_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:wild_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
+    "goety_revelation:wind_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 32767,
+        "value": 32767
+      }
+    },
     "ice_and_fire_delight:number_of_explosions": {
       "enabled": false,
       "min": {
@@ -196,6 +482,127 @@
       "max": {
         "default": 9999,
         "value": 9999
+      }
+    },
+    "lodestone:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "lodestone:magic_proficiency": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "lodestone:magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "malum:arcane_resonance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "malum:malignant_conversion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "malum:reserve_staff_charges": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "malum:scythe_proficiency": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "malum:soul_ward_capacity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "malum:soul_ward_integrity": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "malum:soul_ward_recovery_rate": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "malum:spirit_spoils": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "minecraft:generic.armor": {

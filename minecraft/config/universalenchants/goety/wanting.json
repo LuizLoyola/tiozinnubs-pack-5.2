@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:rings"
+  ],
+  "incompatible": [
+    "minecraft:silk_touch"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:malum_scythe_only"
+  ],
+  "incompatible": [
+    "malum:haunted"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:butcher_butcherenchantment",
+    "industrialforegoing:infinity_hammer",
+    "aiotbotania:livingwood_aiot",
+    "aiotbotania:livingrock_aiot",
+    "aiotbotania:manasteel_aiot",
+    "aiotbotania:elementium_aiot",
+    "aiotbotania:terra_aiot",
+    "aiotbotania:alfsteel_aiot"
+  ],
+  "incompatible": []
+}
