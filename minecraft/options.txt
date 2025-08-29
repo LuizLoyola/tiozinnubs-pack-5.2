@@ -223,6 +223,7 @@ key_key.dragon_down:key.keyboard.x
 key_key.dragon_fireAttack:key.keyboard.r
 key_key.dragon_strike:key.keyboard.g
 key_key.drop:key.keyboard.q
+key_key.endergetic.booflo_slam:key.keyboard.x
 key_key.enlightened_end.dashing_leggings_ability:key.keyboard.g
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.epp.viewpattern:key.keyboard.p
@@ -346,6 +347,8 @@ key_key.mekanismcurios.protableqio:key.keyboard.y
 key_key.mekanismcurios.quickteleport:key.keyboard.i
 key_key.modernfix.config:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.unknown
+key_key.now-playing.group.display:key.keyboard.unknown
+key_key.now-playing.group.next:key.keyboard.unknown
 key_key.occultism.backpack:key.keyboard.b
 key_key.occultism.familiar.bat_familiar:key.keyboard.unknown
 key_key.occultism.familiar.beaver_familiar:key.keyboard.unknown
@@ -425,6 +428,16 @@ key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
+key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
+key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
+key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.x:ALT
+key_keybind.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
+key_keybind.sophisticatedstorage.sort:key.mouse.middle
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
 key_neat.keybind.toggle:key.keyboard.unknown
 key_options.narrator:key.keyboard.unknown

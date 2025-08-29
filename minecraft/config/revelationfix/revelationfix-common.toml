@@ -5,7 +5,7 @@
 
 ["The Apocalypse"]
 	#A list of items(curios!) won't be banned when The Nether Apollyon in the phase "The Apocalypse".
-	whitelistItems = ["sophisticatedbackpacks:backpack", "sophisticatedbackpacks:iron_backpack", "sophisticatedbackpacks:gold_backpack", "sophisticatedbackpacks:diamond_backpack", "sophisticatedbackpacks:netherite_backpack", "enigmaticlegacy:cursed_ring"]
+	whitelistItems = ["sophisticatedbackpacks:backpack", "sophisticatedbackpacks:iron_backpack", "sophisticatedbackpacks:gold_backpack", "sophisticatedbackpacks:diamond_backpack", "sophisticatedbackpacks:netherite_backpack"]
 	#A list of entity types(non LivingEntity) won't be removed when The Nether Apollyon in the phase "The Apocalypse".
 	whitelistEntities = ["revelationfix:fake_item_entity", "minecraft:item", "minecraft:experience_orb"]
 	#If configured as true, when a creature is killed by Apollon's barrier, Apollon will return to the state of "The Apocalypse".

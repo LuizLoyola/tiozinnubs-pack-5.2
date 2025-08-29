@@ -1,0 +1,16 @@
+filename = 'MetalBarrels-forge-1.20.1-3.jar'
+name = 'Metal Barrels'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a05dfaf25691d68deff5b6518fb8aa464b538342'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5442455
+project-id = 324985

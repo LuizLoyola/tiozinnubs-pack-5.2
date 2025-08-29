@@ -1,0 +1,16 @@
+filename = 'RootsClassic-1.20.1-1.4.2.jar'
+name = 'Roots Classic'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9e1208e02d871c85f3b01d5f5258e37ce0ced9d9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6022461
+project-id = 295780
