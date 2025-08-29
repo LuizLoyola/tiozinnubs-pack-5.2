@@ -1,0 +1,16 @@
+filename = 'aethersdelight-0.1.3.1-1.20.1.jar'
+name = "Aether's Delight"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '102f3a299b4ab92a6bb29908b9d6fecc7576cfa4cabbfcf795ebe001a1a0d4ee55025216753f31cb842ae350e0c21d23342b1e262e66d8fd7d9ed4168a8fafa6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XUztKPS9/versions/IMQRjMr0/aethersdelight-0.1.3.1-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'XUztKPS9'
+version = 'IMQRjMr0'

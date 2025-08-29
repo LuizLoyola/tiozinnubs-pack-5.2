@@ -1,0 +1,16 @@
+filename = 'farmers-cutting-the-aether-1.20.1-1.0.jar'
+name = "Farmer's Cutting: The Aether"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '95e9a92025863fe70f940d025a6b9b90a690c7ee6253eab5d7b27b0b7eb29c198eff5fc2387ae837fa78f7292f17500b19dc5b8191ee6fa325e41765d3039818'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/W77u83l0/versions/mnkWIZL9/farmers-cutting-the-aether-1.20.1-1.0.jar'
+
+[update.modrinth]
+mod-id = 'W77u83l0'
+version = 'mnkWIZL9'

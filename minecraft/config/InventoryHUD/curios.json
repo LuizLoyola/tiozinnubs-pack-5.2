@@ -1,4 +1,60 @@
 {
+  "aether_accessory": {
+    "x": 0,
+    "y": 540,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "aether_accessory_2": {
+    "x": 0,
+    "y": 560,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "aether_cape": {
+    "x": 0,
+    "y": 580,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "aether_gloves": {
+    "x": 0,
+    "y": 600,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "aether_pendant": {
+    "x": 0,
+    "y": 620,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "aether_ring": {
+    "x": 0,
+    "y": 640,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "aether_ring_2": {
+    "x": 0,
+    "y": 660,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "aether_shield": {
+    "x": 0,
+    "y": 680,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
   "an_focus": {
     "x": 0,
     "y": 220,

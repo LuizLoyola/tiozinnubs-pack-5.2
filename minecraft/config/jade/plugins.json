@@ -63,6 +63,9 @@
     "crafting_monitor": true,
     "part_name": true
   },
+  "aether_redux": {
+    "logicator": true
+  },
   "appliedcooking": {
     "kitchen_station": true
   },

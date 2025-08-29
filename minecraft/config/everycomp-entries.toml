@@ -216,6 +216,16 @@
 		[types.metal_type.aquaculture]
 			neptunium = true
 
+		[types.metal_type.aethersdelight]
+			arkenium = true
+
+		[types.metal_type.deep_aether]
+			stratus = true
+
+		[types.metal_type.aether_redux]
+			veridium = true
+			gravitite = true
+
 	[types.gem_type]
 
 		[types.gem_type.enlightened_end]
@@ -223,6 +233,9 @@
 
 		[types.gem_type.goety]
 			jade = true
+
+		[types.gem_type.deep_aether]
+			skyjade = true
 
 	[types.stone_type]
 
@@ -321,10 +334,25 @@
 			highrock = true
 			siltstone = true
 
+		[types.stone_type.aether_redux]
+			driftshale = true
+			sentrite = true
+
+		[types.stone_type.deep_aether]
+			clorite = true
+			raw_clorite = true
+			aseterite = true
+
+		[types.stone_type.aether]
+			holystone = true
+
 	[types.mud_type]
 
 		[types.mud_type.deeperdarker]
 			sculk_grime = true
+
+		[types.mud_type.deep_aether]
+			aether_mud = true
 
 	[types.cut_block_type]
 
@@ -1438,6 +1466,54 @@
 		[types.cut_block_type.savage_and_ravage]
 			gloomy_tile = true
 
+		[types.cut_block_type.aether]
+			skyroot = true
+			holystone = true
+			mossy_holystone = true
+			icestone = true
+			holystone_brick = true
+			aerogel = true
+
+		[types.cut_block_type.deep_aether]
+			roseroot = true
+			yagroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
+			cobbled_aseterite = true
+			aseterite = true
+			polished_aseterite = true
+			aseterite_bricks = true
+			raw_clorite = true
+			clorite = true
+			polished_clorite = true
+			holystone_tile = true
+			mossy_holystone_brick = true
+			mossy_holystone_tile = true
+			big_holystone_bricks = true
+			aether_mud_bricks = true
+			gilded_holystone_brick = true
+			blightmoss_holystone_brick = true
+			gilded_holystone_tile = true
+			blightmoss_holystone_tile = true
+
+		[types.cut_block_type.aether_redux]
+			polished_driftshale = true
+			divinite = true
+			sentrite = true
+			polished_sentrite = true
+			sentrite_brick = true
+			shell_shingle = true
+			enchanted_shell_shingle = true
+			gilded_holystone = true
+			blightmoss_holystone = true
+			fieldsproot = true
+			blightwillow = true
+			cloudcap = true
+			jellyshroom = true
+			crystal = true
+			glacia = true
+
 	[types.wood_type]
 
 		[types.wood_type.deeperdarker]
@@ -1640,6 +1716,24 @@
 
 		[types.wood_type.endergetic]
 			poise = true
+
+		[types.wood_type.aether]
+			skyroot = true
+
+		[types.wood_type.deep_aether]
+			roseroot = true
+			yagroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
+
+		[types.wood_type.aether_redux]
+			fieldsproot = true
+			blightwillow = true
+			cloudcap = true
+			jellyshroom = true
+			crystal = true
+			glacia = true
 
 	[types.cake]
 
@@ -1910,6 +2004,32 @@
 			windswept = true
 			pine = true
 			chorus = true
+
+		[types.leaves_type.aether]
+			skyroot = true
+			golden_oak = true
+			crystal = true
+			crystal_fruit = true
+			holiday = true
+			decorated_holiday = true
+
+		[types.leaves_type.deep_aether]
+			roseroot = true
+			flowering_roseroot = true
+			blue_roseroot = true
+			flowering_blue_roseroot = true
+			yagroot = true
+			cruderoot = true
+			conberry = true
+			sunroot = true
+
+		[types.leaves_type.aether_redux]
+			fieldsproot = true
+			blightwillow = true
+			glacia = true
+			purple_glacia = true
+			gilded_oak = true
+			blighted_skyroot = true
 
 #Disables specific entries
 [entries]
