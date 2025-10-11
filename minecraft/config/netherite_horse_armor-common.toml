@@ -5,5 +5,5 @@ weight = 8
 #Range: 1 ~ 30
 protectionValue = 13
 #Whether you can upgrade a diamond horse armor into a netherite one with smithing table. (default: false)
-easyCrafting = false
+easyCrafting = true
 
