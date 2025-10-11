@@ -1,16 +1,16 @@
-filename = 'PackagedAvaritia-Re-1.20.1-2.2.2.12.jar'
-name = 'PackagedAvaritia'
+filename = 'PackagedAvaritia-Re-1.20.1-2.2.2.13.jar'
+name = 'PackagedAvaritia:Re'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '5771b9eda279a42616a0d321e376903b488d7f91f9edf22a8f185ead8a27704ccffde66cda96b02b61eab11e792fa9aea8ecedfc4ea1f2eb65724cbecc01b353'
+hash = '0914e3d1ef1debc2b5318be279bbfd3556f978990aa5daf26bf72424315a124371511657eeb99b2c2ab80335f3b7178154e3fb7286097715817b78d483eecfc8'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/aA94MQL4/versions/FyKsffur/PackagedAvaritia-Re-1.20.1-2.2.2.12.jar'
+url = 'https://cdn.modrinth.com/data/aA94MQL4/versions/c3Hq27mc/PackagedAvaritia-Re-1.20.1-2.2.2.13.jar'
 
 [update.modrinth]
 mod-id = 'aA94MQL4'
-version = 'FyKsffur'
+version = 'c3Hq27mc'

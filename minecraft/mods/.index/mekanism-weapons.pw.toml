@@ -1,4 +1,4 @@
-filename = 'MekaWeapons-1.20.1-2.7.jar'
+filename = 'MekanismWeapons-1.20.1-3.0.jar'
 name = 'Mekanism: Weapons'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '9f016013123a2830127cb785acbf4e5c9db9e0b2'
+hash = '731ca65cbae47b99314f29eb75d0401084c4883e'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6867291
+file-id = 6949839
 project-id = 929829

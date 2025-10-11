@@ -1,16 +1,16 @@
-filename = 'rebind_narrator-1.20.1-forge-2025.8.21.jar'
+filename = 'rebind_narrator-1.20.1-forge-2025.09.11.jar'
 name = 'Rebind Narrator'
 side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'b0a2acc954fb3d802803a2b50209f69c8aaea2197dc6a57d6237c946f8e5f37900600c9d1d8f03c9a7d53d2f67f5ec99071557527430959604c1668bcf9a9420'
+hash = '6d5b9b0b9a3c6dcdfcabc8d5212cc516eabc47681b607844122756592d260ebdf5920708b4413439dcb279a87d54ecc1a15c361258d665c889fd7dde44136941'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/qw2Ls89j/versions/wWnEesTv/rebind_narrator-1.20.1-forge-2025.8.21.jar'
+url = 'https://cdn.modrinth.com/data/qw2Ls89j/versions/6nZPc267/rebind_narrator-1.20.1-forge-2025.09.11.jar'
 
 [update.modrinth]
 mod-id = 'qw2Ls89j'
-version = 'wWnEesTv'
+version = '6nZPc267'

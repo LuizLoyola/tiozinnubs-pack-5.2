@@ -21,53 +21,6 @@
 
 [Spells]
 
-	[Spells."Revelation Spell"]
-		#Revelation Spell Cost, Default: 4500
-		#Range: > 0
-		revelationCost = 4500
-		#Revelation Spell Cooldown, Default: 120
-		#Range: > 0
-		revelationCoolDown = 120
-
-	[Spells."Heretic Spell"]
-		#Heretic Spell Cost, Default: 60
-		#Range: > 0
-		hereticCost = 60
-		#Time to cast Heretic Spell, Default: 120
-		#Range: 0 ~ 72000
-		ghastDuration = 120
-		#Heretic Spell Cooldown, Default: 300
-		#Range: > 0
-		hereticCoolDown = 300
-		#Heretic Spell Summon Down, Default: 300
-		#Range: 0 ~ 72000
-		hereticSummonDown = 300
-		#Number of Mavericks(or Heretics-1) that can exist around the player, Default: 8
-		#Range: > 1
-		hereticLimit = 8
-
-	[Spells."Wither Quietus Spell"]
-		#Wither Quietus Spell Cost, Default: 2500
-		#Range: > 0
-		quietusCost = 2500
-		#Time to cast Wither Quietus Spell, Default: 0
-		#Range: 0 ~ 72000
-		quietusTime = 0
-		#Wither Quietus Spell Cooldown, Default: 140
-		#Range: > 0
-		quietusCoolDown = 140
-
-	[Spells."Ice Spell"]
-		#Ice Spell Cost, Default: 8
-		#Range: > 0
-		iceCost = 100
-		#How many ticks the Ice Spell much charge before casting, Default: 20
-		#Range: > 0
-		iceChargeUp = 0
-		#Ice Spell Cooldown, Default: 400
-		#Range: 0 ~ 72000
-		iceCoolDown = 200
-
 	[Spells."Vexing Spell"]
 		#Vexing Spell Cost, Default: 18
 		#Range: > 0
@@ -81,12 +34,9 @@
 		#Vexing Spell Summon Down, Default: 340
 		#Range: 0 ~ 72000
 		vexSummonDown = 340
-		#Number of Vex Servants that can be spawn with a wand, without instantly dying, around the player, Default: 8
+		#Number of Vex Servants that an individual player can have in total, Default: 8
 		#Range: > 1
-		wandVexLimit = 8
-		#Number of Vex Servants that can be spawn with a staff, without instantly dying, around the player, Default: 16
-		#Range: > 1
-		staffVexLimit = 16
+		vexLimit = 8
 
 	[Spells."Biting Spell && Magic Fangs"]
 		#Biting Spell Cost, Default: 8
@@ -1087,6 +1037,9 @@
 		#Entangling Spell Cooldown, Default: 400
 		#Range: > 0
 		entanglingCoolDown = 400
+		#Maximum amount of targets that can be entangled when cast using Wild Staff, Default: 8
+		#Range: > 1
+		entanglingStaffAmount = 8
 
 	[Spells."Whispering Spell"]
 		#Whispering Spell Cost, Default: 16
@@ -1421,7 +1374,7 @@
 		#Time to cast Watching Spell, Default: 40
 		#Range: 0 ~ 72000
 		watchlingTime = 40
-		#Watching Spell Cooldown, Default: 200
+		#Watching Spell Cooldown, Default: 300
 		#Range: > 0
 		watchlingCoolDown = 200
 		#Watching Spell Summon Down, Default: 120
@@ -1438,7 +1391,7 @@
 		#Time to cast Blasting Spell, Default: 60
 		#Range: 0 ~ 72000
 		blastlingTime = 60
-		#Blasting Spell Cooldown, Default: 200
+		#Blasting Spell Cooldown, Default: 400
 		#Range: > 0
 		blastlingCoolDown = 200
 		#Blasting Spell Summon Down, Default: 120
@@ -1455,7 +1408,7 @@
 		#Time to cast Snaring Spell, Default: 40
 		#Range: 0 ~ 72000
 		snarelingTime = 40
-		#Snaring Spell Cooldown, Default: 200
+		#Snaring Spell Cooldown, Default: 350
 		#Range: > 0
 		snarelingCoolDown = 200
 		#Snaring Spell Summon Down, Default: 120
@@ -1609,6 +1562,20 @@
 		corruptedBeamDamage = 10.0
 		#Whether casting Corruption spell immobilizes the caster, Default: true
 		corruptionImmobile = true
+
+	[Spells."Illuminate Spell"]
+		#Illuminate Spell Cost, Default: 4
+		#Range: > 0
+		illuminateCost = 4
+		#How many ticks the Illuminate Spell much charge before casting, Default: 0
+		#Range: > 0
+		illuminateChargeUp = 0
+		#Time to cast Illuminate Spell per second, Default: 5
+		#Range: 0 ~ 72000
+		illuminateTime = 5
+		#Minimum block light level below which the spell attempts to light up, Default: 5
+		#Range: 0 ~ 15
+		illuminateMinLightLevel = 5
 
 ["Servant Limits"]
 	#Number of Spider Servants that an individual player can have in total, Default: 32

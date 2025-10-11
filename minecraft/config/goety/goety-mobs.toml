@@ -80,6 +80,16 @@
 			iceologerServantTexture = true
 			#If Wind Caller Servants have custom textures, Default: true
 			windCallerServantTexture = true
+			#If Piker Servants have custom textures, Default: true
+			pikerServantTexture = true
+			#If Mountaineer Servants have custom textures, Default: true
+			mountaineerServantTexture = true
+			#If Crusher Servants have custom textures, Default: true
+			crusherServantTexture = true
+			#If Cryologer Servants have custom textures, Default: true
+			cryologerServantTexture = true
+			#If Storm Caster Servants have custom textures, Default: true
+			stormCasterServantTexture = true
 
 		[Textures."Summoned Mobs"."Spider Servants"]
 			#If Spiders Servants have custom textures, Default: true
@@ -587,6 +597,8 @@
 		#Spawn maximum group count for Necromancer, must be equal or higher than min count, Default: 1
 		#Range: > 1
 		necromancerSpawnMaxCount = 1
+		#Whether Necromancers can be part of structure spawn pools. Default: false
+		necromancerSpawnStructure = false
 
 	[Spawning.Heretic]
 		#Spawn Weight for Heretic, Default: 5

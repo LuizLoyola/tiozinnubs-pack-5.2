@@ -1,16 +1,16 @@
-filename = 'Re-Avaritia-forged-1.20.1-1.3.9.0-beta4.jar'
-name = 'Re:Avaritia'
+filename = 'Re-Avaritia-forged-1.20.1-1.3.9.3-alpha4.jar'
+name = 'Re-Avaritia-forged'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
-x-prismlauncher-release-type = 'beta'
+x-prismlauncher-release-type = 'alpha'
 
 [download]
-hash = '958175ac18d3d4dcefce444615cc5868fe0f9ed4e52c4f2dfcbb90bd46ddf4113ea380e6fa7a2a9481c44943563d9ac6c05e3333f944b03166140d418e64802c'
+hash = '35b41cfc7e9227933169425d6c41092554b9518be2878afd2a0836a4fca8a85e3829cfbfd6116433d4376b1006cffe0cee989434a333575539a6e6220169b792'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/QeB3NRC5/versions/W0BxtY5e/Re-Avaritia-forged-1.20.1-1.3.9.0-beta4.jar'
+url = 'https://cdn.modrinth.com/data/QeB3NRC5/versions/OVBezr55/Re-Avaritia-forged-1.20.1-1.3.9.3-alpha4.jar'
 
 [update.modrinth]
 mod-id = 'QeB3NRC5'
-version = 'W0BxtY5e'
+version = 'OVBezr55'

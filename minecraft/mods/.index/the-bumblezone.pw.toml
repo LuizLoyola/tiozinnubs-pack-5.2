@@ -1,16 +1,16 @@
-filename = 'the_bumblezone-7.8.0+1.20.1-forge.jar'
-name = 'The Bumblezone - NeoForge/Forge'
+filename = 'the_bumblezone-7.9.0+1.20.1-forge.jar'
+name = 'The Bumblezone'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '55f5d732e1d0e55318f4dea1a0e391f0be17269ca50e45366d2dea8c1691b8c87747e8ec2b57f4e55afbaab40e3072aaff22328e3665c2d69466717c8902ddd0'
+hash = '7a875e2857a06d7de026969ee1c18e36ea0cecf2512860deb4097b6057f77242e627451d3e7452211404ede8628a1b94430b514a2e3ba663068c4b52b9b6f10a'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/38tpSycf/versions/tMviU9nd/the_bumblezone-7.8.0%2B1.20.1-forge.jar'
+url = 'https://cdn.modrinth.com/data/38tpSycf/versions/lqRzI2z9/the_bumblezone-7.9.0%2B1.20.1-forge.jar'
 
 [update.modrinth]
 mod-id = '38tpSycf'
-version = 'tMviU9nd'
+version = 'lqRzI2z9'

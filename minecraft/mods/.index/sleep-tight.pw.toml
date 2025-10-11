@@ -1,4 +1,4 @@
-filename = 'sleep_tight-1.20-1.4.5.jar'
+filename = 'sleep_tight-1.20-1.4.6.jar'
 name = 'Sleep Tight'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '4238183140fcb2fa00667eea9473e3ab8cbc84898fbae57b725b0dfa69610d4164c59edbf1c409e17ea410373d433dea2c1051b3a17cad2a5d59aa7194c82471'
+hash = 'ead3fc8203213b112d54b4eb02e19014dced5bd93fd41935c7479fcfff740301d6bde369b949082a4956cc27d113cbc35f2ab0263e552216097a6db1faea13ac'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/tNai0h2Y/versions/KTDomsvG/sleep_tight-1.20-1.4.5.jar'
+url = 'https://cdn.modrinth.com/data/tNai0h2Y/versions/BKnUEJqy/sleep_tight-1.20-1.4.6.jar'
 
 [update.modrinth]
 mod-id = 'tNai0h2Y'
-version = 'KTDomsvG'
+version = 'BKnUEJqy'

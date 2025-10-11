@@ -1,6 +1,6 @@
-filename = 'zume-1.1.4.jar'
+filename = 'zume-1.2.0.jar'
 name = 'Zume'
-side = 'client'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
 x-prismlauncher-mc-versions = [
     '1.10',
@@ -181,6 +181,7 @@ x-prismlauncher-mc-versions = [
     '1.21 rc1',
     '1.21.1',
     '1.21.1 rc1',
+    '1.21.10 rc1',
     '1.21.2',
     '1.21.2 Pre-Release 1',
     '1.21.2 Pre-Release 2',
@@ -214,6 +215,12 @@ x-prismlauncher-mc-versions = [
     '1.21.7 rc2',
     '1.21.8',
     '1.21.8 rc1',
+    '1.21.9',
+    '1.21.9 Pre-Release 1',
+    '1.21.9 Pre-Release 2',
+    '1.21.9 Pre-Release 3',
+    '1.21.9 Pre-Release 4',
+    '1.21.9 rc1',
     '1.6.4',
     '1.7',
     '1.7.1',
@@ -598,16 +605,25 @@ x-prismlauncher-mc-versions = [
     '25w19a',
     '25w20a',
     '25w21a',
+    '25w31a',
+    '25w32a',
+    '25w33a',
+    '25w34a',
+    '25w34b',
+    '25w35a',
+    '25w36a',
+    '25w36b',
+    '25w37a',
     'b1.7.3'
 ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'a8d922294ff8633a1e8872e9cedc1a125027692906c6ee1a828aaf517f7774d0f494dc8879f53a90fe7200b3c46890a725f83d2f2aa3aa4aa59d1bdd4c3dae12'
+hash = '52a04c612ea939063115a927f948a1349eaab5f354db06d2084bd071ac072459bedefd82d5365677f4649cc7078fd265f3515b9208acec566e97a3cb5cbb49ad'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/o6qsdrrQ/versions/5J6WsndO/zume-1.1.4.jar'
+url = 'https://cdn.modrinth.com/data/o6qsdrrQ/versions/zOLMcYq6/zume-1.2.0.jar'
 
 [update.modrinth]
 mod-id = 'o6qsdrrQ'
-version = '5J6WsndO'
+version = 'zOLMcYq6'

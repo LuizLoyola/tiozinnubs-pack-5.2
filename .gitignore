@@ -19,6 +19,7 @@ minecraft/config/jaopca/materials/
 minecraft/config/jaopca/materials/*.bak
 minecraft/config/oculus.properties
 minecraft/config/sound_physics_remastered/allowed_sounds.properties
+minecraft/config/sound_physics_remastered/sound_rates.properties
 minecraft/config/spark/activity.json
 minecraft/config/spark/tmp/
 minecraft/config/xaerominimap_entities.json

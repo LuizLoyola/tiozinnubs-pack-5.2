@@ -1,16 +1,16 @@
-filename = 'CrabbersDelight-1.20.1-1.1.7e.jar'
+filename = 'crabbersdelight-1.20.1-1.2.3.jar'
 name = "Crabber's Delight"
 side = 'both'
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'ccd810b6d26105d979e533174a23a024f719b67ce48da8737df7c401a6b062deb1294d372823bdd0e785c6ad80bca479d741fd2cba5aa94e6cc1db95be7c0337'
+hash = '36ad55c11cbef88382e16eaaf01e570e1bc3e28b00ca464861472a435ca40efeaeaae338a1777226348cd1b1ab9034e6d87964d207fd8a17888779afe17c617a'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/gBGdVBJy/versions/OJEzJil1/CrabbersDelight-1.20.1-1.1.7e.jar'
+url = 'https://cdn.modrinth.com/data/gBGdVBJy/versions/B2BQTXh9/crabbersdelight-1.20.1-1.2.3.jar'
 
 [update.modrinth]
 mod-id = 'gBGdVBJy'
-version = 'OJEzJil1'
+version = 'B2BQTXh9'

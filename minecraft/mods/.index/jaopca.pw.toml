@@ -1,4 +1,4 @@
-filename = 'JAOPCA-1.20.1-4.4.17.32.jar'
+filename = 'JAOPCA-1.20.1-4.4.17.33.jar'
 name = 'JAOPCA'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '3d4749ea787088dca7c64697421babb809e4f7b53ecc7c781144c5e63b502128cfb3e19a5328ed5810a33d5da8d5823cfa45d75c886b1e5357eae9b0bcb3f6a8'
+hash = '3da4f8eea5ca9be6b4bf7ba2daf52c441112ff9d856822edff58a2f9f03a470c54b21f5271e16dbbd31c9451e7c8185c52eee675454d6dc9be02495bf9acae56'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/P48mHi2j/versions/aEFS9XkA/JAOPCA-1.20.1-4.4.17.32.jar'
+url = 'https://cdn.modrinth.com/data/P48mHi2j/versions/5Z0rSf2c/JAOPCA-1.20.1-4.4.17.33.jar'
 
 [update.modrinth]
 mod-id = 'P48mHi2j'
-version = 'aEFS9XkA'
+version = '5Z0rSf2c'

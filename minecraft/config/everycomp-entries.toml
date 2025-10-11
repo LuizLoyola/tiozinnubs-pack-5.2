@@ -10,6 +10,15 @@
 		[types.crystal_type.hexerei]
 			selenite = true
 
+		[types.crystal_type.aether]
+			ambrosium = true
+
+		[types.crystal_type.goety]
+			void = true
+
+		[types.crystal_type.ae2]
+			quartz = true
+
 	[types.dust_type]
 
 		[types.dust_type.ae2]
@@ -313,7 +322,7 @@
 			abyssal_stone = true
 
 		[types.stone_type.ars_nouveau]
-			sconce = true
+			sourcestone = true
 
 		[types.stone_type.deeperdarker]
 			sculk_stone = true
@@ -353,6 +362,9 @@
 
 		[types.mud_type.deep_aether]
 			aether_mud = true
+
+		[types.mud_type.enlightened_end]
+			chorloam = true
 
 	[types.cut_block_type]
 
@@ -1458,6 +1470,9 @@
 			snow_brick = true
 			end_stone_tile = true
 			smooth_end_stone = true
+			smooth_siltstone = true
+			cobbled_siltstone = true
+			cobbled_end_stone = true
 
 		[types.cut_block_type.endergetic]
 			poise = true
@@ -1514,6 +1529,13 @@
 			crystal = true
 			glacia = true
 
+		[types.cut_block_type.dungeonnowloading]
+			coiling_stone_pillar = true
+			stone_tile = true
+
+		[types.cut_block_type.crabbersdelight]
+			palm = true
+
 	[types.wood_type]
 
 		[types.wood_type.deeperdarker]
@@ -1524,7 +1546,7 @@
 			menril = true
 
 		[types.wood_type.ars_nouveau]
-			blue_archwood = true
+			archwood = true
 
 		[types.wood_type.blue_skies]
 			crystallized = true
@@ -1734,6 +1756,12 @@
 			jellyshroom = true
 			crystal = true
 			glacia = true
+
+		[types.wood_type.dungeonsdelight]
+			wormwood = true
+
+		[types.wood_type.crabbersdelight]
+			palm = true
 
 	[types.cake]
 
@@ -2030,6 +2058,9 @@
 			purple_glacia = true
 			gilded_oak = true
 			blighted_skyroot = true
+
+		[types.leaves_type.crabbersdelight]
+			palm = true
 
 #Disables specific entries
 [entries]

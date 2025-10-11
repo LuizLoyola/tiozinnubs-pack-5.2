@@ -1,4 +1,4 @@
-filename = 'railcraft-reborn-1.20.1-1.1.9.jar'
+filename = 'railcraft-reborn-1.20.1-1.1.10.jar'
 name = 'Railcraft Reborn'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '94fc947f2bed6f36efda6500e66a72ae707158dba67e9e6ceee75364c6b1fa5e8dcf373ec87b976298bf2903dbc7b0f3dd17846e4a0b17b14e12d5a8650ad978'
+hash = 'b8870e7ae3f3d11bdcf961c3784dfc93be87a99f52fb4efc9887956c60f0b8ceac2d4cf2b31a6d015a171a0af23587343b49d1e870ad5dcbf5b72baecd8dae54'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/rO6kKst6/versions/Nz98wZod/railcraft-reborn-1.20.1-1.1.9.jar'
+url = 'https://cdn.modrinth.com/data/rO6kKst6/versions/BU8Tp0Pn/railcraft-reborn-1.20.1-1.1.10.jar'
 
 [update.modrinth]
 mod-id = 'rO6kKst6'
-version = 'Nz98wZod'
+version = 'BU8Tp0Pn'

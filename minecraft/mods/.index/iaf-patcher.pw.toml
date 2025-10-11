@@ -1,16 +1,16 @@
-filename = 'iaf_patcher-1.0-all.jar'
-name = 'Ice And Fire Patcher'
+filename = 'iaf_patcher-1.2-all.jar'
+name = 'IceAndFire Patcher'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '35fa944fa6b5d397be66ddac4c3735ba7d723feed7ac824c8b3e60d343c6470f1a698f0e9188525413db760515c7dc2717d08438871d00a5988636fd442e6b00'
+hash = '9297fa5aa262c670f186e3a042beb70fc75c51cd5506bf8caccaf0ffe938b82fec61c63268655d95a0a3410d077930f6dd845fa4499ec51a0455b7d5e70993ac'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/5ajMogiG/versions/CfC6akm6/iaf_patcher-1.0-all.jar'
+url = 'https://cdn.modrinth.com/data/5ajMogiG/versions/rEsbOc7b/iaf_patcher-1.2-all.jar'
 
 [update.modrinth]
 mod-id = '5ajMogiG'
-version = 'CfC6akm6'
+version = 'rEsbOc7b'

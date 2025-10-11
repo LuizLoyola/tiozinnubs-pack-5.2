@@ -1,16 +1,16 @@
-filename = 'stonezone-1.20-2.9.0.jar'
-name = 'Every Compat (Stone Zone)'
+filename = 'stonezone-1.20-2.9.6.jar'
+name = 'Stone Zone'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'cad2f841062c19f45984aca75d29c51f2892d65fa8e7bc646852459a93561b61aa36e4d93ea67863e42a6b9ed36d3c55f5d78d37d14bcd50258aa7461d2d86ee'
+hash = 'c983e008cea996a9dd8f06da018cdb08a0e70360ee0b7a32b536680bd8a178e406b9e1c8a168cf372ecaf92f5d3ed98bb84c0320da28b27adedff33643c17bb7'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/uYwn8IP5/versions/suqKCwTL/stonezone-1.20-2.9.0.jar'
+url = 'https://cdn.modrinth.com/data/uYwn8IP5/versions/KVQFQ3Qo/stonezone-1.20-2.9.6.jar'
 
 [update.modrinth]
 mod-id = 'uYwn8IP5'
-version = 'suqKCwTL'
+version = 'KVQFQ3Qo'

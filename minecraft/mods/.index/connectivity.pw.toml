@@ -1,16 +1,16 @@
-filename = 'connectivity-1.20.1-7.1.jar'
-name = 'Connectivity'
+filename = 'connectivity-1.20.1-7.2.jar'
+name = 'Connectivity Mod'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'd4f2165b6c34439d110111c71d774f19d6947261'
+hash = 'b05ecfb2729938fb5ce38df6af43b0b4e55b1833'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6229159
+file-id = 7032387
 project-id = 470193

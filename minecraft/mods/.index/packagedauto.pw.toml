@@ -1,4 +1,4 @@
-filename = 'PackagedAuto-1.20.1-3.4.13.41.jar'
+filename = 'PackagedAuto-1.20.1-3.4.14.44.jar'
 name = 'PackagedAuto'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '7707366a4eea785bbbbb3f598950c26913aa57e820f4c033373c617152142681a77fadc7ace927b76fb411b9187cb8c121685e8bf5ab54bec42cf8aa1f9d62f4'
+hash = '2f2ff5b017391f05d413c78d6c1326c73353aa143c0a0e3c958ec8a49aed1fe257144619000a9f9d892bbfcdc176d8c2f126a26d2f3458fb0d641daff446b884'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ugIdhQx4/versions/BqaVjEIJ/PackagedAuto-1.20.1-3.4.13.41.jar'
+url = 'https://cdn.modrinth.com/data/ugIdhQx4/versions/bNR0pASi/PackagedAuto-1.20.1-3.4.14.44.jar'
 
 [update.modrinth]
 mod-id = 'ugIdhQx4'
-version = 'BqaVjEIJ'
+version = 'bNR0pASi'

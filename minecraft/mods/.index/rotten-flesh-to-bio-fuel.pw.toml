@@ -1,16 +1,16 @@
-filename = 'rottenfleshtobiofuel-1.0.jar'
-name = 'Mekanism Addon: Rotten Flesh To Bio Fuel'
+filename = 'rftb1201-1.0.0.jar'
+name = 'Rotten Flesh to Bio Fuel'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '7ba62bf117d231bb5675280f59e004cdc9d2dec732ba9b826182d730afa9400627dc3e064b7f428ead0e52ace859b435b9a03802bdb63026c85701926662edcb'
+hash = '3e62fd38aea5e6243acbedfdcaa1c733190ba6b65ca53e4795bf32850f0c50acadf11eb347b446c41bd9f72c52e7f30b2bcedfb459f2afdba5c1fc70134dcfef'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/T9EYZ6cV/versions/5y4SI2U8/rottenfleshtobiofuel-1.0.jar'
+url = 'https://cdn.modrinth.com/data/T9EYZ6cV/versions/aGwzCsvS/rftb1201-1.0.0.jar'
 
 [update.modrinth]
 mod-id = 'T9EYZ6cV'
-version = '5y4SI2U8'
+version = 'aGwzCsvS'

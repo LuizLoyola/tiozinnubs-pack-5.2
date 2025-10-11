@@ -137,7 +137,8 @@ const equivalentMods = [
     ['thermal_expansion', 'thermal'],
     ['simpleclouds', 'crackerslib'],
     ['createrailwaysnavigator', 'dragonlib'],
-    ['rebind_narrator', 'modder_name_lib']
+    ['rebind_narrator', 'modder_name_lib'],
+    ['fruitsdelight', 'l2harvester'],
 ]
 
 const ignoredOptDeps = fs.existsSync(ignoredOptDepsPath) ? [...new Set(fs.readFileSync(ignoredOptDepsPath, 'utf8').split('\n').map(l => l.trim()).filter(l => l))] : [];
