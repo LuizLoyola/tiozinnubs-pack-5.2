@@ -236,6 +236,9 @@
 			veridium = true
 			gravitite = true
 
+		[types.metal_type.aethersteel]
+			aethersteel = true
+
 	[types.gem_type]
 
 		[types.gem_type.enlightened_end]
@@ -355,6 +358,9 @@
 
 		[types.stone_type.aether]
 			holystone = true
+
+		[types.stone_type.aethersteel]
+			aetherslate = true
 
 	[types.mud_type]
 
@@ -1540,6 +1546,12 @@
 
 		[types.cut_block_type.crabbersdelight]
 			palm = true
+
+		[types.cut_block_type.aethersteel]
+			cobbled_aetherslate = true
+			aetherslate_bricks = true
+			aetherslate_tiles = true
+			polished_aetherslate = true
 
 	[types.wood_type]
 

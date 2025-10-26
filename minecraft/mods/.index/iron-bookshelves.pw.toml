@@ -1,0 +1,16 @@
+filename = 'ironbookshelves-1.20.1-1.4.11-forge.jar'
+name = 'Iron Bookshelves'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '56d2c85a04a775c9ac7e90c3ab8a2cb2a5c0d536b4cf04b6e66ac86b0eebdd17ebee367ec443c01bccef5652078f9344e013eefe6857dce127bb4e2888f6cefb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QmCOBeSP/versions/hOQxwlYz/ironbookshelves-1.20.1-1.4.11-forge.jar'
+
+[update.modrinth]
+mod-id = 'QmCOBeSP'
+version = 'hOQxwlYz'
