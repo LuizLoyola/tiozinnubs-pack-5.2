@@ -107,6 +107,7 @@
 			lead = true
 			silver = true
 			dawnstone = true
+			mithril = true
 
 		[types.metal_type.occultism]
 			silver = true
@@ -1473,6 +1474,10 @@
 			smooth_siltstone = true
 			cobbled_siltstone = true
 			cobbled_end_stone = true
+			end_mud = true
+			end_dirt = true
+			end_stone = true
+			chorus_grass_block = true
 
 		[types.cut_block_type.endergetic]
 			poise = true
@@ -2032,6 +2037,7 @@
 			windswept = true
 			pine = true
 			chorus = true
+			chorus_blossom = true
 
 		[types.leaves_type.aether]
 			skyroot = true

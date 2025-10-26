@@ -1,4 +1,4 @@
-filename = 'IntegratedTerminals-1.20.1-1.6.10.jar'
+filename = 'IntegratedTerminals-1.20.1-1.6.11.jar'
 name = 'IntegratedTerminals'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '79d618e6937adf48c5d0af40e30cee37e031cff486b2b39f1da9e097aaba13b179520f134a0d2721af8ab9f1e840e5a876d096c4d4d0f8c9f30242639ca3d338'
+hash = 'dfce56bb189e9ab9bb19893a7a27225a5a2c45067247c288f8b9507d0796eecc947ff2c27fbc464fb4413a1bf24d267d6c7a73ceb95395dadb3b77aeca05758b'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/HmLJoQ1K/versions/lJYmpEOA/IntegratedTerminals-1.20.1-1.6.10.jar'
+url = 'https://cdn.modrinth.com/data/HmLJoQ1K/versions/IcaqDjB4/IntegratedTerminals-1.20.1-1.6.11.jar'
 
 [update.modrinth]
 mod-id = 'HmLJoQ1K'
-version = 'lJYmpEOA'
+version = 'IcaqDjB4'

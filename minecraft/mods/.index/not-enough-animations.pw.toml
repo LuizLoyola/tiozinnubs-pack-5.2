@@ -1,4 +1,4 @@
-filename = 'notenoughanimations-forge-1.10.3.1-mc1.20.1.jar'
+filename = 'notenoughanimations-forge-1.10.6-mc1.20.1.jar'
 name = 'NotEnoughAnimations'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '411d6b869bfdca1fee7def774b1010e54c8979cc29cd3c8b1249feb56e8d1384f2fa3671b6c37eeda0f53009e3f0244890b41c4abeab5b2da0303be75542d7c7'
+hash = 'd6c3322b260fdf7ad5e06c5340593b84df601ee638b2195712e31834936c4d8a96b3afb4f9a673163bea20283a01c1ef6c186ebc6b5e3bb83b966bba79945b7a'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/MPCX6s5C/versions/TBYOXGCv/notenoughanimations-forge-1.10.3.1-mc1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/MPCX6s5C/versions/7KhtEU40/notenoughanimations-forge-1.10.6-mc1.20.1.jar'
 
 [update.modrinth]
 mod-id = 'MPCX6s5C'
-version = 'TBYOXGCv'
+version = '7KhtEU40'

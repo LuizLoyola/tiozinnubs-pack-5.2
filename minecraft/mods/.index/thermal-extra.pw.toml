@@ -1,4 +1,4 @@
-filename = 'ThermalExtra-3.2.7-1.20.1.jar'
+filename = 'ThermalExtra-3.2.9-1.20.1.jar'
 name = 'Thermal Extra'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '8361ad223ce28f389d1400a0667194b6810303af65cf4724aa4e0b1b5c2e86120f618ab802edc3afe8072e6b66849f64254841c003897f0ceb43fefeaea79140'
+hash = '3a04ba14e97838eabc2ee46e14352f28b1084a020972b368a00dfd2cd79ffcbeb53631480633617b726da82d10ffdcd3eaf5362b55f1be2af52935f0424294e1'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/QejnMYJo/versions/Dfkr1TGN/ThermalExtra-3.2.7-1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/QejnMYJo/versions/7cB1eABo/ThermalExtra-3.2.9-1.20.1.jar'
 
 [update.modrinth]
 mod-id = 'QejnMYJo'
-version = 'Dfkr1TGN'
+version = '7cB1eABo'

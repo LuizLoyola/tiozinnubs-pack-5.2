@@ -9,4 +9,7 @@
 	#How much FE/t maximum the Chemical Package Filler can use.
 	#Range: > 0
 	energy_usage = 100
+	#How many ticks should the Chemical Package Filler wait between each refresh.
+	#Range: 1 ~ 40
+	refresh_interval = 4
 

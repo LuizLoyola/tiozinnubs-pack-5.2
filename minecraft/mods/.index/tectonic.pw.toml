@@ -1,4 +1,4 @@
-filename = 'tectonic-3.0.13-forge-1.20.1.jar'
+filename = 'tectonic-3.0.16-forge-1.20.1.jar'
 name = 'Tectonic'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'db6c5b3ac31e1b459fab9089e15e1ff92ba319845658505f100460f5f212d8c2ad54816190da240f832f914a4ec53d8fd510d15deee27943a93b6166b89d4b78'
+hash = '68319758e707986a1c42ec6e9842b924230728c754a37b35732f9ae887c56f5cc170a916a5a17735f89e0324b4cdda8b1bd642c1bc4ba9543aa8e55a3de7c94b'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/lWDHr9jE/versions/fkhhKCrl/tectonic-3.0.13-forge-1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/lWDHr9jE/versions/8xLhtkYk/tectonic-3.0.16-forge-1.20.1.jar'
 
 [update.modrinth]
 mod-id = 'lWDHr9jE'
-version = 'fkhhKCrl'
+version = '8xLhtkYk'

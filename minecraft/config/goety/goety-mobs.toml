@@ -190,6 +190,8 @@
 	#How many seconds a servant can't heal through Soul Energy after being injured, Default: 5
 	#Range: > 0
 	servantHealHalt = 5
+	#Whether armored Ravagers owned by players will drop their armor, Default: true
+	playerRavagerArmorDrop = true
 
 	[Servants."Undead Servants"]
 		#Whether Servants would naturally attack Undead mobs if owner wears a full Necro Set, Default: false

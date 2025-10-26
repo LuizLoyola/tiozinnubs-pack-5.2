@@ -1,4 +1,4 @@
-filename = 'moonlight-1.20-2.16.14-forge.jar'
+filename = 'moonlight-1.20-2.16.15-forge.jar'
 name = 'Moonlight Library'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '41ef25433a505e55515b3d12cf503c01d63a631717115b200e7abe2dd06a6b39f5f2e408c7f3149ea1e81f19ab749d571598026396036dd22bf040290581a820'
+hash = '9eba41fa2bef4558bfe7a3a31b0b3ae2484eba87a2f6feda6d4e0c18d9074b08bb0a5637446a9df2a87171a27bb84af703a716cfc0f49fab2882da4ffdf2a76c'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/twkfQtEc/versions/vtXrnGIc/moonlight-1.20-2.16.14-forge.jar'
+url = 'https://cdn.modrinth.com/data/twkfQtEc/versions/q6pVkPDR/moonlight-1.20-2.16.15-forge.jar'
 
 [update.modrinth]
 mod-id = 'twkfQtEc'
-version = 'vtXrnGIc'
+version = 'q6pVkPDR'

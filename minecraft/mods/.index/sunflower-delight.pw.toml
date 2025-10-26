@@ -1,4 +1,4 @@
-filename = 'sunflowerdelight-1.20.1-1.0.5.jar'
+filename = 'sunflowerdelight-1.20.1-1.0.5.1.jar'
 name = 'Sunflower Delight'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '348ddf8cd37961a2c50ebec427f7ad4a28aaf0543222c73cf2da48aa428c5c7f1e73e67632498f582a959e73b0addeacff3948c38c3c64ab3a431a23da79df65'
+hash = '05566632ffdf6fb30fc091a71931c716309671ea5ad993f4af65be639c53c536de76d68ec5ff5554a87689c978ad76f15a96272f7b443f62b9febb8f34476556'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/meomOFXx/versions/E2EGRfDg/sunflowerdelight-1.20.1-1.0.5.jar'
+url = 'https://cdn.modrinth.com/data/meomOFXx/versions/vwyShvwJ/sunflowerdelight-1.20.1-1.0.5.1.jar'
 
 [update.modrinth]
 mod-id = 'meomOFXx'
-version = 'E2EGRfDg'
+version = 'vwyShvwJ'

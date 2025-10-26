@@ -1,4 +1,4 @@
-filename = 'chatnotify-forge-2.5.2+1.20.1.jar'
+filename = 'chatnotify-forge-2.6.1+1.20.1.jar'
 name = 'ChatNotify'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '7694f65d2b0fbe8210b434a85c0ae18cd645a6f858dda39e2c57bd3f518712279728b1533062c17d68e96af45485b34176e1efde5ca38e6be2290d92ca08fd64'
+hash = '021fc0b7a271df560b698023a3cb80b67b341a64bd88c79f78da01cb76eb562abb85c3b2a98dc77752ad3c4a664392842ff76ba135cb3913bb068885b7f3d2e3'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Iudurxl8/versions/gOrxozIc/chatnotify-forge-2.5.2%2B1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/Iudurxl8/versions/2xeoCR59/chatnotify-forge-2.6.1%2B1.20.1.jar'
 
 [update.modrinth]
 mod-id = 'Iudurxl8'
-version = 'gOrxozIc'
+version = '2xeoCR59'

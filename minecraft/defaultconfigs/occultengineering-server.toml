@@ -4,6 +4,10 @@
 	#.
 	#Fine tune the kinetic stats of individual components
 	[stressValues.v2]
+		#.
+		#The maximum distance a Phlogiport can forward a package, in blocks
+		#Range: 8 ~ 2048
+		"Phlogiport Range" = 128
 
 		#.
 		#.

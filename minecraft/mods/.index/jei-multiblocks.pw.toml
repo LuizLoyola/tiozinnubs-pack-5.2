@@ -1,16 +1,16 @@
-filename = 'jeimultiblocks-1.20.1-1.0.4.jar'
+filename = 'jeimultiblocks-1.20.1-1.0.6.jar'
 name = 'Just Enough Immersive Multiblocks'
-side = 'client'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '69d59ea6be581977437b7c11980f742c9498b5ec364241f554408bcad22c5a8a1b351fbea24c4a8be142d5c776861df0763d5b80d150abd3ff3d70030ef52c0d'
+hash = 'd427324b381d7301aa960493284107d8c17f69026d41b9e591b7c4a20651c03a254681dece05fd9892540ddc4b255add0a2dca55902e9375b2761c0158601c50'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/ffLYPaWN/versions/WOpsbnD6/jeimultiblocks-1.20.1-1.0.4.jar'
+url = 'https://cdn.modrinth.com/data/ffLYPaWN/versions/h8VFHckm/jeimultiblocks-1.20.1-1.0.6.jar'
 
 [update.modrinth]
 mod-id = 'ffLYPaWN'
-version = 'WOpsbnD6'
+version = 'h8VFHckm'

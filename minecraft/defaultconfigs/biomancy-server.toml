@@ -14,3 +14,21 @@
 	#Allowed Values: NONE, LIMITED, UNLIMITED
 	primalEnergySupplyOfCradle = "LIMITED"
 
+[pehkui-integration]
+
+	[pehkui-integration.enlargement-serum]
+		#Maximum scale a mob/player can reach. A value of 2.0 doubles the size of the mob/player.
+		#Range: 0.01 ~ 100.0
+		maxScale = 2.0
+		#How much to add to the scale on each injection.
+		#Range: 0.01 ~ 100.0
+		scaleStep = 0.25
+
+	[pehkui-integration.shrinking-serum]
+		#Minimum scale a mob/player can reach. A value of 0.5 half's the size of the mob/player.
+		#Range: 0.01 ~ 100.0
+		minScale = 0.25
+		#How much to subtract from the scale on each injection.
+		#Range: 0.01 ~ 100.0
+		scaleStep = 0.25
+
