@@ -223,6 +223,20 @@
     "halign": "LEFT",
     "valign": "TOP"
   },
+  "pocket_left": {
+    "x": 0,
+    "y": 520,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
+  "pocket_right": {
+    "x": 0,
+    "y": 540,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
   "qio": {
     "x": 0,
     "y": 480,

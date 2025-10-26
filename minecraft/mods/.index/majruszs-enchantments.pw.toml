@@ -1,0 +1,16 @@
+filename = 'majruszs-enchantments-forge-1.20.1-1.10.8.jar'
+name = "Majrusz's Enchantments"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f9d1bea88116508e97c9dca01fd91b9285220345291c6481d203a3fc3ea2f41ebba9a040315781c4b1c42718a16a53624cff8cf387fcd2fbf6e7c0c6fb8fceb8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jJthQvHv/versions/Pk7dUGrq/majruszs-enchantments-forge-1.20.1-1.10.8.jar'
+
+[update.modrinth]
+mod-id = 'jJthQvHv'
+version = 'Pk7dUGrq'
