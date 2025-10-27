@@ -1,0 +1,16 @@
+filename = 'MTR-forge-4.0.2-hotfix-1+1.20.1.jar'
+name = 'Minecraft Transit Railway'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd6f299ffe3099ddb7f2a9c4ebed8b7ac1a749b32d93f17b3a1aa070021a56062edcd45827a9227bf8a35229d3f912e410893a10781a7e20a3fcb3b450f4ed9d5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/XKPAmI6u/versions/sZMRP95U/MTR-forge-4.0.2-hotfix-1%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'XKPAmI6u'
+version = 'sZMRP95U'

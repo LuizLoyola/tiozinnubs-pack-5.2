@@ -130,6 +130,8 @@ key_info.structure_gel.building_tool.undo:key.keyboard.z:CONTROL
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_key.ad_astra.open_radio:key.keyboard.r
+key_key.ad_astra.toggle_suit_flight:key.keyboard.v
 key_key.advancements:key.keyboard.l
 key_key.ae2.ae2wtlib_magnet:key.keyboard.unknown
 key_key.ae2.ae2wtlib_restock:key.keyboard.unknown
@@ -356,6 +358,18 @@ key_key.mekanismcurios.portableteleporter:key.keyboard.u
 key_key.mekanismcurios.protableqio:key.keyboard.y
 key_key.mekanismcurios.quickteleport:key.keyboard.i
 key_key.modernfix.config:key.keyboard.unknown
+key_key.mtr.debug_1_negative:key.keyboard.keypad.4
+key_key.mtr.debug_1_positive:key.keyboard.keypad.7
+key_key.mtr.debug_2_negative:key.keyboard.keypad.5
+key_key.mtr.debug_2_positive:key.keyboard.keypad.8
+key_key.mtr.debug_3_negative:key.keyboard.keypad.6
+key_key.mtr.debug_3_positive:key.keyboard.keypad.9
+key_key.mtr.debug_cycle_negative:key.keyboard.keypad.subtract
+key_key.mtr.debug_cycle_positive:key.keyboard.keypad.add
+key_key.mtr.lift_menu:key.keyboard.z
+key_key.mtr.train_accelerate:key.keyboard.up
+key_key.mtr.train_brake:key.keyboard.down
+key_key.mtr.train_toggle_doors:key.keyboard.left
 key_key.mute_microphone:key.keyboard.unknown
 key_key.now-playing.group.display:key.keyboard.unknown
 key_key.now-playing.group.next:key.keyboard.unknown

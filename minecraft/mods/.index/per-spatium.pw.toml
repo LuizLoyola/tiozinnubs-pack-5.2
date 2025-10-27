@@ -1,0 +1,16 @@
+filename = 'perspatium-1.20.1-1.2.0.jar'
+name = 'Ad Astra: Per Spatium Et Tempus'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0a21b9a5a105c79c9b03522ec456b26cf7987bd169b6d5ade04f3bd33bf3878313cd88d5114966f055cebdf380ce94b70df7fd7101278135946d402513398ef5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IHyWDPnp/versions/oqpXKch5/perspatium-1.20.1-1.2.0.jar'
+
+[update.modrinth]
+mod-id = 'IHyWDPnp'
+version = 'oqpXKch5'

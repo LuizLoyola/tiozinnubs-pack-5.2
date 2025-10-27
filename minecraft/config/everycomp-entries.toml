@@ -242,6 +242,13 @@
 		[types.metal_type.majruszsdifficulty]
 			enderium = true
 
+		[types.metal_type.ad_astra]
+			steel = true
+			etrium = true
+			desh = true
+			ostrum = true
+			calorite = true
+
 	[types.gem_type]
 
 		[types.gem_type.enlightened_end]
@@ -364,6 +371,15 @@
 
 		[types.stone_type.aethersteel]
 			aetherslate = true
+
+		[types.stone_type.ad_astra]
+			moon_stone = true
+			mars_stone = true
+			conglomerate = true
+			mercury_stone = true
+			venus_stone = true
+			glacio_stone = true
+			permafrost = true
 
 	[types.mud_type]
 
@@ -1556,6 +1572,83 @@
 			aetherslate_tiles = true
 			polished_aetherslate = true
 
+		[types.cut_block_type.ad_astra]
+			iron_plating = true
+			steel_plating = true
+			desh_plating = true
+			ostrum_plating = true
+			calorite_plating = true
+			moon_stone = true
+			moon_cobblestone = true
+			moon_stone_brick = true
+			polished_moon_stone = true
+			aeronos = true
+			strophar = true
+			mars_stone = true
+			mars_cobblestone = true
+			mars_stone_brick = true
+			polished_mars_stone = true
+			mercury_stone = true
+			mercury_cobblestone = true
+			mercury_stone_brick = true
+			polished_mercury_stone = true
+			venus_stone = true
+			venus_cobblestone = true
+			venus_stone_brick = true
+			polished_venus_stone = true
+			venus_sandstone_brick = true
+			glacio_stone = true
+			glacio_cobblestone = true
+			glacio_stone_brick = true
+			polished_glacio_stone = true
+			permafrost_brick = true
+			chiseled_permafrost_brick = true
+			polished_permafrost = true
+			glacian = true
+
+		[types.cut_block_type.mtr]
+			station_color_chiseled_stone_bricks = true
+			station_color_planks = true
+			station_color_gravel = true
+			station_color_cobblestone = true
+			station_color_wool = true
+			station_color_quartz_bricks = true
+			station_color_stained_glass = true
+			platform = true
+			station_color_clay = true
+			station_color_snow_block = true
+			station_color_iron_block = true
+			station_color_purpur_pillar = true
+			station_color_coal_ore = true
+			station_color_metal = true
+			station_color_cracked_stone_bricks = true
+			station_color_purpur_block = true
+			station_color_bone_block = true
+			station_color_chiseled_quartz_block = true
+			platform_na_1 = true
+			station_color_stone = true
+			station_color_concrete = true
+			platform_uk_1 = true
+			station_color_andesite = true
+			station_color_dark_prismarine = true
+			platform_na_2 = true
+			station_color_quartz_pillar = true
+			marble_blue = true
+			station_color_diorite = true
+			station_color_polished_andesite = true
+			station_color_quartz_block = true
+			metal = true
+			station_color_concrete_powder = true
+			station_color_stone_bricks = true
+			marble_sandy = true
+			station_color_bedrock = true
+			station_color_mosaic_tile = true
+			station_color_smooth_quartz = true
+			station_color_birch_wood = true
+			station_color_polished_diorite = true
+			station_color_smooth_stone = true
+			mosaic_tile = true
+
 	[types.wood_type]
 
 		[types.wood_type.deeperdarker]
@@ -1782,6 +1875,11 @@
 
 		[types.wood_type.crabbersdelight]
 			palm = true
+
+		[types.wood_type.ad_astra]
+			aeronos = true
+			strophar = true
+			glacian = true
 
 	[types.cake]
 
@@ -2082,6 +2180,9 @@
 
 		[types.leaves_type.crabbersdelight]
 			palm = true
+
+		[types.leaves_type.ad_astra]
+			glacian = true
 
 #Disables specific entries
 [entries]

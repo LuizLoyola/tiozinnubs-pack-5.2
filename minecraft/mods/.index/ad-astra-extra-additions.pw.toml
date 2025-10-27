@@ -1,0 +1,16 @@
+filename = 'ad_astra_extra_additions-1.20.1-1.1.1.jar'
+name = 'Ad Astra: Extra Additions'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c2d89db531f1856cd2ed5db36d5ac9ad8f2e1217a68db3d00e58042fed722fc2ee1499cd91a8ce524572f1de12e311e9bf5f1183befd48de070e211ca8c42991'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pcspJ4DD/versions/OqZ6P9RN/ad_astra_extra_additions-1.20.1-1.1.1.jar'
+
+[update.modrinth]
+mod-id = 'pcspJ4DD'
+version = 'OqZ6P9RN'
