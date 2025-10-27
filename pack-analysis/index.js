@@ -1046,8 +1046,9 @@ const commands = {
     autofix: c.wrapFunctionAsync('Auto-fixing...', async () => {
         c.log('Auto-fixing config files...');
 
+        const configPath = path.join(minecraftFolder, 'config');
         // attributefix.json: sort all attributes
-        const attributeFixPath = path.join(minecraftFolder, 'config', 'attributefix.json');
+        const attributeFixPath = path.join(configPath, 'attributefix.json');
         if (fs.existsSync(attributeFixPath)) {
             const attributeFix = JSON.parse(fs.readFileSync(attributeFixPath, 'utf8'));
 
@@ -1064,7 +1065,7 @@ const commands = {
         }
 
         // curios.json: sort and format
-        const curiosJsonPath = path.join(minecraftFolder, 'config', 'InventoryHUD', 'curios.json');
+        const curiosJsonPath = path.join(configPath, 'InventoryHUD', 'curios.json');
         if (fs.existsSync(curiosJsonPath)) {
             const curios = JSON.parse(fs.readFileSync(curiosJsonPath, 'utf8'));
 
@@ -1079,7 +1080,7 @@ const commands = {
         }
 
         // recipe-category-sort-order.ini: Set correct order of categories
-        const jeiRecipeCategorySortOrderPath = path.join(minecraftFolder, 'config', 'jei', 'recipe-category-sort-order.ini');
+        const jeiRecipeCategorySortOrderPath = path.join(configPath, 'jei', 'recipe-category-sort-order.ini');
         if (fs.existsSync(jeiRecipeCategorySortOrderPath)) {
             const jeiRecipeCategorySortOrder = fs.readFileSync(jeiRecipeCategorySortOrderPath, 'utf8');
             const categories = jeiRecipeCategorySortOrder.split('\n').filter(Boolean);
@@ -1160,7 +1161,7 @@ const commands = {
         }
 
         // jade/plugins.json: sort
-        const jadePluginsJsonPath = path.join(minecraftFolder, 'config', 'jade', 'plugins.json');
+        const jadePluginsJsonPath = path.join(configPath, 'jade', 'plugins.json');
         if (fs.existsSync(jadePluginsJsonPath)) {
             const plugins = JSON.parse(fs.readFileSync(jadePluginsJsonPath, 'utf8'));
 
@@ -1194,7 +1195,7 @@ const commands = {
         }
 
         // jaopca bak files: remove
-        const jaopcaConfigPath = path.join(minecraftFolder, 'config', 'jaopca', 'materials');
+        const jaopcaConfigPath = path.join(configPath, 'jaopca', 'materials');
         if (fs.existsSync(jaopcaConfigPath)) {
             // remove all .bak files in this folder
             const bakFiles = fs.readdirSync(jaopcaConfigPath).filter(file => file.endsWith('.bak'));
@@ -1205,7 +1206,7 @@ const commands = {
         }
 
         // all hammerlib files
-        const hammerlibConfigPath = path.join(minecraftFolder, 'config', 'hammerlib');
+        const hammerlibConfigPath = path.join(configPath, 'hammerlib');
         if (fs.existsSync(hammerlibConfigPath)) {
             const allFiles = fs.readdirSync(hammerlibConfigPath, { recursive: true }).filter(file => file.endsWith('.json'));
             allFiles.forEach(file => {
@@ -1217,6 +1218,20 @@ const commands = {
             });
             c.log(`Fixed HammerLib JSON files.`);
         }
+
+        // .properties files, remove last edited date
+        const propertiesFiles = fs.readdirSync(configPath, { recursive: true }).filter(file => file.endsWith('.properties'));
+        propertiesFiles.forEach(file => {
+            const filePath = path.join(configPath, file);
+            let content = fs.readFileSync(filePath, 'utf8');
+            const lines = content.split('\n');
+            // filter out lines that matches regex: example: #Mon Oct 27 12:02:00 BRT 2025
+            const regex = /^#... ... \d\d \d\d:\d\d:\d\d ... \d{4}$/;
+            const filteredLines = lines.filter(line => !regex.test(line));
+            content = filteredLines.join('\n');
+            fs.writeFileSync(filePath, content);
+        });
+        c.log(`Fixed .properties files.`);
     }),
     incrVersion: c.wrapFunction('Calculating version...', (isDev) => {
         const versionParts = info.version.split('.');
