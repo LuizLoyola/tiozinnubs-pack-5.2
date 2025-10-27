@@ -1,4 +1,4 @@
-filename = 'create_compatible_storage-2.8.0-all.jar'
+filename = 'create_compatible_storage-2.8.1-all.jar'
 name = 'Create: Compatible Storage'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '2d2c337c644bedde81ea9444df979089db80b21c8df0e0b55e529f402c03a73b7a52aafae02bdef7a1aa0c85fbe000b84f1db69033196539df0840ce89b2b1e1'
+hash = '3098228ae2e0b21ca83d6f8c1cbbd62b0de8a13dbf9e304c15ecbb3015cba3dbe560b67674f726a10fa0f1645e5d085b04ffbbb554b558c169bcc4e4283a8645'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/5ofroZ5W/versions/Dp9qHFCO/create_compatible_storage-2.8.0-all.jar'
+url = 'https://cdn.modrinth.com/data/5ofroZ5W/versions/wa7gOrmo/create_compatible_storage-2.8.1-all.jar'
 
 [update.modrinth]
 mod-id = '5ofroZ5W'
-version = 'Dp9qHFCO'
+version = 'wa7gOrmo'

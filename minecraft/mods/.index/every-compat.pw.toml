@@ -1,4 +1,4 @@
-filename = 'everycomp-1.20-2.9.8-forge.jar'
+filename = 'everycomp-1.20-2.9.9-forge.jar'
 name = 'Every Compat'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '5960f52f0808161ad4326415d809c745fdc136b2cecf2d7d735dd61fa13eff3182a2f9fc53f957f35c349b77be2002e29cce6337b0ba61fa1f9f281c88850b38'
+hash = 'cc4b0ddd47f421b1d045e755912c1118f5db60f2c699266576c4302162e753bc11537d8c5c31416f95566d5df42de3edfd781704df1108ba286dc6e3e40d856c'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/eiktJyw1/versions/euwlwydU/everycomp-1.20-2.9.8-forge.jar'
+url = 'https://cdn.modrinth.com/data/eiktJyw1/versions/S6PhzmO8/everycomp-1.20-2.9.9-forge.jar'
 
 [update.modrinth]
 mod-id = 'eiktJyw1'
-version = 'euwlwydU'
+version = 'S6PhzmO8'
