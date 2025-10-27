@@ -1,0 +1,16 @@
+filename = 'displaydelight-1.3.0.jar'
+name = 'Display Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5f9176e88e3f515733377786b3dfc82fdd2723bee85509d67e977d2bdc91322f29c20ffe7b242a9f793b22cfeae69d051127d489ab53ce68dbb66cf848cd3525'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/yXepZhp8/versions/QL6a4nNq/displaydelight-1.3.0.jar'
+
+[update.modrinth]
+mod-id = 'yXepZhp8'
+version = 'QL6a4nNq'

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "revampedwolf:leather_wolf_armor",
+    "revampedwolf:golden_wolf_armor",
+    "revampedwolf:iron_wolf_armor",
+    "revampedwolf:diamond_wolf_armor",
+    "revampedwolf:netherite_wolf_armor",
+    "lost_aether_content:swetty_mask"
+  ],
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:fire_protection",
+    "minecraft:protection",
+    "minecraft:feather_falling",
+    "minecraft:blast_protection",
+    "minecraft:projectile_protection"
+  ]
+}

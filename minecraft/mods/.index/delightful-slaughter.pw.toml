@@ -1,0 +1,16 @@
+filename = 'delightful_slaughter-0.3-1.20.1.jar'
+name = 'Delightful Slaughter'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '62ca11ebbd901e5d9d1bcb5efae14f825c5a345bad08890db41d9c5fa4c5db3322d9714504a3cc241ddc25929f6277c8767ad90695e853385a4541f4cbdab949'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pL0mUEoW/versions/UGVWSUxv/delightful_slaughter-0.3-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'pL0mUEoW'
+version = 'UGVWSUxv'

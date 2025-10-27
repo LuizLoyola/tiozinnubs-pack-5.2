@@ -1950,6 +1950,10 @@
 			sweet_berry_cake = true
 			beetroot_cake = true
 
+		[types.cake.braziliandelight]
+			carrot_cake = true
+			carrot_cake_with_chocolate = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.garnished_additions]
@@ -2189,6 +2193,12 @@
 		[types.leaves_type.ad_astra]
 			glacian = true
 
+		[types.leaves_type.braziliandelight]
+			lemon = true
+			acai_palm = true
+			coconut_palm = true
+			budding_coconut_palm = true
+
 #Disables specific entries
 [entries]
 
@@ -2362,6 +2372,16 @@
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true
+
+		[entries.wood_type.storagedelight]
+			small_drawers = true
+			single_door_cabinet = true
+			cabinet_with_glass_doors = true
+			drawer = true
+			bookshelf_with_door = true
+			glass_cabinet = true
+			drawer_with_door = true
+			drawer_with_books = true
 
 	[entries.leaves_type]
 
