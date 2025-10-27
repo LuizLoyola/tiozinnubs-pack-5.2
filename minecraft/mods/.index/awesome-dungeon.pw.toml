@@ -1,0 +1,16 @@
+filename = 'awesomedungeon-forge-1.20.1-3.2.0.jar'
+name = 'Awesome Dungeon'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3121d8685566a882ee859c910e280bcc79b373ad6e059d62ae8a60e78fe9b953f486869e94f534818ff589195932c482e87dae6353f89f75763c82fc1f7a1b02'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ptzsjBKT/versions/GRFhAaFE/awesomedungeon-forge-1.20.1-3.2.0.jar'
+
+[update.modrinth]
+mod-id = 'ptzsjBKT'
+version = 'GRFhAaFE'

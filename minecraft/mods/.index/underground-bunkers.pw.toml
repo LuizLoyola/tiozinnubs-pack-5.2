@@ -1,0 +1,16 @@
+filename = 'UndergroundBunkers-1.0.5-1.20.x-forge.jar'
+name = 'Underground Bunkers'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '946e4555ed1e49876afa72ea8efbe87760c0f50622eeab55c6693f5bc8bee26c49f83189a817ef50b9363d87ca053435d911a9ec03150661827d7baf5b85039d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MRK4tULJ/versions/NFJEQGsD/UndergroundBunkers-1.0.5-1.20.x-forge.jar'
+
+[update.modrinth]
+mod-id = 'MRK4tULJ'
+version = 'NFJEQGsD'

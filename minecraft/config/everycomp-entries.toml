@@ -1606,6 +1606,11 @@
 			polished_permafrost = true
 			glacian = true
 
+		[types.cut_block_type.trials]
+			tuff = true
+			polished_tuff = true
+			tuff_brick = true
+
 		[types.cut_block_type.mtr]
 			station_color_chiseled_stone_bricks = true
 			station_color_planks = true

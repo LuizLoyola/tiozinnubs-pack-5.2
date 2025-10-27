@@ -1,0 +1,16 @@
+filename = 'lootintegration_wda-1.6.jar'
+name = 'Loot Integrations: When Dungeons Arise & Co'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '46c94dae90118644cbe7e018ffe7ae4d1a1a8fab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6178007
+project-id = 1142880

@@ -1,0 +1,16 @@
+filename = 'lootintegrations_dungeonsplus-1.1.jar'
+name = 'Loot Integrations: Dungeons Plus'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cc9294cb0c49ac8cf4d4ba85a91b34c2e59f477b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6170517
+project-id = 1146857

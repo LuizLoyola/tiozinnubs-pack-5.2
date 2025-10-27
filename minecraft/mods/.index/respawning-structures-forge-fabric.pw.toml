@@ -1,0 +1,16 @@
+filename = 'respawningstructures-1.20.1-3.9.jar'
+name = 'Respawning Structures[Forge/Fabric]'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e966212d769897d2bc8f62439c34666e3f03a6f4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6753631
+project-id = 969937

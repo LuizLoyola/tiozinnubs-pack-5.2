@@ -515,7 +515,7 @@ key_zume.zoom:key.keyboard.c
 key_zume.zoom_in:key.keyboard.unknown
 key_zume.zoom_out:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.5033573534228628
+soundCategory_music:0.01964870619063214
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

@@ -1,0 +1,16 @@
+filename = 'cataclysmfortresses-1.20.1-Forge.jar'
+name = "Cataclysm x YUNG's Better Nether Fortresses Compat"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f2124c088990f46a1b02ec7fdb249f948bb24a6a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7141536
+project-id = 1348970

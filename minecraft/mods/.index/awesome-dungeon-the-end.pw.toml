@@ -1,0 +1,16 @@
+filename = 'awesomedungeonend-forge-1.20.1-3.1.1.jar'
+name = 'Awesome Dungeon End'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '88c4754ebc75a5445ac27cfa4eb7279c762d3985b0202e10f498dc684d19e0a7cfba9aff3791ab999367890369571a39d0113b84ce8808b4693d0e90b02f3236'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BzjQfCJW/versions/hegjB1GJ/awesomedungeonend-forge-1.20.1-3.1.1.jar'
+
+[update.modrinth]
+mod-id = 'BzjQfCJW'
+version = 'hegjB1GJ'

@@ -1,0 +1,16 @@
+filename = 'lootintegrations_awesome-1.5.jar'
+name = 'Loot Integrations: Awesome Dungeon'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21', '1.21.1', '1.21.2', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a9138f42e5d65099732ef2aba3b856a9d92bbb1a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6168538
+project-id = 1129961

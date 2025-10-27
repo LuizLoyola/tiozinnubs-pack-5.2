@@ -1,0 +1,16 @@
+filename = 'lootintegrations_betterarcheology-1.2.jar'
+name = 'Loot Integrations: Better Archeology'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.18.2', '1.19.2', '1.20.1', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3f4b21264d80964e94d58c5d39133b4381792d89'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6168609
+project-id = 1130800

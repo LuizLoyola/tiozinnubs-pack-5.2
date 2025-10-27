@@ -1,0 +1,16 @@
+filename = 'IDA-v2.0.3.jar'
+name = 'Integrated Dungeons Arise'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7eeb9403e795728902a24ee6c4512e21d4d87e240c96eebd7add962f0d4f54f62a8384bce91101edc728629fcd4432a861d862e8af6f6df1d74ece9223c57f44'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/uG4njWFR/versions/EqWwhSod/IDA-v2.0.3.jar'
+
+[update.modrinth]
+mod-id = 'uG4njWFR'
+version = 'EqWwhSod'
