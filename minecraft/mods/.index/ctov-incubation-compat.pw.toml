@@ -1,6 +1,6 @@
 filename = 'ctov-incubation-compat-2.0.jar'
 name = 'CTOV - Incubation Compat'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'

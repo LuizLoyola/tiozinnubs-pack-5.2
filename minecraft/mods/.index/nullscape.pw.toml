@@ -1,6 +1,6 @@
 filename = 'Nullscape_1.20.x_v1.2.8.jar'
 name = 'Nullscape'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
 x-prismlauncher-release-type = 'release'

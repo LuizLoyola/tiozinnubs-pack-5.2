@@ -1,5 +1,5 @@
 filename = 'netherite_horse_armor-forge-1.20.1-2.0a.jar'
-name = 'Netherite Horse Armor'
+name = 'Simple Netherite Horse Armor'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

@@ -3,7 +3,7 @@ name = 'Passengers Portal Fix'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
-x-prismlauncher-release-type = 'beta'
+x-prismlauncher-release-type = 'release'
 
 [download]
 hash = 'c349f6e147fadbec429a96cc010a29df31fcd53b044d5f0113bf38d51176da7ad8b009c40968e07025396b9331669c38cdace57a63c601d8511bf8ae9fa81d58'

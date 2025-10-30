@@ -1,6 +1,6 @@
 filename = 'rebind_narrator-1.20.1-forge-2025.10.21.jar'
 name = 'Rebind Narrator'
-side = 'both'
+side = 'client'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

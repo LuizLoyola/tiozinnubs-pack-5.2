@@ -1,6 +1,6 @@
 filename = 'chatnotify-forge-2.6.1+1.20.1.jar'
-name = 'ChatNotify'
-side = 'both'
+name = 'Chat Notify'
+side = 'client'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

@@ -1,5 +1,5 @@
 filename = 'Compat_AlexsCaves-Enlightend.jar'
-name = "Alex's Caves - Enlightened Compat"
+name = "Alex's Caves - Enlightend Compat"
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

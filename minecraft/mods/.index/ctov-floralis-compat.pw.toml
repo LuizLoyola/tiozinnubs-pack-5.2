@@ -1,6 +1,6 @@
 filename = 'ctov-floralis-compat-1.0.jar'
 name = 'CTOV - Floralis Compat'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
 x-prismlauncher-release-type = 'release'

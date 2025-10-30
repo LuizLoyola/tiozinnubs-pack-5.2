@@ -1,5 +1,5 @@
 filename = 'PackagedAvaritia-Re-1.20.1-2.2.2.13.jar'
-name = 'PackagedAvaritia:Re'
+name = 'PackagedAvaritia'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

@@ -1,6 +1,6 @@
 filename = 'clienttweaks-forge-1.20.1-11.1.5.jar'
 name = 'Client Tweaks'
-side = 'both'
+side = 'client'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'

@@ -1,5 +1,5 @@
 filename = 'ldlib-forge-1.20.1-1.0.45.jar'
-name = 'LowDragLib'
+name = 'LDLib'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

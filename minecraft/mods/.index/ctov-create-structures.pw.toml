@@ -1,6 +1,6 @@
 filename = 'ctov-create-structures-1.0.jar'
 name = 'CTOV - Create: Structures'
-side = 'server'
+side = 'both'
 x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
 x-prismlauncher-release-type = 'release'

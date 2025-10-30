@@ -1,5 +1,5 @@
 filename = 'ThermalExtra-3.2.9-1.20.1.jar'
-name = 'Thermal Extra'
+name = 'Thermal: Extra'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

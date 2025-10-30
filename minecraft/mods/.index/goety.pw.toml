@@ -1,5 +1,5 @@
 filename = 'goety-2.5.37.5.jar'
-name = 'Goety'
+name = 'Goety - The Dark Arts'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

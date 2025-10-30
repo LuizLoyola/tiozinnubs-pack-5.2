@@ -1,5 +1,5 @@
 filename = 'IntegratedScripting-1.20.1-1.0.15.jar'
-name = 'IntegratedScripting'
+name = 'Integrated Scripting'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

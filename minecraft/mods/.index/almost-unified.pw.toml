@@ -1,5 +1,5 @@
 filename = 'almostunified-forge-1.20.1-0.10.1.jar'
-name = 'AlmostUnified'
+name = 'Almost Unified'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

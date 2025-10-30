@@ -1,6 +1,6 @@
 filename = 'Companion-1.20.1-Forge-5.3.1.jar'
-name = 'Companion'
-side = 'both'
+name = 'Companion 🐕'
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'

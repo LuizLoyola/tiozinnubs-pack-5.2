@@ -1,5 +1,5 @@
 filename = 'DarkPaintings-Forge-1.20.1-17.0.5.jar'
-name = 'DarkPaintings'
+name = 'Dark Paintings'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

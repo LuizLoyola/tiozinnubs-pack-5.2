@@ -1,5 +1,5 @@
 filename = 'everycomp-1.20-2.9.9-forge.jar'
-name = 'Every Compat'
+name = 'Every Compat (Wood Good)'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

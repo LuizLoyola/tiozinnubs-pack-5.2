@@ -1,6 +1,6 @@
 filename = 'badhorsefix-forge-3.0.1.jar'
 name = 'Bad Horse Fix'
-side = 'both'
+side = 'client'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [
     '1.16.5',

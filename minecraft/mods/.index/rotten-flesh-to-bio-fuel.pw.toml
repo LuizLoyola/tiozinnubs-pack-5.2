@@ -1,5 +1,5 @@
 filename = 'rftb1201-1.0.0.jar'
-name = 'Rotten Flesh to Bio Fuel'
+name = 'Mekanism Addon: Rotten Flesh To Bio Fuel'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

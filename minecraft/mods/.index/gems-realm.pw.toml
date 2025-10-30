@@ -1,5 +1,5 @@
 filename = 'gemsrealm-1.20-2.9.3.jar'
-name = 'Gems Realm'
+name = 'Every Compat (Gems Realm)'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

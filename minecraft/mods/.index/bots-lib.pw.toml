@@ -1,5 +1,5 @@
 filename = 'bots_lib-4.1.jar'
-name = 'Bots Lib'
+name = "Bot's Lib"
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

@@ -1,5 +1,5 @@
 filename = 'connectivity-1.20.1-7.2.jar'
-name = 'Connectivity Mod'
+name = 'Connectivity'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

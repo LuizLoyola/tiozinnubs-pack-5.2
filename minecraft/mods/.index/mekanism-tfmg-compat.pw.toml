@@ -1,5 +1,5 @@
 filename = 'mekanism_tfmg_compat-1.0-1.20.1.jar'
-name = 'Mekanism TFMG Compat'
+name = 'Mekanism The Factory Must Grow Compatibility'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

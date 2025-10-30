@@ -1,5 +1,5 @@
 filename = 'the_bumblezone-7.9.3+1.20.1-forge.jar'
-name = 'The Bumblezone'
+name = 'The Bumblezone - NeoForge/Forge'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
