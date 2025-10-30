@@ -1243,6 +1243,28 @@
         "value": 1
       }
     },
+    "ticex:damage_taken": {
+      "enabled": false,
+      "min": {
+        "default": 1.1754943508222875e-38,
+        "value": 1.1754943508222875e-38
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "ticex:healing_received": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "tropicraft:underwater_visibility": {
       "enabled": false,
       "min": {

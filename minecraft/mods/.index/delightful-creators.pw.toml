@@ -1,0 +1,16 @@
+filename = 'delightfulcreators-1.2.jar'
+name = 'Delightful Creators'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1529a7787f63274074377875c66c4d32f88e9f0aff3b30d4c6d9c141b64dc7f7bbef3a3721064349020b30c59c31fe1f5fb39176eb085a6ca4dc5e0e905dd437'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jmJ87gsb/versions/rFt8RHnt/delightfulcreators-1.2.jar'
+
+[update.modrinth]
+mod-id = 'jmJ87gsb'
+version = 'rFt8RHnt'

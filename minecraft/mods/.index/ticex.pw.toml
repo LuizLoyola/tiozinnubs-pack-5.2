@@ -1,0 +1,16 @@
+filename = 'ticex-mc1.20.1-0.4.2.1-all.jar'
+name = 'TiCEX - Tinkers Construct EX'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '3aad5c1ed01e81fe990b2183c89f49344519eaee00c7cf2913583f2cf55485270c5ac483d54faba478e8b43f7bc8f196757e5baeb1c666ae2f22fda1ab80c0d0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZDgJ7ogS/versions/HgJuzykl/ticex-mc1.20.1-0.4.2.1-all.jar'
+
+[update.modrinth]
+mod-id = 'ZDgJ7ogS'
+version = 'HgJuzykl'

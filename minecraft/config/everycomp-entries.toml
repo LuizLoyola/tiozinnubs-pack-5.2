@@ -252,6 +252,9 @@
 		[types.metal_type.mythicbotany]
 			alfsteel = true
 
+		[types.metal_type.ticex]
+			etheric = true
+
 	[types.gem_type]
 
 		[types.gem_type.enlightened_end]

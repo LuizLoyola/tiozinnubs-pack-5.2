@@ -1,0 +1,16 @@
+filename = 'createoplenty-1.0.jar'
+name = "Create: Create O' Plenty (Create + Biomes O' Plenty Mod compat)"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3ec673718e6f23c011c8c06812190b8b30ecb10e91cd83e8ed878fdba658002d7fcbab04b5d8947765f192a15d9e58004a85587b87252e9b1a89f81b0adec051'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HgWaxodv/versions/xQpBDzms/createoplenty-1.0.jar'
+
+[update.modrinth]
+mod-id = 'HgWaxodv'
+version = 'xQpBDzms'

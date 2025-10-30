@@ -371,6 +371,7 @@ key_key.mtr.train_accelerate:key.keyboard.up
 key_key.mtr.train_brake:key.keyboard.down
 key_key.mtr.train_toggle_doors:key.keyboard.left
 key_key.mute_microphone:key.keyboard.unknown
+key_key.nextDestination:key.keyboard.right.bracket
 key_key.now-playing.group.display:key.keyboard.unknown
 key_key.now-playing.group.next:key.keyboard.unknown
 key_key.occultism.backpack:key.keyboard.b
@@ -392,10 +393,12 @@ key_key.occultism.familiar.mummy_familiar:key.keyboard.unknown
 key_key.occultism.familiar.otherworld_bird:key.keyboard.unknown
 key_key.occultism.familiar.shub_niggurath_familiar:key.keyboard.unknown
 key_key.occultism.storage_remote:key.keyboard.n
+key_key.openManual:key.keyboard.f1
 key_key.personality.crawl:key.keyboard.z
 key_key.personality.sit:key.keyboard.unknown
 key_key.pickItem:key.mouse.middle
 key_key.playerlist:key.keyboard.tab
+key_key.prevDestination:key.keyboard.left.bracket
 key_key.push_to_talk:key.keyboard.unknown
 key_key.railcraft.change_aura:key.keyboard.g
 key_key.rebornstorage.openWirelessCraftingGrid:key.keyboard.g:CONTROL
@@ -440,10 +443,12 @@ key_key.tconstruct.helmet_interact:key.keyboard.z
 key_key.tconstruct.leggings_interact:key.keyboard.i
 key_key.the_bumblezone.beehemoth_down:key.keyboard.caps.lock
 key_key.the_bumblezone.beehemoth_up:key.keyboard.space
+key_key.ticex.shoot_gauntlet:key.keyboard.g
 key_key.toggleCarriedItemTooltips:key.keyboard.unknown
 key_key.togglePerspective:key.keyboard.f5
 key_key.toggleSelectedItemTooltips:key.keyboard.unknown
 key_key.toggleVisualItemContents:key.keyboard.unknown
+key_key.unmountVehicle:key.keyboard.backslash
 key_key.use:key.mouse.right
 key_key.voice_chat:key.keyboard.v:CONTROL
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown

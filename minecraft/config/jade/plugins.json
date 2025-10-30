@@ -66,6 +66,13 @@
   "aether_redux": {
     "logicator": true
   },
+  "alekiships": {
+    "furnace": true,
+    "jukebox": true,
+    "brewing_stand": true,
+    "block": true,
+    "note_block": true
+  },
   "appliedcooking": {
     "kitchen_station": true
   },
