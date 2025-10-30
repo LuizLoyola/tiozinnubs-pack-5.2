@@ -1,0 +1,11 @@
+puzzleslib;puzzlesapi;puzzlesaccessapi
+create;flywheel;ponder
+fabric;fabricloader;connector;connectormod
+fabric-api;fabric_api;fabric-api-base;fabric-resource-loader-v0;fabric-rendering-v1
+owo;owo-lib
+xaeroworldmap;xaerosworldmap
+thermal_expansion;thermal
+simpleclouds;crackerslib
+createrailwaysnavigator;dragonlib
+rebind_narrator;modder_name_lib
+fruitsdelight;l2harvester

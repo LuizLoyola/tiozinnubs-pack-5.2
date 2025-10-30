@@ -111,6 +111,7 @@ const serverBaseFolder = path.join(rootFolder, 'server-base');
 const reportPath = path.join(rootFolder, 'mods.md');
 const ignoredOptDepsPath = path.join(rootFolder, 'ignoredOptDeps.txt');
 const packInfoPath = path.join(rootFolder, 'packInfo.json');
+const equivalentModsPath = path.join(rootFolder, 'equivalentMods.txt');
 
 let modFiles;
 let mods;
@@ -127,21 +128,9 @@ const ignoredDeps = [
     'neoforge'
 ]
 
-const equivalentMods = [
-    ['puzzleslib', 'puzzlesapi', 'puzzlesaccessapi'],
-    ['create', 'flywheel', 'ponder'],
-    ['fabric', 'fabricloader', 'connector', 'connectormod'],
-    ['fabric-api', 'fabric_api', 'fabric-api-base', 'fabric-resource-loader-v0', 'fabric-rendering-v1'],
-    ['owo', 'owo-lib'],
-    ['xaeroworldmap', 'xaerosworldmap'],
-    ['thermal_expansion', 'thermal'],
-    ['simpleclouds', 'crackerslib'],
-    ['createrailwaysnavigator', 'dragonlib'],
-    ['rebind_narrator', 'modder_name_lib'],
-    ['fruitsdelight', 'l2harvester'],
-]
-
 const ignoredOptDeps = fs.existsSync(ignoredOptDepsPath) ? [...new Set(fs.readFileSync(ignoredOptDepsPath, 'utf8').split('\n').map(l => l.trim()).filter(l => l))] : [];
+
+const equivalentMods = fs.existsSync(equivalentModsPath) ? fs.readFileSync(equivalentModsPath, 'utf8').split('\n').map(line => line.trim().split(';').map(modId => modId.trim()).filter(modId => modId)) : [];
 
 const getPackInfo = () => {
     return fs.existsSync(packInfoPath) ? JSON.parse(fs.readFileSync(packInfoPath, 'utf8')) : (() => { throw new Error(`Could not find ${packInfoPath}.`); })();
