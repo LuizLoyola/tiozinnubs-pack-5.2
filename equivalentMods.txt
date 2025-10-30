@@ -9,3 +9,4 @@ simpleclouds;crackerslib
 createrailwaysnavigator;dragonlib
 rebind_narrator;modder_name_lib
 fruitsdelight;l2harvester
+oc2r;sedna

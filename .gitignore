@@ -1,4 +1,5 @@
 !minecraft/config/inventoryprofilesnext/inventoryprofiles.json
+*.so
 .fuse_hidden*
 instance.cfg
 minecraft/.cache/

@@ -162,6 +162,9 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "jadeaddons.mcjtylib": {
+    "jadeaddons": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,

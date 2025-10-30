@@ -1,0 +1,16 @@
+filename = 'oc2rc-1.20.1-forge-2.0.4.jar'
+name = 'OC2R: Components'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '23c782d313e376dac28f47cd9e2946d087b8ef131e5b9df9c61abbf76af77f324e8f31bb63a0442434c1f0f714c781eb52dce943f0f417a3ba45ff8f95b6fe29'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/79oYlx6i/versions/C2kVfPA0/oc2rc-1.20.1-forge-2.0.4.jar'
+
+[update.modrinth]
+mod-id = '79oYlx6i'
+version = 'C2kVfPA0'
