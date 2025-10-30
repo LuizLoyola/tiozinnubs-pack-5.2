@@ -122,7 +122,7 @@
 
 [vxlan]
 	#Whether to enable VXLAN support, must be on for the internet card to work
-	enable = false
+	enable = true
 	#The remote host that the VXLAN protocol is running on
 	remoteHost = "::1"
 	#The remote port that the VXLAN protocol is exposed on
@@ -136,7 +136,7 @@
 
 [internet_card]
 	#Whether to enable to internet card, VXLAN must also be enabled
-	internetCardEnabled = false
+	internetCardEnabled = true
 	#Default lifetime of sessions in milliseconds
 	#Range: > 0
 	defaultSessionLifetimeMs = 60000
