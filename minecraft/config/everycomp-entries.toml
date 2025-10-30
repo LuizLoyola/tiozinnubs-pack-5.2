@@ -387,6 +387,10 @@
 			glacio_stone = true
 			permafrost = true
 
+		[types.stone_type.pneumaticcraft]
+			reinforced_stone = true
+			compressed_stone = true
+
 	[types.mud_type]
 
 		[types.mud_type.deeperdarker]
@@ -1659,6 +1663,12 @@
 			station_color_polished_diorite = true
 			station_color_smooth_stone = true
 			mosaic_tile = true
+
+		[types.cut_block_type.pneumaticcraft]
+			reinforced_brick = true
+			reinforced_stone = true
+			compressed_brick = true
+			compressed_stone = true
 
 	[types.wood_type]
 

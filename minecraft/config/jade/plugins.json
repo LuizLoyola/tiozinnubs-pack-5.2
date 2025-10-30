@@ -196,6 +196,14 @@
     "crop": true,
     "inferium_crop": true
   },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
   "railcraft": {
     "signals": true,
     "track_component": true,
