@@ -1,0 +1,16 @@
+filename = 'brewcompat-mc1.20.1-1.0.0.jar'
+name = 'Brew Compat'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '784b44121856ca21d0bec608219618f836e8972834c86ee4003c758bb61dd73e9c8876338ea0b28d1320cc689bd5324daa211b5d1ba2d0be5bf59b9ebea69ac3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tjHcPrh2/versions/57OKNGK4/brewcompat-mc1.20.1-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'tjHcPrh2'
+version = '57OKNGK4'

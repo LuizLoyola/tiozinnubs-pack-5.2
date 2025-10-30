@@ -249,6 +249,9 @@
 			ostrum = true
 			calorite = true
 
+		[types.metal_type.mythicbotany]
+			alfsteel = true
+
 	[types.gem_type]
 
 		[types.gem_type.enlightened_end]
@@ -2198,6 +2201,9 @@
 			acai_palm = true
 			coconut_palm = true
 			budding_coconut_palm = true
+
+		[types.leaves_type.mythicbotany]
+			dreamwood = true
 
 #Disables specific entries
 [entries]

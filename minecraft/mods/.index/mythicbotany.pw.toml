@@ -1,0 +1,16 @@
+filename = 'MythicBotany-1.20.1-4.0.4.jar'
+name = 'MythicBotany'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a67d4bf6834aff1059640b798eea8d5c75c18aa9099d950148d54902acf2f6a25b8c78beb5ca58a269f83b5e6e14cfae664cae4e09f6a8fe4e7205a782c45228'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7tl2Pt3c/versions/1IR2M8cY/MythicBotany-1.20.1-4.0.4.jar'
+
+[update.modrinth]
+mod-id = '7tl2Pt3c'
+version = '1IR2M8cY'

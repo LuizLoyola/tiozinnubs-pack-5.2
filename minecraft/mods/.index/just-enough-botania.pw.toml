@@ -1,0 +1,16 @@
+filename = 'Just-Enough-Botania-1.20.1-v0.2.1.jar'
+name = 'Just Enough Botania'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a987a691031cc0fedcd7bede5584aefa8e3546c3e031121ef1c05672f493cbe3bfe39bc462c56d9b25778bb19b650f74b6976c22b1cc8d0d3dd6a99277c3c00a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9V5kkHHH/versions/TmtCd9EB/Just-Enough-Botania-1.20.1-v0.2.1.jar'
+
+[update.modrinth]
+mod-id = '9V5kkHHH'
+version = 'TmtCd9EB'
