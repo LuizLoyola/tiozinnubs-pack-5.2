@@ -32,7 +32,7 @@ globalExecutorParallelism = "default"
 	# It is generally not recommended to disable this settings unless you know what you are doing  
 	# 
 	# 
-	enforceSafeWorldRandomAccess = "default"
+	enforceSafeWorldRandomAccess = false
 	# (Default: true)  
 	#  Whether to disable the shutdown hook of log4j2 on dedicated servers.
 	#  Enabling this also makes the JVM exit when the dedicated server is considered fully shut down.
