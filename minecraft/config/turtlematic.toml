@@ -35,7 +35,7 @@
 	#Range: > 0
 	swingCost = 1
 	#Range: > 1000
-	transformBlockCooldown = 500
+	transformBlockCooldown = 1000
 	#Range: > 0
 	transformBlockCost = 1
 	#Range: > 1000
@@ -103,9 +103,9 @@
 	#Range: 0.1 ~ 1.7976931348623157E308
 	scanItemsExtraBlockCost = 0.17
 	#Range: > 1000
-	chatMessageCooldown = 100
+	chatMessageCooldown = 1000
 	#Range: > 1000
-	smeltCooldown = 1
+	smeltCooldown = 1000
 	#Range: > 0
 	smeltCost = 80
 	#Range: > 1000
@@ -153,7 +153,7 @@
 	#Range: 1.0 ~ 1.7976931348623157E308
 	brewingPowerLimit = 10.0
 	#Range: 0.1 ~ 1.0
-	enchantmentWipeChance = 0.05
+	enchantmentWipeChance = 0.1
 	#Range: 1 ~ 64
 	tier1AutomataCoreInteractionRadius = 2
 	#Range: 1 ~ 32
@@ -179,9 +179,9 @@
 	#Range: 0.0 ~ 1.0
 	tier4AutomataCoreCooldownReduceFactor = 0.5
 	#Range: 1 ~ 64
-	creativeAutomataCoreInteractionRadius = 2147483647
+	creativeAutomataCoreInteractionRadius = 64
 	#Range: 1 ~ 32
-	creativeAutomataCoreMaxFuelConsumptionRate = 2147483647
+	creativeAutomataCoreMaxFuelConsumptionRate = 32
 	#Range: 0.0 ~ 1.0
 	creativeAutomataCoreCooldownReduceFactor = 0.0
 
