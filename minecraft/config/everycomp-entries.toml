@@ -258,6 +258,9 @@
 		[types.metal_type.ticex]
 			etheric = true
 
+		[types.metal_type.rats]
+			oratchalcum = true
+
 	[types.gem_type]
 
 		[types.gem_type.enlightened_end]
@@ -1673,6 +1676,13 @@
 			compressed_brick = true
 			compressed_stone = true
 
+		[types.cut_block_type.rats]
+			marbled_cheese = true
+			marbled_cheese_brick = true
+			marbled_cheese_brick_cracked = true
+			marbled_cheese_brick_mossy = true
+			pirat = true
+
 	[types.wood_type]
 
 		[types.wood_type.deeperdarker]
@@ -1904,6 +1914,9 @@
 			aeronos = true
 			strophar = true
 			glacian = true
+
+		[types.wood_type.rats]
+			pirat = true
 
 	[types.cake]
 
@@ -2220,6 +2233,9 @@
 
 		[types.leaves_type.mythicbotany]
 			dreamwood = true
+
+		[types.leaves_type.rats]
+			pirat = true
 
 #Disables specific entries
 [entries]
