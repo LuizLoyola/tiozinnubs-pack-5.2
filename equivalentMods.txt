@@ -10,3 +10,4 @@ createrailwaysnavigator;dragonlib
 rebind_narrator;modder_name_lib
 fruitsdelight;l2harvester
 oc2r;sedna
+turtlematic;tweakium;broccolium

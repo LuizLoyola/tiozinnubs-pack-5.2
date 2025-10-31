@@ -26,3 +26,9 @@
 		#Range: 4 ~ 256
 		rsMaxLen = 16
 
+	#Networking Cable Cable Stettings
+	[wires.cc]
+		#Networking Cable Cable Max Length
+		#Range: 4 ~ 256
+		ccMaxLen = 16
+

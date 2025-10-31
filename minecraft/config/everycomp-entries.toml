@@ -24,6 +24,9 @@
 		[types.dust_type.ae2]
 			fluix = true
 
+		[types.dust_type.peripheralium]
+			peripheralium = true
+
 	[types.metal_type]
 
 		[types.metal_type.botania]
