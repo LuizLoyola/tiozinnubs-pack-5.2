@@ -1,0 +1,16 @@
+filename = 'elementus_arcane-0.1.0-20.1.jar'
+name = "Arcanist's Equipage"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '195fa671b422b85bbcff311870ccf04420fdc3fc4a50a303c5b6c6291b49bd4c8fc6a3f4cbf15b6b79b4953dd147a60d7294fd1b388d9ba92af9b6ee314ae7fb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qBbql9R8/versions/qZ8THEHO/elementus_arcane-0.1.0-20.1.jar'
+
+[update.modrinth]
+mod-id = 'qBbql9R8'
+version = 'qZ8THEHO'

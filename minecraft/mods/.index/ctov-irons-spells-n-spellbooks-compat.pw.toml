@@ -1,0 +1,16 @@
+filename = 'ctov-irons-spells-n-spellbooks-compat-1.2.jar'
+name = "CTOV - Iron's Spells 'n Spellbooks compat"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '18cba8699aaf157b88d42ce816edf112b1450c712fe9b930a0dc744c8f539e464eb668e54b841ec2a518eb99768831a81110111f5d151d8d86aae1acad7ed81f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/B8XiXauo/versions/o57gj0aQ/ctov-irons-spells-n-spellbooks-compat-1.2.jar'
+
+[update.modrinth]
+mod-id = 'B8XiXauo'
+version = 'o57gj0aQ'

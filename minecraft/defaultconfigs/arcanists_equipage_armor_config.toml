@@ -1,0 +1,252 @@
+
+[ArmorConfig]
+
+	#Changing armor values requires world restart
+	[ArmorConfig.paladin]
+		#Paladin's (Integer) Armor Values, in the form of [boots, leggings, chestplate, helmet]. Default: [3, 6, 8, 3]
+		armorValues = [3, 6, 8, 3]
+		#Paladin's (Integer) Armor Toughness. Default: 2
+		toughness = 2
+		#Paladin's (Double) Knockback Resistance. Default: 0.1
+		knockbackResistance = 0.1
+		#Paladin's (Float) Armor Heaviness. Default: 0.0
+		speedBoost = 0.0
+		#Paladin's (Float) Armor Attack Speed Bonus. Default: 0.0
+		atkSpeedBoost = 0.0
+		#Paladin's (Float) Max Health. Default: 0.0
+		maxHealth = 0.0
+		#Paladin's (Integer) Armor Max Mana. Default: 100.0
+		maxMana = 100.0
+		#Paladin's (Float) Armor Mana Regen. Default: 0.0
+		manaRegen = 0.0
+		#Paladin's (Float) Spell Power. Default: 0.0
+		spellPower = 0.0
+		#Paladin's (Float) Spell Resistance. Default: 0.0
+		spellResist = 0.0
+		#Paladin's (Float) Fire Spell Power. Default: 0.0
+		firePower = 0.0
+		#Paladin's (Float) Fire Spell Resistance. Default: 0.0
+		fireResist = 0.0
+		#Paladin's (Float) Ice Spell Power. Default: 0.0
+		icePower = 0.0
+		#Paladin's (Float) Ice Spell Resistance. Default: 0.0
+		iceResist = 0.0
+		#Paladin's (Float) Lightning Spell Power. Default: 0.0
+		lightningPower = 0.0
+		#Paladin's (Float) Lightning Spell Resistance. Default: 0.0
+		lightningResist = 0.0
+		#Paladin's (Float) Holy Spell Power. Default: 0.04
+		holyPower = 0.04
+		#Paladin's (Float) Holy Spell Resistance. Default: 0.0
+		holyResist = 0.0
+		#Paladin's (Float) Ender Spell Power. Default: 0.0
+		enderPower = 0.0
+		#Paladin's (Float) Ender Spell Resistance. Default: 0.0
+		enderResist = 0.0
+		#Paladin's (Float) Blood Spell Power. Default: 0.0
+		bloodPower = 0.0
+		#Paladin's (Float) Blood Spell Resistance. Default: 0.0
+		bloodResist = 0.0
+		#Paladin's (Float) Evocation Spell Power. Default: 0.0
+		evocationPower = 0.0
+		#Paladin's (Float) Evocation Spell Resistance. Default: 0.0
+		evocationResist = 0.0
+		#Paladin's (Float) Nature Spell Power. Default: 0.0
+		naturePower = 0.0
+		#Paladin's (Float) Nature Spell Resistance. Default: 0.0
+		natureResist = 0.0
+		#Paladin's (Float) Eldritch Spell Power. Default: 0.0
+		eldritchPower = 0.0
+		#Paladin's (Float) Eldritch Spell Resistance. Default: 0.0
+		eldritchResist = 0.0
+		#Paladin's (Float) Armor Cast Time Reduction. Default: 0.0
+		castTime = 0.0
+		#Paladin's (Float) Armor Cooldown Reduction. Default: 0.0
+		cooldown = 0.0
+
+	[ArmorConfig.dune]
+		#Dune's (Integer) Armor Values, in the form of [boots, leggings, chestplate, helmet]. Default: [2, 4, 6, 2]
+		armorValues = [2, 4, 6, 2]
+		#Dune's (Integer) Armor Toughness. Default: 0
+		toughness = 0
+		#Dune's (Double) Knockback Resistance. Default: 0.0
+		knockbackResistance = 0.0
+		#Dune's (Float) Armor Heaviness. Default: 0.0
+		speedBoost = 0.0
+		#Dune's (Float) Armor Attack Speed Bonus. Default: 0.0
+		atkSpeedBoost = 0.0
+		#Dune's (Float) Max Health. Default: 0.0
+		maxHealth = 0.0
+		#Dune's (Integer) Armor Max Mana. Default: 75.0
+		maxMana = 75.0
+		#Dune's (Float) Armor Mana Regen. Default: 0.0
+		manaRegen = 0.0
+		#Dune's (Float) Spell Power. Default: 0.0
+		spellPower = 0.0
+		#Dune's (Float) Spell Resistance. Default: 0.0
+		spellResist = 0.0
+		#Dune's (Float) Fire Spell Power. Default: 0.02
+		firePower = 0.02
+		#Dune's (Float) Fire Spell Resistance. Default: 0.0
+		fireResist = 0.0
+		#Dune's (Float) Ice Spell Power. Default: 0.0
+		icePower = 0.0
+		#Dune's (Float) Ice Spell Resistance. Default: 0.0
+		iceResist = 0.0
+		#Dune's (Float) Lightning Spell Power. Default: 0.02
+		lightningPower = 0.02
+		#Dune's (Float) Lightning Spell Resistance. Default: 0.0
+		lightningResist = 0.0
+		#Dune's (Float) Holy Spell Power. Default: 0.0
+		holyPower = 0.0
+		#Dune's (Float) Holy Spell Resistance. Default: 0.0
+		holyResist = 0.0
+		#Dune's (Float) Ender Spell Power. Default: 0.0
+		enderPower = 0.0
+		#Dune's (Float) Ender Spell Resistance. Default: 0.0
+		enderResist = 0.0
+		#Dune's (Float) Blood Spell Power. Default: 0.0
+		bloodPower = 0.0
+		#Dune's (Float) Blood Spell Resistance. Default: 0.0
+		bloodResist = 0.0
+		#Dune's (Float) Evocation Spell Power. Default: 0.0
+		evocationPower = 0.0
+		#Dune's (Float) Evocation Spell Resistance. Default: 0.0
+		evocationResist = 0.0
+		#Dune's (Float) Nature Spell Power. Default: 0.0
+		naturePower = 0.0
+		#Dune's (Float) Nature Spell Resistance. Default: 0.0
+		natureResist = 0.0
+		#Dune's (Float) Eldritch Spell Power. Default: 0.0
+		eldritchPower = 0.0
+		#Dune's (Float) Eldritch Spell Resistance. Default: 0.0
+		eldritchResist = 0.0
+		#Dune's (Float) Armor Cast Time Reduction. Default: 0.0
+		castTime = 0.0
+		#Dune's (Float) Armor Cooldown Reduction. Default: 0.05
+		cooldown = 0.05
+
+	[ArmorConfig.shade]
+		#Shade's (Integer) Armor Values, in the form of [boots, leggings, chestplate, helmet]. Default: [2, 4, 6, 2]
+		armorValues = [2, 4, 6, 2]
+		#Shade's (Integer) Armor Toughness. Default: 0
+		toughness = 0
+		#Shade's (Double) Knockback Resistance. Default: 0.0
+		knockbackResistance = 0.0
+		#Shade's (Float) Armor Heaviness. Default: 0.0
+		speedBoost = 0.0
+		#Shade's (Float) Armor Attack Speed Bonus. Default: 0.0
+		atkSpeedBoost = 0.0
+		#Shade's (Float) Max Health. Default: 0.0
+		maxHealth = 0.0
+		#Shade's (Integer) Armor Max Mana. Default: 75.0
+		maxMana = 75.0
+		#Shade's (Float) Armor Mana Regen. Default: 0.0
+		manaRegen = 0.0
+		#Shade's (Float) Spell Power. Default: 0.0
+		spellPower = 0.0
+		#Shade's (Float) Spell Resistance. Default: 0.0
+		spellResist = 0.0
+		#Shade's (Float) Fire Spell Power. Default: 0.0
+		firePower = 0.0
+		#Shade's (Float) Fire Spell Resistance. Default: 0.0
+		fireResist = 0.0
+		#Shade's (Float) Ice Spell Power. Default: 0.0
+		icePower = 0.0
+		#Shade's (Float) Ice Spell Resistance. Default: 0.0
+		iceResist = 0.0
+		#Shade's (Float) Lightning Spell Power. Default: 0.0
+		lightningPower = 0.0
+		#Shade's (Float) Lightning Spell Resistance. Default: 0.0
+		lightningResist = 0.0
+		#Shade's (Float) Holy Spell Power. Default: 0.0
+		holyPower = 0.0
+		#Shade's (Float) Holy Spell Resistance. Default: 0.0
+		holyResist = 0.0
+		#Shade's (Float) Ender Spell Power. Default: 0.02
+		enderPower = 0.02
+		#Shade's (Float) Ender Spell Resistance. Default: 0.0
+		enderResist = 0.0
+		#Shade's (Float) Blood Spell Power. Default: 0.02
+		bloodPower = 0.02
+		#Shade's (Float) Blood Spell Resistance. Default: 0.0
+		bloodResist = 0.0
+		#Shade's (Float) Evocation Spell Power. Default: 0.0
+		evocationPower = 0.0
+		#Shade's (Float) Evocation Spell Resistance. Default: 0.0
+		evocationResist = 0.0
+		#Shade's (Float) Nature Spell Power. Default: 0.0
+		naturePower = 0.0
+		#Shade's (Float) Nature Spell Resistance. Default: 0.0
+		natureResist = 0.0
+		#Shade's (Float) Eldritch Spell Power. Default: 0.0
+		eldritchPower = 0.0
+		#Shade's (Float) Eldritch Spell Resistance. Default: 0.0
+		eldritchResist = 0.0
+		#Shade's (Float) Armor Cast Time Reduction. Default: 0.0
+		castTime = 0.0
+		#Shade's (Float) Armor Cooldown Reduction. Default: 0.05
+		cooldown = 0.05
+
+	[ArmorConfig.adventurer]
+		#Adventurer's (Integer) Armor Values, in the form of [boots, leggings, chestplate, helmet]. Default: [1, 3, 5, 1]
+		armorValues = [1, 3, 5, 1]
+		#Adventurer's (Integer) Armor Toughness. Default: 0
+		toughness = 0
+		#Adventurer's (Double) Knockback Resistance. Default: 0.0
+		knockbackResistance = 0.0
+		#Adventurer's (Float) Armor Heaviness. Default: 0.0
+		speedBoost = 0.0
+		#Adventurer's (Float) Armor Attack Speed Bonus. Default: 0.025
+		atkSpeedBoost = 0.025
+		#Adventurer's (Float) Max Health. Default: 0.125
+		maxHealth = 0.125
+		#Adventurer's (Integer) Armor Max Mana. Default: 75.0
+		maxMana = 75.0
+		#Adventurer's (Float) Armor Mana Regen. Default: 0.0
+		manaRegen = 0.0
+		#Adventurer's (Float) Spell Power. Default: 0.0
+		spellPower = 0.0
+		#Adventurer's (Float) Spell Resistance. Default: 0.0
+		spellResist = 0.0
+		#Adventurer's (Float) Fire Spell Power. Default: 0.0
+		firePower = 0.0
+		#Adventurer's (Float) Fire Spell Resistance. Default: 0.0
+		fireResist = 0.0
+		#Adventurer's (Float) Ice Spell Power. Default: 0.0
+		icePower = 0.0
+		#Adventurer's (Float) Ice Spell Resistance. Default: 0.0
+		iceResist = 0.0
+		#Adventurer's (Float) Lightning Spell Power. Default: 0.0
+		lightningPower = 0.0
+		#Adventurer's (Float) Lightning Spell Resistance. Default: 0.0
+		lightningResist = 0.0
+		#Adventurer's (Float) Holy Spell Power. Default: 0.0
+		holyPower = 0.0
+		#Adventurer's (Float) Holy Spell Resistance. Default: 0.0
+		holyResist = 0.0
+		#Adventurer's (Float) Ender Spell Power. Default: 0.0
+		enderPower = 0.0
+		#Adventurer's (Float) Ender Spell Resistance. Default: 0.0
+		enderResist = 0.0
+		#Adventurer's (Float) Blood Spell Power. Default: 0.0
+		bloodPower = 0.0
+		#Adventurer's (Float) Blood Spell Resistance. Default: 0.0
+		bloodResist = 0.0
+		#Adventurer's (Float) Evocation Spell Power. Default: 0.0
+		evocationPower = 0.0
+		#Adventurer's (Float) Evocation Spell Resistance. Default: 0.0
+		evocationResist = 0.0
+		#Adventurer's (Float) Nature Spell Power. Default: 0.0
+		naturePower = 0.0
+		#Adventurer's (Float) Nature Spell Resistance. Default: 0.0
+		natureResist = 0.0
+		#Adventurer's (Float) Eldritch Spell Power. Default: 0.0
+		eldritchPower = 0.0
+		#Adventurer's (Float) Eldritch Spell Resistance. Default: 0.0
+		eldritchResist = 0.0
+		#Adventurer's (Float) Armor Cast Time Reduction. Default: 0.05
+		castTime = 0.05
+		#Adventurer's (Float) Armor Cooldown Reduction. Default: 0.0
+		cooldown = 0.0
+

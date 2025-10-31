@@ -1,0 +1,16 @@
+filename = 'cataclysm_spellbooks-1.2.7-1.20.1-all.jar'
+name = 'Cataclysm: Spellbooks'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '17efa640c00617fbfc56161a5fef2c0f4e144f0b5f7f0207e9ef9a466ed2be71a3906c99860be98079514e056d8dde9ff5a2e3e95539a889ffae0eaec714c7ab'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3FEg0A8D/versions/p3IVvh83/cataclysm_spellbooks-1.2.7-1.20.1-all.jar'
+
+[update.modrinth]
+mod-id = '3FEg0A8D'
+version = 'p3IVvh83'
