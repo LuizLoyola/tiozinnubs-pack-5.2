@@ -134,6 +134,9 @@
     "summon_lifespan": true,
     "trainable": true
   },
+  "gravestone": {
+    "grave": true
+  },
   "hammerlib": {
     "root": true
   },

@@ -481,6 +481,7 @@ key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
+key_keybind.advancedperipherals.description:key.keyboard.left.control
 key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
