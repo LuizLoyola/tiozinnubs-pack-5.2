@@ -1,0 +1,16 @@
+filename = 'Patched-3.4.1+1.20.1-forge.jar'
+name = 'Patched'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9fba90ad8753e38eb609ee796e987ea9665af8f4224eef5810f1cb05bcc119c2e0360efa0ad1bd314fea089fb0983a3c97172ff53149cc7719fcab8ade0de96c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IBlGrJtC/versions/VEVX8qmw/Patched-3.4.1%2B1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'IBlGrJtC'
+version = 'VEVX8qmw'
