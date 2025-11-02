@@ -714,9 +714,32 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
         reportText += `|${row.map((cell, i) => (' ' + cell).padEnd(reportCols[i].width)).join('|')}|\n`;
     });
 
+    // report finished generating
+    // check if report is exactly the same as previous (ignoring the gen time)
 
-    // write report
-    fs.writeFileSync(reportPath, reportText);
+
+    const isSameAsPrevious = (() => {
+        if (!previousReport) return false;
+
+        const prevReportLines = previousReport.split('\n').filter(l => !l.startsWith('> Auto-generated at'));
+        const currReportLines = reportText.split('\n').filter(l => !l.startsWith('> Auto-generated at'));
+
+        if (prevReportLines.length !== currReportLines.length) return false;
+
+        for (let i = 0; i < prevReportLines.length; i++) {
+            if (prevReportLines[i] !== currReportLines[i]) return false;
+        }
+
+        return true;
+    })();
+
+
+    if (isSameAsPrevious) {
+        c.warn('Report is identical to previous. Not overwriting to keep previous timestamp.');
+    } else {
+        // write report
+        fs.writeFileSync(reportPath, reportText);
+    }
 });
 
 const isServerRunning = () => {
