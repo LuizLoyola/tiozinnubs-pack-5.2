@@ -14,7 +14,7 @@
   "fogStart": 0,
   "fogEnd": 192,
   "fogShape": "CYLINDER",
-  "cloudsHeight": 192,
+  "cloudsHeight": 256,
   "entityNametagRendering": true,
   "playerNametagRendering": true,
   "itemNametagRendering": true,

@@ -30,7 +30,7 @@
     "crossBiomeBorder": false,
     "useHeightmapTemp": true,
     "doSpawnHeightLimit": true,
-    "spawnHeightLimit": 0
+    "spawnHeightLimit": 256
   },
   "particles": [
     {

@@ -391,8 +391,8 @@
 		"Allow Tinted Glass Transparency" = true
 
 	[tools.bottled_cloud]
-		"Cloud Level Bottom" = 191
-		"Cloud Level Top" = 196
+		"Cloud Level Bottom" = 251
+		"Cloud Level Top" = 256
 
 	[tools.color_runes]
 		"Dungeon Weight" = 10
