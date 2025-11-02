@@ -1243,6 +1243,24 @@ const commands = {
             content = filteredLines.join('\n');
             fs.writeFileSync(filePath, content);
         });
+
+        // emi.css: disable cheat-mode
+        const emiCssPath = path.join(configPath, 'emi.css');
+        if (fs.existsSync(emiCssPath)) {
+            let content = fs.readFileSync(emiCssPath, 'utf8');
+            // find line that contains "cheat-mode"
+            const lines = content.split('\n');
+            const newLines = lines.map(line => {
+                if (line.includes('cheat-mode')) {
+                    return line.replace('true', 'false');
+                }
+                return line;
+            });
+            content = newLines.join('\n');
+            fs.writeFileSync(emiCssPath, content);
+            c.log(`Fixed EMI CSS file.`);
+        }
+
         c.log(`Fixed .properties files.`);
     }),
     incrVersion: c.wrapFunction('Calculating version...', (isDev) => {
