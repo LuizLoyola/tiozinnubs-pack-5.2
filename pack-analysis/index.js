@@ -1261,6 +1261,21 @@ const commands = {
             c.log(`Fixed EMI CSS file.`);
         }
 
+        // delete all log files, except the latest
+        const logsPath = path.join(minecraftFolder, 'logs');
+        if (fs.existsSync(logsPath)) {
+            // list only files
+            const except = [
+                'latest.log',
+                'debug.log'
+            ]
+            const logFiles = fs.readdirSync(logsPath).filter(file => fs.statSync(path.join(logsPath, file)).isFile()).filter(file => !except.includes(file));
+            logFiles.forEach(file => {
+                fs.rmSync(path.join(logsPath, file), { force: true });
+            });
+            c.log(`Removed old log files.`);
+        }
+
         c.log(`Fixed .properties files.`);
     }),
     incrVersion: c.wrapFunction('Calculating version...', (isDev) => {
@@ -1502,8 +1517,21 @@ async function main() {
     c.clear();
     c.log(`${info.name} ${info.mainVersion} - Tools`);
 
+    if (debug) {
+        c.log(`Debug mode is enabled.`);
+    }
+
+
     await generateReport();
     c.log('Report generated.');
+
+    if (debug) {
+        c.log('DEBUG ENABLED: Running autofix...');
+        await commands.autofix();
+
+        c.log('DEBUG ENABLED: Quitting without waiting for commands...');
+        return;
+    }
 
     while (!reportOnly && !debug) {
         const command = prompt('Type command: ');
@@ -1691,10 +1719,6 @@ async function main() {
         }
         c.remLevel();
         c.log('');
-    }
-
-    if (debug) {
-        c.log('Debug mode is enabled. Exiting without asking for command.');
     }
 }
 
