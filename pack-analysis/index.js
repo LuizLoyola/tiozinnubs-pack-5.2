@@ -910,6 +910,7 @@ const commands = {
         // copy configs
         fs.cpSync(onClient('config'), onServer('config'), { recursive: true });
         fs.cpSync(onClient('defaultconfigs'), onServer('defaultconfigs'), { recursive: true });
+        fs.cpSync(onClient('scripts'), onServer('scripts'), { recursive: true });
 
         fs.mkdirSync(onServer('mods'));
 
