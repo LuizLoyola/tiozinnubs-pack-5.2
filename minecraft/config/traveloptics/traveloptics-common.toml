@@ -5,7 +5,7 @@
 
 	[common.general]
 		#Show welcome message || Default: true
-		welcome_message = true
+		welcome_message = false
 
 	[common.effect]
 		#List of effect IDs that are immune to Rainfall cleanse || Example: ["minecraft:blindness", "minecraft:darkness"]
