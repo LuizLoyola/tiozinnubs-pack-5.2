@@ -160,6 +160,7 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
     }
 
     const processModFile = async (modFile, insideMod = undefined, layers = 0) => {
+        // boilerplate
         const p = '  '.repeat(layers);
         let hasLoggedForMod = false;
         let logName = `"${modFile}"`;
@@ -178,11 +179,8 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
         const error = (msg) => logWrapper(msg, c.error)
 
         const fullPath = insideMod ? path.join(tempJarsFolder, modFile) : path.join(modsFolder, modFile);
-
         const isDisabled = modFile.endsWith('.jar.disabled');
-
         const cleanPath = isDisabled ? modFile.slice(0, -9) : modFile;
-
         const metadata = modMetadata.find((meta) => meta.filename === cleanPath);
 
         if (!metadata && !insideMod) {
@@ -291,6 +289,8 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
                                             mandatory: dep.mandatory,
                                         };
                                     }))];
+
+                                dependencies.sort((a, b) => a.modId.localeCompare(b.modId));
 
                                 fileMods.push({
                                     ...fileMod,
