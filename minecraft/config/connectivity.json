@@ -1,11 +1,11 @@
 {
   "disableLoginLimits": {
     "desc:": "Should login packet size limits be disabled? Error:(IOException(\"Payload may not be larger than 1048576 bytes\")) default:true",
-    "disableLoginLimits": true
+    "disableLoginLimits": false
   },
   "disablePacketLimits": {
     "desc:": "Should play packet size limits be disabled? Error:(Badly compressed packet) default:true",
-    "disablePacketLimits": true
+    "disablePacketLimits": false
   },
   "disableChatVerificationDisconnect": {
     "desc:": "(Clientside) Disables players disconnecting on chat message verification problems,(enable debugPrintMessages to see the message causing issues). default:true",
