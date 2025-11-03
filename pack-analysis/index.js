@@ -84,11 +84,11 @@ const c = {
         }
     },
     wrapFunctionAsync: (title, asyncFun) => {
-        return async (params) => {
+        return async (...args) => {
             c.log(title);
             c.addLevel();
             try {
-                await asyncFun(params);
+                await asyncFun(...args);
                 c.remLevel('Done!');
             } catch (e) {
                 c.remLevel('Error occurred while executing this function!');
@@ -397,7 +397,7 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
         mod.optionalDependencies = mod.optionalDependencies || [];
     });
 
-    const disabledDeps = []
+    let disabledDeps = []
     const goneDeps = []
 
     // check multiple mods with same name
@@ -458,9 +458,13 @@ const generateReport = c.wrapFunctionAsync('Generating report', async () => {
         });
     });
 
+    disabledDeps = [...new Set(disabledDeps.sort())];
+
     if (disabledDeps.length > 0) {
         c.warn(`Found ${disabledDeps.length} disabled dependencies:`);
-        c.warn(disabledDeps.map(m => `- ${m}`).join('\n'));
+        c.addLevel();
+        disabledDeps.forEach(depId => c.warn(depId));
+        c.remLevel
 
         if (prompt('Do you want to enable them? (y/n) ') === 'y') {
             for (const depId of disabledDeps) {

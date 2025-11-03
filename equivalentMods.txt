@@ -2,7 +2,7 @@ puzzleslib;puzzlesapi;puzzlesaccessapi
 create;flywheel;ponder
 owo;owo-lib
 xaeroworldmap;xaerosworldmap
-thermal_expansion;thermal
+thermal_foundation;thermal
 simpleclouds;crackerslib
 createrailwaysnavigator;dragonlib
 rebind_narrator;modder_name_lib
