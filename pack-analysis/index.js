@@ -1243,6 +1243,9 @@ const commands = {
             content = filteredLines.join('\n');
             fs.writeFileSync(filePath, content);
         });
+        if (propertiesFiles.length > 0) {
+            c.log(`Fixed .properties files.`);
+        }
 
         // emi.css: disable cheat-mode
         const emiCssPath = path.join(configPath, 'emi.css');
@@ -1276,7 +1279,24 @@ const commands = {
             c.log(`Removed old log files.`);
         }
 
-        c.log(`Fixed .properties files.`);
+        // update BCC config
+        const bccConfigPath = path.join(configPath, 'bcc-common.toml');
+        if (fs.existsSync(bccConfigPath)) {
+            let content = fs.readFileSync(bccConfigPath, 'utf8');
+            const lines = content.split('\n');
+            const newLines = lines.map(line => {
+                if (line.includes('modpackName')) {
+                    return line.replace(/modpackName\s*=\s*".*"/, `modpackName = "${info.name}"`);
+                }
+                if (line.includes('modpackVersion')) {
+                    return line.replace(/modpackVersion\s*=\s*".*"/, `modpackVersion = "${info.version}"`);
+                }
+                return line;
+            });
+            content = newLines.join('\n');
+            fs.writeFileSync(bccConfigPath, content);
+            c.log(`Fixed BCC config file.`);
+        }
     }),
     incrVersion: c.wrapFunction('Calculating version...', (isDev) => {
         const versionParts = info.version.split('.');
