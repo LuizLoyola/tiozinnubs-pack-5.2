@@ -1,9 +1,17 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:breakable"
+    "$minecraft:breakable",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "industrialforegoing:infinity_trident",
+    "industrialforegoing:infinity_backpack",
+    "industrialforegoing:infinity_launcher"
   ],
   "incompatible": [
-    "alexscaves:taxing_bellow"
+    "alexscaves:taxing_bellow",
+    "majruszsenchantments:breaking_curse",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

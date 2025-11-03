@@ -2,7 +2,6 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:armor_chest",
-    "apotheosis:chestplate_tome",
     "revampedwolf:leather_wolf_armor",
     "revampedwolf:golden_wolf_armor",
     "revampedwolf:iron_wolf_armor",
@@ -10,6 +9,7 @@
     "revampedwolf:netherite_wolf_armor"
   ],
   "incompatible": [
-    "minecraft:thorns"
+    "minecraft:thorns",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

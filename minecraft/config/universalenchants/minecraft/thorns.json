@@ -7,11 +7,14 @@
     "revampedwolf:iron_wolf_armor",
     "revampedwolf:diamond_wolf_armor",
     "revampedwolf:netherite_wolf_armor",
+    "goety:spiteful_belt",
     "$minecraft:universal_enchants_horse_armor",
     "$minecraft:universal_enchants_shield"
   ],
   "incompatible": [
     "twilightforest:fire_react",
+    "allurement:vengeance",
+    "majruszsenchantments:incompatibility_curse",
     "twilightforest:chill_aura"
   ]
 }

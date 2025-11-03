@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:pet"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

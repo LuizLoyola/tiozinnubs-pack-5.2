@@ -4,6 +4,7 @@
     "$minecraft:malum_scythe_only"
   ],
   "incompatible": [
-    "malum:rebound"
+    "malum:rebound",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

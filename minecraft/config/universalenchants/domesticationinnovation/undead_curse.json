@@ -4,6 +4,7 @@
     "$minecraft:pet"
   ],
   "incompatible": [
-    "domesticationinnovation:total_recall"
+    "domesticationinnovation:total_recall",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

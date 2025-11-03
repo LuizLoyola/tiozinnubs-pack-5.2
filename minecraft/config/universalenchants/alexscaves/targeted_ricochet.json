@@ -4,6 +4,7 @@
     "$minecraft:shot_gum"
   ],
   "incompatible": [
-    "alexscaves:triple_split"
+    "alexscaves:triple_split",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

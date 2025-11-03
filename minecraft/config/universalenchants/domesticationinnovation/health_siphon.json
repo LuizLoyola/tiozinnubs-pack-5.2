@@ -5,9 +5,10 @@
   ],
   "incompatible": [
     "domesticationinnovation:healing_aura",
-    "domesticationinnovation:health_boost",
-    "domesticationinnovation:rejuvenation",
     "domesticationinnovation:vampire",
+    "domesticationinnovation:rejuvenation",
+    "majruszsenchantments:incompatibility_curse",
+    "domesticationinnovation:health_boost",
     "domesticationinnovation:gluttonous"
   ]
 }

@@ -4,6 +4,7 @@
     "$minecraft:desolate_dagger"
   ],
   "incompatible": [
-    "alexscaves:double_stab"
+    "alexscaves:double_stab",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

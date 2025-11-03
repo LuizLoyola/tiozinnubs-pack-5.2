@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:fishing_rod"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

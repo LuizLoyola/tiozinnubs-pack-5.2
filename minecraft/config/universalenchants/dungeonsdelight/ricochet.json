@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:cleaver"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

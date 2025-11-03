@@ -2,8 +2,11 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:trident",
+    "industrialforegoing:infinity_trident",
     "cataclysm:coral_spear",
     "cataclysm:coral_bardiche"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

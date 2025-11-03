@@ -13,6 +13,7 @@
     "twilightforest:block_and_chain"
   ],
   "incompatible": [
-    "minecraft:silk_touch"
+    "minecraft:silk_touch",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

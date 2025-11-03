@@ -4,11 +4,12 @@
     "$minecraft:pet"
   ],
   "incompatible": [
-    "domesticationinnovation:shadow_hands",
-    "domesticationinnovation:immunity_frame",
     "domesticationinnovation:deflection",
+    "domesticationinnovation:immunity_frame",
+    "domesticationinnovation:shadow_hands",
     "domesticationinnovation:frost_fang",
+    "domesticationinnovation:disc_jockey",
     "domesticationinnovation:amphibious",
-    "domesticationinnovation:disc_jockey"
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

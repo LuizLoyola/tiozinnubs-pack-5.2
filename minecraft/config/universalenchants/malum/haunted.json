@@ -4,6 +4,7 @@
     "$minecraft:malum_magic_capable_weapon"
   ],
   "incompatible": [
-    "malum:animated"
+    "malum:animated",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

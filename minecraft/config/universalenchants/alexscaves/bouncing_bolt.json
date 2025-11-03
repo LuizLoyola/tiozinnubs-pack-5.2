@@ -4,6 +4,7 @@
     "$minecraft:sea_staff"
   ],
   "incompatible": [
-    "alexscaves:triple_splash"
+    "alexscaves:triple_splash",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

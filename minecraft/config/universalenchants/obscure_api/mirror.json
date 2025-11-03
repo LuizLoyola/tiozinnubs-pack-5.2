@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:dynamic_projectile_mirror"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

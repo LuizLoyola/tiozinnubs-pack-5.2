@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:primitive_club"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

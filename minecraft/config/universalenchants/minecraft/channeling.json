@@ -6,6 +6,7 @@
     "cataclysm:coral_bardiche"
   ],
   "incompatible": [
-    "minecraft:riptide"
+    "minecraft:riptide",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

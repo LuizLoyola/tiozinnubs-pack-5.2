@@ -7,5 +7,7 @@
     "industrialforegoing:infinity_hammer",
     "industrialforegoing:infinity_trident"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

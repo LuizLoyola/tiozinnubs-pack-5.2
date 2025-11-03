@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:rocky_chestplate"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

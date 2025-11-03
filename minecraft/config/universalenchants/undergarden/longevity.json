@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:slingshot"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

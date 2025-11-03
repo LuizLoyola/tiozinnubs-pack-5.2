@@ -4,6 +4,7 @@
     "$minecraft:ortholance"
   ],
   "incompatible": [
-    "alexscaves:second_wave"
+    "alexscaves:second_wave",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

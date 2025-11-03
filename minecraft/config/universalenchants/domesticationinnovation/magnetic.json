@@ -4,11 +4,12 @@
     "$minecraft:pet"
   ],
   "incompatible": [
-    "domesticationinnovation:intimidation",
-    "domesticationinnovation:chain_lightning",
-    "domesticationinnovation:herding",
-    "domesticationinnovation:shadow_hands",
     "domesticationinnovation:vampire",
-    "domesticationinnovation:psychic_wall"
+    "domesticationinnovation:chain_lightning",
+    "domesticationinnovation:psychic_wall",
+    "domesticationinnovation:intimidation",
+    "domesticationinnovation:shadow_hands",
+    "majruszsenchantments:incompatibility_curse",
+    "domesticationinnovation:herding"
   ]
 }

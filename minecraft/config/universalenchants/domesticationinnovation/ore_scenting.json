@@ -4,6 +4,7 @@
     "$minecraft:pet"
   ],
   "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
     "domesticationinnovation:herding"
   ]
 }

@@ -5,9 +5,10 @@
   ],
   "incompatible": [
     "domesticationinnovation:chain_lightning",
-    "domesticationinnovation:blazing_protection",
     "domesticationinnovation:magnetic",
     "domesticationinnovation:bubbling",
-    "domesticationinnovation:disc_jockey"
+    "domesticationinnovation:disc_jockey",
+    "domesticationinnovation:blazing_protection",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

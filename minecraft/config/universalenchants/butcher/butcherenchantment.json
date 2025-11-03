@@ -10,5 +10,7 @@
     "aiotbotania:terra_aiot",
     "aiotbotania:alfsteel_aiot"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

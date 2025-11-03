@@ -4,7 +4,8 @@
     "$minecraft:pet"
   ],
   "incompatible": [
+    "domesticationinnovation:vampire",
     "domesticationinnovation:health_siphon",
-    "domesticationinnovation:vampire"
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

@@ -4,6 +4,7 @@
     "$minecraft:crossbow"
   ],
   "incompatible": [
-    "minecraft:multishot"
+    "minecraft:multishot",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

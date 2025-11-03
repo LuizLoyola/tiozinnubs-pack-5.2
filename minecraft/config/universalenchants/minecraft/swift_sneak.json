@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:armor_legs"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

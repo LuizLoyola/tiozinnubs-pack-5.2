@@ -7,6 +7,7 @@
     "goety:sculk_grower"
   ],
   "incompatible": [
-    "goety:absorb"
+    "goety:absorb",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

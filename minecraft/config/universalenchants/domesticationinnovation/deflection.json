@@ -4,9 +4,10 @@
     "$minecraft:pet"
   ],
   "incompatible": [
+    "domesticationinnovation:psychic_wall",
+    "domesticationinnovation:immunity_frame",
     "domesticationinnovation:defusal",
     "domesticationinnovation:blazing_protection",
-    "domesticationinnovation:immunity_frame",
-    "domesticationinnovation:psychic_wall"
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:magic_conch"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

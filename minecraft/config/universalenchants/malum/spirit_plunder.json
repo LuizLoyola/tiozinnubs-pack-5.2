@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:malum_soul_hunter_weapon"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

@@ -4,6 +4,7 @@
     "$minecraft:ortholance"
   ],
   "incompatible": [
-    "alexscaves:tsunami"
+    "alexscaves:tsunami",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

@@ -4,6 +4,7 @@
     "$minecraft:slingshot"
   ],
   "incompatible": [
-    "undergarden:self_sling"
+    "undergarden:self_sling",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

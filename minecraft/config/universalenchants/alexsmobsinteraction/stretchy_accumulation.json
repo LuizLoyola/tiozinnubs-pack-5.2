@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:tendon_whip"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

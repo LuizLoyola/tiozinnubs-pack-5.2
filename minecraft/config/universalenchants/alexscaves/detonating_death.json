@@ -4,6 +4,7 @@
     "$minecraft:totem_of_possession"
   ],
   "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
     "alexscaves:astral_transferring"
   ]
 }

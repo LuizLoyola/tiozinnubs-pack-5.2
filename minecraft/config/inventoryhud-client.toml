@@ -217,7 +217,7 @@
 #Notification settings
 [notification]
 	#Last notified mod version
-	lastNotifiedVersion = "7.3.33"
+	lastNotifiedVersion = "11.9.2+forge"
 	#Notify more than once
 	keepNotifying = true
 

@@ -8,10 +8,10 @@
     "industrialforegoing:infinity_trident"
   ],
   "incompatible": [
-    "deeperdarker:sculk_smite",
     "minecraft:bane_of_arthropods",
-    "majruszsenchantments:incompatibility_curse",
+    "deeperdarker:sculk_smite",
+    "minecraft:sharpness",
     "minecraft:smite",
-    "minecraft:sharpness"
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

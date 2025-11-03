@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:biomancy_living"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

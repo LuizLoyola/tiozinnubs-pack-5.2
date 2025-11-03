@@ -8,5 +8,7 @@
     "revampedwolf:diamond_wolf_armor",
     "revampedwolf:netherite_wolf_armor"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

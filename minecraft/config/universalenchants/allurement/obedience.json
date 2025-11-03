@@ -1,8 +1,9 @@
 {
   "schemaVersion": 2,
   "items": [
-    "$minecraft:horse_armor",
-    "apotheosis:other_tome"
+    "$minecraft:horse_armor"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

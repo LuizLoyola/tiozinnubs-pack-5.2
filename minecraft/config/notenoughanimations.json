@@ -71,8 +71,10 @@
   "freezingAnimation": true,
   "huggingAnimation": false,
   "narutoRunning": false,
-  "enableInWorldBookRendering": false,
   "disableLegSmoothing": false,
   "bowAnimation": "VANILLA",
-  "burningAnimation": true
+  "customBowRotationLock": false,
+  "clampCrossbowAnimations": false,
+  "burningAnimation": true,
+  "hideItemsForTheseBows": []
 }

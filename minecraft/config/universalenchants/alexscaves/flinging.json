@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:ortholance"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

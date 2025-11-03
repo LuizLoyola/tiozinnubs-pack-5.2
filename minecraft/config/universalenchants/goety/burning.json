@@ -4,5 +4,7 @@
     "$minecraft:focus",
     "goety:infernal_tome"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

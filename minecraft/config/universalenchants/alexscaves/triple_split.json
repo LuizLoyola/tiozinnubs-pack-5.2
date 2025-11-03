@@ -4,6 +4,7 @@
     "$minecraft:shot_gum"
   ],
   "incompatible": [
-    "alexscaves:targeted_ricochet"
+    "alexscaves:targeted_ricochet",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

@@ -2,15 +2,14 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:armor",
-    "apotheosis:boots_tome",
-    "apotheosis:chestplate_tome",
-    "apotheosis:helmet_tome",
-    "apotheosis:leggings_tome",
     "revampedwolf:leather_wolf_armor",
     "revampedwolf:golden_wolf_armor",
     "revampedwolf:iron_wolf_armor",
     "revampedwolf:diamond_wolf_armor",
-    "revampedwolf:netherite_wolf_armor"
+    "revampedwolf:netherite_wolf_armor",
+    "lost_aether_content:swetty_mask"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

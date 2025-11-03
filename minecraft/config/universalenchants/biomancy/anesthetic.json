@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:biomancy_syringe"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

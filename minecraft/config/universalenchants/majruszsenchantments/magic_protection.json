@@ -10,11 +10,11 @@
     "lost_aether_content:swetty_mask"
   ],
   "incompatible": [
-    "majruszsenchantments:incompatibility_curse",
-    "minecraft:fire_protection",
     "minecraft:protection",
-    "minecraft:feather_falling",
+    "minecraft:projectile_protection",
     "minecraft:blast_protection",
-    "minecraft:projectile_protection"
+    "majruszsenchantments:incompatibility_curse",
+    "minecraft:feather_falling",
+    "minecraft:fire_protection"
   ]
 }

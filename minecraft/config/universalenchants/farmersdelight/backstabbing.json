@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:knife"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

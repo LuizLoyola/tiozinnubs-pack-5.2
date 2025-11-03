@@ -4,7 +4,10 @@
     "$minecraft:bow",
     "cataclysm:cursed_bow",
     "cataclysm:wrath_of_the_desert",
-    "create:potato_cannon"
+    "create:potato_cannon",
+    "tfmg:quad_potato_cannon"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

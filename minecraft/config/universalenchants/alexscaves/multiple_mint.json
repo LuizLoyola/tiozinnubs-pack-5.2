@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:sugar_staff"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

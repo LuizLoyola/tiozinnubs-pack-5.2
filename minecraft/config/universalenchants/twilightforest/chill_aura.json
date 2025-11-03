@@ -6,10 +6,12 @@
     "revampedwolf:golden_wolf_armor",
     "revampedwolf:iron_wolf_armor",
     "revampedwolf:diamond_wolf_armor",
-    "revampedwolf:netherite_wolf_armor"
+    "revampedwolf:netherite_wolf_armor",
+    "lost_aether_content:swetty_mask"
   ],
   "incompatible": [
+    "minecraft:thorns",
     "twilightforest:fire_react",
-    "minecraft:thorns"
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

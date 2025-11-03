@@ -21,7 +21,7 @@
     "create:mechanical_plough"
   ],
   "incompatible": [
-    "majruszsenchantments:incompatibility_curse",
-    "minecraft:silk_touch"
+    "minecraft:silk_touch",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

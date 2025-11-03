@@ -4,8 +4,9 @@
     "$minecraft:pet"
   ],
   "incompatible": [
-    "domesticationinnovation:frost_fang",
     "domesticationinnovation:poison_resistance",
-    "domesticationinnovation:amphibious"
+    "domesticationinnovation:frost_fang",
+    "domesticationinnovation:amphibious",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

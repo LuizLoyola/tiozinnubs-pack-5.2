@@ -4,6 +4,7 @@
     "$minecraft:pet"
   ],
   "incompatible": [
-    "domesticationinnovation:fireproof"
+    "domesticationinnovation:fireproof",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

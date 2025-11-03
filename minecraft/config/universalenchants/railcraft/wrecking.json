@@ -4,10 +4,11 @@
     "$minecraft:railway_tool"
   ],
   "incompatible": [
+    "minecraft:bane_of_arthropods",
     "deeperdarker:sculk_smite",
-    "minecraft:smite",
-    "minecraft:sharpness",
     "railcraft:implosion",
-    "minecraft:bane_of_arthropods"
+    "minecraft:sharpness",
+    "minecraft:smite",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

@@ -4,6 +4,7 @@
     "$minecraft:malum_scythe_only"
   ],
   "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
     "malum:ascension"
   ]
 }

@@ -21,11 +21,11 @@
     "create:mechanical_plough"
   ],
   "incompatible": [
-    "deeperdarker:sculk_smite",
     "minecraft:bane_of_arthropods",
+    "deeperdarker:sculk_smite",
     "minecraft:efficiency",
-    "majruszsenchantments:incompatibility_curse",
+    "minecraft:sharpness",
     "minecraft:smite",
-    "minecraft:sharpness"
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

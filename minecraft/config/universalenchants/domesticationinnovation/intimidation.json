@@ -5,6 +5,7 @@
   ],
   "incompatible": [
     "domesticationinnovation:warping_bite",
-    "domesticationinnovation:magnetic"
+    "domesticationinnovation:magnetic",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

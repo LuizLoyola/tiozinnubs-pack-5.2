@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:raygun"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

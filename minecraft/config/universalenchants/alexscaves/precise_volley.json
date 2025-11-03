@@ -4,6 +4,7 @@
     "$minecraft:dreadbow"
   ],
   "incompatible": [
-    "alexscaves:relentless_darkness"
+    "alexscaves:relentless_darkness",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

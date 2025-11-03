@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:stained"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

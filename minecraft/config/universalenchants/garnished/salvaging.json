@@ -7,11 +7,20 @@
     "industrialforegoing:infinity_saw",
     "the_bumblezone:carpenter_bee_boots_1",
     "the_bumblezone:carpenter_bee_boots_2",
+    "goety:dark_scythe",
+    "goety:dark_metal_scythe",
+    "goety:death_scythe",
+    "goety:great_hammer",
+    "goety:bonehead_hammer",
+    "goety:stormlander",
+    "goety:philosophers_mace",
     "twilightforest:block_and_chain",
     "create:mechanical_drill",
     "create:mechanical_saw",
     "create:mechanical_harvester",
     "create:mechanical_plough"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

@@ -4,7 +4,8 @@
     "$minecraft:magic_conch"
   ],
   "incompatible": [
+    "minecraft:mending",
     "minecraft:unbreaking",
-    "minecraft:mending"
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

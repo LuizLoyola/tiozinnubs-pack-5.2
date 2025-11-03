@@ -7,7 +7,11 @@
     "revampedwolf:iron_wolf_armor",
     "revampedwolf:diamond_wolf_armor",
     "revampedwolf:netherite_wolf_armor",
+    "lost_aether_content:swetty_mask",
     "$minecraft:universal_enchants_horse_armor"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:magic_protection",
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

@@ -4,6 +4,7 @@
     "$minecraft:focus"
   ],
   "incompatible": [
-    "goety:potency"
+    "goety:potency",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

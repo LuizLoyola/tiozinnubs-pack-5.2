@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:desolate_dagger"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

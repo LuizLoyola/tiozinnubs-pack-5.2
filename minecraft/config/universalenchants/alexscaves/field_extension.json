@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:galena_gauntlet"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

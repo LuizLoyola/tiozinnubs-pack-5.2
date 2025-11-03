@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:dynamic_projectile_fast_spin"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

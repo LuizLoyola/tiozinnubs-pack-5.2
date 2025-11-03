@@ -4,6 +4,7 @@
     "$minecraft:raygun"
   ],
   "incompatible": [
-    "alexscaves:x_ray"
+    "alexscaves:x_ray",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

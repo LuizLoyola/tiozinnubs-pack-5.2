@@ -6,6 +6,7 @@
   "incompatible": [
     "domesticationinnovation:intimidation",
     "domesticationinnovation:frost_fang",
-    "domesticationinnovation:bubbling"
+    "domesticationinnovation:bubbling",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

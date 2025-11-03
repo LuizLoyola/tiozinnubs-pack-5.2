@@ -4,5 +4,7 @@
     "$minecraft:wearable",
     "twilightforest:block_and_chain"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

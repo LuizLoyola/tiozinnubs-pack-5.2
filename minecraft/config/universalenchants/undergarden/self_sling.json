@@ -4,6 +4,7 @@
     "$minecraft:slingshot"
   ],
   "incompatible": [
-    "undergarden:ricochet"
+    "undergarden:ricochet",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

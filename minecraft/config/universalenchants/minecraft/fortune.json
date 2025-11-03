@@ -2,13 +2,39 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:digger",
+    "ae2:annihilation_plane",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
     "the_bumblezone:carpenter_bee_boots_1",
     "the_bumblezone:carpenter_bee_boots_2",
+    "create_ironworks:copper_paxel",
+    "create_ironworks:bronze_paxel",
+    "create_ironworks:brass_paxel",
+    "create_ironworks:steel_paxel",
+    "create_ironworks:iron_paxel",
+    "create_ironworks:gold_paxel",
+    "create_ironworks:diamond_paxel",
+    "create_ironworks:netherite_paxel",
+    "goety:burrowing_focus",
+    "goety:dark_scythe",
+    "goety:dark_metal_scythe",
+    "goety:death_scythe",
+    "goety:great_hammer",
+    "goety:bonehead_hammer",
+    "goety:stormlander",
+    "goety:philosophers_mace",
+    "thermal:flux_drill",
+    "thermal:flux_saw",
     "twilightforest:block_and_chain",
+    "create:mechanical_drill",
+    "create:mechanical_saw",
+    "create:mechanical_harvester",
+    "create:mechanical_plough",
     "quark:pickarang",
     "quark:flamerang"
   ],
   "incompatible": [
-    "minecraft:silk_touch"
+    "minecraft:silk_touch",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

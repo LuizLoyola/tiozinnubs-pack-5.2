@@ -4,6 +4,7 @@
     "$minecraft:rings"
   ],
   "incompatible": [
-    "minecraft:silk_touch"
+    "minecraft:silk_touch",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

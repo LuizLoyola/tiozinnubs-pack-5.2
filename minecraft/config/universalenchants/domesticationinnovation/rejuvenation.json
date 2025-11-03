@@ -5,6 +5,7 @@
   ],
   "incompatible": [
     "domesticationinnovation:healing_aura",
-    "domesticationinnovation:health_siphon"
+    "domesticationinnovation:health_siphon",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

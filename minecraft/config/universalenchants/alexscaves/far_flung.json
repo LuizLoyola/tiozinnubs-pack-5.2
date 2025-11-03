@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:candy_cane_hook"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

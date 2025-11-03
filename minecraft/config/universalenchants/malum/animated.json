@@ -4,6 +4,7 @@
     "$minecraft:malum_scythe_only"
   ],
   "incompatible": [
-    "malum:haunted"
+    "malum:haunted",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

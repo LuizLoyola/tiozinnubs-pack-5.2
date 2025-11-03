@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:malum_staff_only"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

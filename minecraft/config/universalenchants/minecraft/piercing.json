@@ -2,7 +2,8 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:crossbow",
-    "the_bumblezone:crystal_cannon",
+    "biomancy:injector",
+    "biomancy:impaler",
     "blue_skies:soulbound_spear",
     "blue_skies:bluebright_spear",
     "blue_skies:starlit_spear",
@@ -12,10 +13,12 @@
     "blue_skies:maple_spear",
     "blue_skies:comet_spear",
     "iceandfire:tide_trident",
+    "the_bumblezone:crystal_cannon",
     "$minecraft:trident",
     "$minecraft:bow"
   ],
   "incompatible": [
-    "minecraft:efficiency"
+    "minecraft:efficiency",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

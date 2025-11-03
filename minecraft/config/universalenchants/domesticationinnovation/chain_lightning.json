@@ -4,9 +4,10 @@
     "$minecraft:pet"
   ],
   "incompatible": [
-    "domesticationinnovation:shadow_hands",
     "domesticationinnovation:magnetic",
+    "domesticationinnovation:shadow_hands",
     "domesticationinnovation:frost_fang",
-    "domesticationinnovation:bubbling"
+    "domesticationinnovation:bubbling",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

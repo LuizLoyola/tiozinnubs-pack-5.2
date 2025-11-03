@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:totem_of_possession"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

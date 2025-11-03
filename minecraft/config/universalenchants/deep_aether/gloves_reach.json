@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:gloves"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

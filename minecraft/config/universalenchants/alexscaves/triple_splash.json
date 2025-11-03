@@ -4,6 +4,7 @@
     "$minecraft:sea_staff"
   ],
   "incompatible": [
+    "majruszsenchantments:incompatibility_curse",
     "alexscaves:bouncing_bolt"
   ]
 }

@@ -6,8 +6,9 @@
   "incompatible": [
     "domesticationinnovation:warping_bite",
     "domesticationinnovation:chain_lightning",
-    "domesticationinnovation:blazing_protection",
+    "domesticationinnovation:bubbling",
     "domesticationinnovation:fireproof",
-    "domesticationinnovation:bubbling"
+    "domesticationinnovation:blazing_protection",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

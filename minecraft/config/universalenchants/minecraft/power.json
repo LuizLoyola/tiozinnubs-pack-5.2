@@ -2,11 +2,25 @@
   "schemaVersion": 2,
   "items": [
     "$minecraft:bow",
-    "the_bumblezone:crystal_cannon",
     "cataclysm:cursed_bow",
     "cataclysm:wrath_of_the_desert",
+    "biomancy:caustic_gunblade",
+    "biomancy:impaler",
+    "biomancy:dev_arm_cannon",
+    "aether:golden_dart_shooter",
+    "aether:poison_dart_shooter",
+    "aether:enchanted_dart_shooter",
+    "the_bumblezone:crystal_cannon",
+    "mythicbotany:mjoellnir",
+    "aetherworks:crossbow_quartz",
+    "aetherworks:crossbow_magma",
+    "aether_redux:veridium_dart_shooter",
+    "aether_redux:infused_veridium_dart_shooter",
     "create:potato_cannon",
+    "tfmg:quad_potato_cannon",
     "$minecraft:crossbow"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

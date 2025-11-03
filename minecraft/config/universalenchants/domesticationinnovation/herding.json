@@ -4,9 +4,10 @@
     "$minecraft:pet"
   ],
   "incompatible": [
-    "domesticationinnovation:magnetic",
     "domesticationinnovation:ore_scenting",
     "domesticationinnovation:psychic_wall",
+    "domesticationinnovation:magnetic",
+    "majruszsenchantments:incompatibility_curse",
     "domesticationinnovation:blight_curse"
   ]
 }

@@ -4,6 +4,7 @@
     "$minecraft:pet"
   ],
   "incompatible": [
-    "domesticationinnovation:deflection"
+    "domesticationinnovation:deflection",
+    "majruszsenchantments:incompatibility_curse"
   ]
 }

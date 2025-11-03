@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:shot_gum"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }

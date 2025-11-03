@@ -4,8 +4,9 @@
     "$minecraft:pet"
   ],
   "incompatible": [
-    "domesticationinnovation:herding",
+    "domesticationinnovation:deflection",
     "domesticationinnovation:magnetic",
-    "domesticationinnovation:deflection"
+    "majruszsenchantments:incompatibility_curse",
+    "domesticationinnovation:herding"
   ]
 }

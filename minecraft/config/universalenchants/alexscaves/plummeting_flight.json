@@ -3,5 +3,7 @@
   "items": [
     "$minecraft:extinction_spear"
   ],
-  "incompatible": []
+  "incompatible": [
+    "majruszsenchantments:incompatibility_curse"
+  ]
 }
