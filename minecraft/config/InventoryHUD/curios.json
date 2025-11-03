@@ -300,6 +300,13 @@
     "halign": "LEFT",
     "valign": "TOP"
   },
+  "talisman": {
+    "x": 0,
+    "y": 880,
+    "enabled": false,
+    "halign": "LEFT",
+    "valign": "TOP"
+  },
   "teleporter": {
     "x": 0,
     "y": 880,
